@@ -82,16 +82,9 @@
 (check-expect (sorted>? (cons 1 (cons 2 '()))) #false)
 (check-expect (sorted>? (cons 3 (cons 2 '()))) #true)
 (check-expect (sorted>? (cons 0 (cons 3 (cons 2 '())))) #false)
+(check-expect (sorted>? (cons 3 (cons 3 (cons 2 '())))) #true)
 
 (define (sorted>? n)
   (cond
     [(empty? (rest n)) (> (first n) -274)]
-    [else (and (> (first n) (sorted>? (rest n))))]))
-
-; Number Number -> Boolean
-; determines whether one number is bigger than the other
-(check-expect (bigger? 1 0) #true)
-(check-expect (bigger? 0 1 ) #false)
-
-(define (bigger? one two)
-  (> one two))
+    [(cons? n) (and (>= (first n) (first (rest n))) (sorted>? (rest n)))]))
