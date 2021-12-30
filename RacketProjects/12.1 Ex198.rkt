@@ -64,10 +64,4 @@
 (define (count-by-letter d)
   (cond
     [(empty? d) '()]
-    [(cons? d) (list (if (substring 0 1 (first d)) in LETTERS)
-                         (list (make-counter (substring 0 1 (first d))
-                                             1)
-                               (count-by-letter (rest d)))
-                         (count-by-letter (rest d)))]))
-
-; String 
+    [(cons? d) (list (
