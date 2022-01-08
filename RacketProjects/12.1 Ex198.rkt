@@ -17,51 +17,19 @@
 (define LETTERS
   (explode "abcdefghijklmnopqrstuvwxyz"))
 
-; ------ Exercise 195
+; ----Exercise 195
 
 ; Letter Dictionary -> Number
 ; counts how many words in the dictionary start with the letter
-(check-expect (starts-with# "a" (list)) 0)
-(check-expect (starts-with# "a" (list "cat" "bear")) 0)
-(check-expect (starts-with# "a" (list "apple" "ark" "bear")) 2)
-(define (starts-with# l d)
+(check-expect (starts-with# "a" '()) 0)
+(check-expect (starts-with# "a" (list "apple" "bat")) 1)
+(check-expect (starts-with# "a" (list "bat" "cat")) 0)
+
+(define (starts-with# letter dict)
   (cond
-    [(empty? d) 0]
-    [(cons? d) (if (starts-with? l (first d))
-                   (+ 1 (starts-with# l (rest d)))
-                   (starts-with# l (rest d)))]))
+    [(empty? dict) 0]
+    [(cons? dict) ... (first dict) ... (rest dict)]))
 
 ; Letter String -> Boolean
-; Does the string start with the letter?
-(check-expect (starts-with? "a" "apple") #true)
-(check-expect (starts-with? "a" "bear") #false)
-(define (starts-with? l s)
-  (equal? l (substring s 0 1)))
-
-; ------ Exercise 196
-
-(define-struct counter [letter count])
-; A Counter is a struct:
-; (make-counter String Number)
-; interpretation: (make-counter l c) shows how
-; many times a word has l as the first letter
-
-; A List-of-Counters is one of:
-; - '()
-; - (cons Counter List-of-Counters)
-; interpretation: a list of individual letter counts
-
-; Dictionary -> List-of-Counters
-; counts how often a letter is used as the first letter
-(check-expect (count-by-letter (list)) (list))
-#;(check-expect (count-by-letter (list "apple" "bee" "cat"))
-              (list (make-counter "a" 1)
-                    (make-counter "b" 1)
-                    (make-counter "c" 1)))
-#;(check-expect (count-by-letter (list "apple" "ant" "bee"))
-              (list (make-counter "a" 2)
-                    (make-counter "b" 1)))
-(define (count-by-letter d)
-  (cond
-    [(empty? d) '()]
-    [(cons? d) (list (
+; does the string start with the given letter?
+(check-expect 
