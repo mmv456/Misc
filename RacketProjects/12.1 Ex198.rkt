@@ -28,8 +28,100 @@
 (define (starts-with# letter dict)
   (cond
     [(empty? dict) 0]
-    [(cons? dict) ... (first dict) ... (rest dict)]))
+    [(cons? dict) (+ (if (starts-with? letter (first dict))
+                         1
+                         0)
+                     (starts-with# letter (rest dict)))]))
 
+     
 ; Letter String -> Boolean
 ; does the string start with the given letter?
-(check-expect 
+(check-expect (starts-with? "a" "apple") #true)
+(check-expect (starts-with? "a" "bat") #false)
+
+(define (starts-with? l s)
+  (equal? (substring s 0 1) l))
+
+; ---- Exercise 196
+
+(define-struct letter-count [letter count])
+; A Letter-Count is a structure:
+; (make-letter-count l c)
+; interpretation: a letter-count is a structure that holds a
+; letter l and the number of instances c of words that begin
+; wiht the letter
+
+; A List-of-Letter-Counts is one of:
+; - '()
+; - (list Letter-Count List-of-Letter-Counts)
+; interpretation: a collection of letters and their counts
+
+; Dictionary -> List-of-Letter-Counts
+; counts how often each letter is used in a dictionary
+;(check-expect (count-by-letter '()) '())
+;(check-expect (count-by-letter (list "apple"))
+;              (list (make-letter-count "a" 1)))
+;(check-expect (count-by-letter (list "apple" "bat"))
+;              (list (make-letter-count "a" 1)
+;                    (make-letter-count "b" 1)))
+;
+;(define (count-by-letter d)
+;  (cond
+;    [(empty? d) '()]
+;    [(cons? d) (edit-LC (first d)) ...]))
+
+; String -> Letter-Count
+; given a string, create a Letter-Count object
+(check-expect (make-LC "apple") (make-letter-count "a" 1))
+(define (make-LC s)
+  (make-letter-count (substring s 0 1) 1))
+
+; String List-of-Letter-Counts -> List-of-Letter-Counts
+; given a string and a list of letter counts, add the string
+; to the list if it isn't there already, or add 1 to the current
+; letter count
+(check-expect (edit-LC "apple" '())
+              (list (make-letter-count "a" 1)))
+(check-expect (edit-LC "apple" (list (make-letter-count "a" 1)))
+              (list (make-letter-count "a" 2)))
+(check-expect (edit-LC "bat" (list (make-letter-count "a" 1)))
+              (list (make-letter-count "a" 1)
+                    (make-letter-count "b" 1)))
+(define (edit-LC s llc)
+  (cond
+    [(empty? llc) (cons (make-letter-count (get-first s) 1) llc)]
+    [(and (cons? llc) (in-LC? s llc)) (update-llc s llc)]
+    [(and (cons? llc) (not (in-LC? s llc)))
+     (cons (make-letter-count (get-first s) 1) llc)]))
+
+; String -> String
+; gets the first letter that starts the string
+(check-expect (get-first "apple") "a")
+
+(define (get-first s)
+  (substring s 0 1))
+
+; String List-of-Letter-Counts -> Boolean
+; is the letter of the string in the list of letter counts?
+(check-expect (in-LC? "apple" '()) #false)
+(check-expect (in-LC? "apple" (list (make-letter-count "a" 1)))
+              #true)
+(define (in-LC? s llc)
+  (cond
+    [(empty? llc) #false]
+    [(cons? llc) (if (equal? (letter-count-letter (first llc))
+                             (get-first s))
+                     #true
+                     (in-LC? s (rest llc)))]))
+
+; String List-of-Letter-Counts -> List-of-Letter-Counts
+; adds a count to the corresponding letter count in the list
+(check-expect (update-llc "apple"
+                          (list (make-letter-count "a" 1)))
+              (list (make-letter-count "a" 2)))
+(define (update-llc s llc)
+  (if (equal? (letter-count-letter (first llc))
+              (get-first s))
+      (cons (make-letter-count (letter-count-letter (first llc))
+                         (+ 1 (letter-count-count (first llc)))) llc)
+      (cons (update-llc s (rest llc)))))
