@@ -187,11 +187,11 @@
 
 ; Dictionary -> Letter-Count
 ; produces the letter-count used most often in the dictionary
-(check-expect (most-frequentV2 (list "apple" "bear"))
+(check-expect (most-frequent-sort (list "apple" "bear"))
               (make-letter-count "a" 1))
-(check-expect (most-frequentV2 (list "apple" "ant" "bear"))
+(check-expect (most-frequent-sort (list "apple" "ant" "bear"))
               (make-letter-count "a" 2))
-(define (most-frequentV2 d)
+(define (most-frequent-sort d)
   (first (sort-lc (count-by-letter d))))
 
 ; List-of-Letter-Counts -> List-of-Letter-Counts
@@ -230,4 +230,74 @@
               (list (list "apple" "ant")
                     (list "bear")))
 (define (words-by-first-letter d)
-  )
+  (create-from-letters LETTERS d))
+
+; List-of-Letters Dictionary -> List-of-Dictionaries
+; creates a list of dictionaries referencing the list of letters
+(check-expect (create-from-letters LETTERS (list "apple"))
+              (list (list "apple")))
+(check-expect (create-from-letters LETTERS (list "apple" "bear"))
+              (list (list "apple")
+                    (list "bear")))
+(check-expect (create-from-letters LETTERS
+                                   (list "apple" "ant" "bear"))
+              (list (list "apple" "ant")
+                    (list "bear")))
+(define (create-from-letters l d)
+  (remove-empty (cond
+                  [(empty? l) '()]
+                  [(cons? l) (cons (dict-from-letter (first l) d)
+                                   (create-from-letters (rest l) d))])))
+
+; Letter Dictionary -> Dictionary
+; creates a dictionary with just words starting with the letter
+(check-expect (dict-from-letter "a" (list "apple"))
+              (list "apple"))
+(check-expect (dict-from-letter "a" (list "apple" "bat"))
+              (list "apple"))
+(check-expect (dict-from-letter "a" (list "bat"))
+              '())
+(define (dict-from-letter s d)
+  (cond
+    [(empty? d) '()]
+    [(cons? d) (if (equal? s (substring (first d) 0 1))
+                   (cons (first d) (dict-from-letter s (rest d)))
+                   (dict-from-letter s (rest d)))]))
+
+; List-of-Dictionaries -> List-of-Dictionaries
+; gets rid of all empty lists
+(check-expect (remove-empty (list '() (list "apple") '()))
+              (list (list "apple")))
+(define (remove-empty lod)
+  (cond
+    [(empty? lod) '()]
+    [(cons? lod) (if (empty? (first lod))
+                     (remove-empty (rest lod))
+                     (cons (first lod) (remove-empty (rest lod))))]))
+
+; Dictionary -> Letter-Count
+; produces the letter-count most oftem used in the dictionary
+(check-expect (most-frequent.v2 (list "apple" "bear"))
+              (make-letter-count "a" 1))
+(check-expect (most-frequent.v2 (list "apple" "ant" "bear"))
+              (make-letter-count "a" 2))
+(define (most-frequent.v2 d)
+  (longest (words-by-first-letter d)))
+
+; List-of-Dictionaries -> Letter-Count
+; produces the letter-count most often used
+(check-expect (longest (list (list "apple")))
+              (make-letter-count "a" 1))
+(check-expect (longest (list (list "apple" "ant")
+                             (list "bee")))
+              (make-letter-count "a" 2))
+(define (longest lod)
+  (cond
+    [(empty? (rest lod)) (make-letter-count
+                          (substring (first (first lod)) 0 1)
+                          (length (first lod)))]
+    [(cons? (rest lod)) (if (>= (length (first lod))
+                                (length (first (rest lod))))
+                            (longest (cons (first lod)
+                                           (rest (rest lod))))
+                            (longest (rest lod)))]))
