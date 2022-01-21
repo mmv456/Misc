@@ -56,72 +56,117 @@
 ; - (list Letter-Count List-of-Letter-Counts)
 ; interpretation: a collection of letters and their counts
 
-; Dictionary -> List-of-Letter-Counts
-; counts how often each letter is used in a dictionary
-;(check-expect (count-by-letter '()) '())
-;(check-expect (count-by-letter (list "apple"))
-;              (list (make-letter-count "a" 1)))
-;(check-expect (count-by-letter (list "apple" "bat"))
-;              (list (make-letter-count "a" 1)
-;                    (make-letter-count "b" 1)))
-;
-;(define (count-by-letter d)
-;  (cond
-;    [(empty? d) '()]
-;    [(cons? d) (edit-LC (first d)) ...]))
+; WISH LIST:
+; - count-by-letter - counts how often each letter is used in dict
+; - letter-exists? - is the letter already in the lolc?
+; - letter-match? - does this letter-count match the letter?
+; - add-one - adds one count to the letter-count
+; - create-letter-count - given a string, makes a letter count
+; - make-raw-llc - creates letter counts for all strings
+; - find-lc - produces the letter-count in the non-empty llc
 
-; String -> Letter-Count
-; given a string, create a Letter-Count object
-(check-expect (make-LC "apple") (make-letter-count "a" 1))
-(define (make-LC s)
-  (make-letter-count (substring s 0 1) 1))
+; Letter-Count -> Letter-Count
+; adds one count to the letter count
+(check-expect (add-one (make-letter-count "a" 1))
+              (make-letter-count "a" 2))
+(define (add-one lc)
+  (make-letter-count (letter-count-letter lc)
+                     (+ 1 (letter-count-count lc))))
 
-; String List-of-Letter-Counts -> List-of-Letter-Counts
-; given a string and a list of letter counts, add the string
-; to the list if it isn't there already, or add 1 to the current
-; letter count
-(check-expect (edit-LC "apple" '())
-              (list (make-letter-count "a" 1)))
-(check-expect (edit-LC "apple" (list (make-letter-count "a" 1)))
-              (list (make-letter-count "a" 2)))
-(check-expect (edit-LC "bat" (list (make-letter-count "a" 1)))
-              (list (make-letter-count "a" 1)
-                    (make-letter-count "b" 1)))
-(define (edit-LC s llc)
-  (cond
-    [(empty? llc) (cons (make-letter-count (get-first s) 1) llc)]
-    [(and (cons? llc) (in-LC? s llc)) (update-llc s llc)]
-    [(and (cons? llc) (not (in-LC? s llc)))
-     (cons (make-letter-count (get-first s) 1) llc)]))
-
-; String -> String
-; gets the first letter that starts the string
-(check-expect (get-first "apple") "a")
-
-(define (get-first s)
-  (substring s 0 1))
+; String Letter-Count -> Boolean
+; does this letter match the letter-count?
+(check-expect (letter-match? "apple"
+                             (make-letter-count "a" 1))
+              #true)
+(check-expect (letter-match? "apple"
+                             (make-letter-count "b" 1))
+              #false)
+(define (letter-match? s lc)
+  (equal? (substring s 0 1)
+          (letter-count-letter lc)))
 
 ; String List-of-Letter-Counts -> Boolean
-; is the letter of the string in the list of letter counts?
-(check-expect (in-LC? "apple" '()) #false)
-(check-expect (in-LC? "apple" (list (make-letter-count "a" 1)))
+; does this string occur in the list?
+(check-expect (letter-exists? "apple" '())
+              #false)
+(check-expect (letter-exists? "apple"
+                              (list (make-letter-count "a" 1)))
               #true)
-(define (in-LC? s llc)
+(check-expect (letter-exists? "apple"
+                              (list (make-letter-count "a" 1)
+                                        (make-letter-count "b" 1)))
+              #true)
+(check-expect (letter-exists? "apple"
+                              (list (make-letter-count "b" 1)
+                                        (make-letter-count "c" 1)))
+              #false)
+(define (letter-exists? s llc)
   (cond
     [(empty? llc) #false]
-    [(cons? llc) (if (equal? (letter-count-letter (first llc))
-                             (get-first s))
-                     #true
-                     (in-LC? s (rest llc)))]))
+    [(cons? llc) (or (letter-match? s (first llc))
+                     (letter-exists? s (rest llc)))]))
 
-; String List-of-Letter-Counts -> List-of-Letter-Counts
-; adds a count to the corresponding letter count in the list
-(check-expect (update-llc "apple"
-                          (list (make-letter-count "a" 1)))
+; String -> Letter-Count
+; given a string, creates a letter count
+(check-expect (create-letter-count "apple")
+              (make-letter-count "a" 1))
+(define (create-letter-count s)
+  (make-letter-count (substring s 0 1) 1))
+
+; String List-of-Letter-Counts -> Letter-Count
+; produces the letter-count in the non-empty llc
+(check-expect (find-lc "apple" (list (make-letter-count "a" 1)))
+                       (make-letter-count "a" 1))
+(define (find-lc s llc)
+  (if (equal? (substring s 0 1)
+              (letter-count-letter (first llc)))
+      (first llc)
+      (find-lc s (rest llc))))
+
+; Dictionary List-of-Letter-Counts -> List-of-Letter-Counts
+; creates letter counts for all strings, given they pass
+(check-expect (make-raw-llc '() '()) '())
+(check-expect (make-raw-llc (list "apple") '())
+              (list (make-letter-count "a" 1)))
+(check-expect (make-raw-llc (list "apple" "ark") '())
               (list (make-letter-count "a" 2)))
-(define (update-llc s llc)
-  (if (equal? (letter-count-letter (first llc))
-              (get-first s))
-      (cons (make-letter-count (letter-count-letter (first llc))
-                         (+ 1 (letter-count-count (first llc)))) llc)
-      (cons (update-llc s (rest llc)))))
+(check-expect (make-raw-llc (list "apple" "ark" "bat") '())
+              (list (make-letter-count "a" 2)
+                    (make-letter-count "b" 1)))
+(check-expect (make-raw-llc (list "apple")
+                            (list (make-letter-count "a" 1)))
+              (list (make-letter-count "a" 2)))
+(define (make-raw-llc d llc)
+  (cond
+    [(empty? d) '()]
+    [(cons? d) (cond
+                 [(empty? llc) (cons (create-letter-count (first d))
+                                     (make-raw-llc (rest d)
+                                                   (cons (create-letter-count (first d))
+                                                         llc)))]
+                 [(cons? llc) (cons (if (letter-exists? (first d)
+                                                        llc)
+                                        (add-one (find-lc (first d)
+                                                          llc))
+                                        (create-letter-count (first d)))
+                                    (make-raw-llc (rest d) llc))])]))
+                         
+
+; Dictionary -> List-of-Letter-Counts
+; counts how often each letter occurs in the dictionary
+(check-expect (count-by-letter '())
+              '())
+(check-expect (count-by-letter (list "apple"))
+              (list (make-letter-count "a" 1)))
+(check-expect (count-by-letter (list "apple" "ark"))
+              (list (make-letter-count "a" 2)))
+(check-expect (count-by-letter (list "apple" "bat"))
+              (list (make-letter-count "a" 1)
+                    (make-letter-count "b" 1)))
+(check-expect (count-by-letter (list "apple" "ark" "bat"))
+              (list (make-letter-count "a" 2)
+                    (make-letter-count "b" 1)))
+(define (count-by-letter d)
+  (cond
+    [(empty? d) '()]
+    [(cons? d) (make-raw-llc d '())]))
