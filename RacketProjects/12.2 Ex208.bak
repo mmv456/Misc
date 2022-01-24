@@ -95,67 +95,77 @@
 
 ; ----Exercise 208---
 
-; LList -> List of String
-; produce a list of keys that have boolean attriburs in
-; a List of Association list
-(check-expect (boolean-attributes '()) '())
-(check-expect (boolean-attributes (list (list (list "aa" "bb"))
-                                        (list (list "aa" "bb"))))
-              '())
-(check-expect (boolean-attributes (list (list (list "aa" "bb")
-                                              (list "cc" #true))
-                                        (list (list "aa" "bb")
-                                              (list "cc" #false)
-                                              (list "dd" #true))))
-              (list "cc" "dd"))
+; Association -> Boolean
+; is the assocation's value a boolean?
+(check-expect (is-boolean? ASSOC1) #false)
+(check-expect (is-boolean? ASSOC6) #true)
+(define (is-boolean? assoc)
+  (boolean? (second assoc)))
 
-(define (boolean-attributes llst)
-  (create-set
-   (cond [(empty? llst) '()]
-         [else (append (find-booleans (first llst))
-                       (boolean-attributes (rest llst)))])))
+; Assocation -> BSDN
+; retrieves the key of the association
+(check-expect (get-key ASSOC4) "Time")
+(define (get-key a)
+  (first a))
 
-; String List-of-string -> List-of-string
-; produce a List of String from a given List of String with str removed
-(check-expect (remove-str "aa" '()) '())
-(check-expect (remove-str "aa" (list "aa" "bb" "cc")) (list "bb" "cc"))
-(check-expect (remove-str "bb" (list "aa" "bb" "cc")) (list "aa" "cc"))
-(check-expect (remove-str "aa" (list "aa" "aa" "bb" "aa" "cc" "bb" "cc"))
-              (list  "bb" "cc" "bb" "cc"))
+; LAssoc -> List-of-Strings
+; produces the strings that are associated with a boolean value
+(check-expect (boolean-lassoc LASSOC1) '())
+(check-expect (boolean-lassoc LASSOC2) '())
+(check-expect (boolean-lassoc LASSOC3) (list "Good?"))
+(define (boolean-lassoc lassoc)
+  (cond
+    [(empty? lassoc) '()]
+    [(cons? lassoc) (if (is-boolean? (first lassoc))
+                        (cons (get-key (first lassoc))
+                              (boolean-lassoc (rest lassoc)))
+                        (boolean-lassoc (rest lassoc)))]))
 
-(define (remove-str str los)
-  (cond [(empty? los) '()]
-        [else (if (string=? str (first los))
-                  (remove-str str (rest los))
-                  (cons (first los) (remove-str str (rest los))))]))
+; List-of-List-of-Any -> List-of-Any
+; create one big list from separate lists
+(check-expect (combine '()) '())
+(check-expect (combine (list (list "apple")
+                             (list "bear")))
+              (list "apple" "bear"))
+(check-expect (combine (list (list "apple" "ant")
+                             (list "bear")))
+              (list "apple" "ant" "bear"))
+(define (combine lol)
+  (cond
+  [(empty? lol) '()]
+  [(cons? lol) (cons (first (first lol))
+                     (if (not (empty? (rest (first lol))))
+                         (combine (cons (rest (first lol))
+                                        (rest lol)))
+                         (combine (rest lol))))]))
 
-; List-of-string -> List-of-string
-; copy List of String with duplications removed (list as a set).
-(check-expect (create-set '()) '())
-(check-expect (create-set (list "aa" "bb" "cc")) (list "aa" "bb" "cc"))
-(check-expect (create-set (list "aa" "aa" "cc")) (list "aa" "cc"))
-(check-expect (create-set (list "aa" "aa" "bb" "aa" "cc" "bb" "cc"))
-              (list  "aa" "bb" "cc"))
+; List-of-List-of-Strings -> List-of-Strings
+; cleans up a list of lists of strings (removes empty lists and
+; any duplicates)
+(check-expect (clean-llos '()) '())
+(check-expect (clean-llos (list '()
+                                (list "hello")
+                                (list "hello")))
+              (list "hello"))
+(check-expect (clean-llos (list '()
+                                (list "hello")
+                                '()
+                                (list "hello")))
+              (list "hello"))
+(define (clean-llos llos)
+  (cond
+    [(empty? llos) '()]
+    [(cons? llos) (combine (if (empty? (first llos))
+                               (clean-llos (rest llos))
+                               (cons (first llos)
+                                     (clean-llos (rest llos)))))]))
 
-(define (create-set los)
-  (cond [(empty? los) '()]
-        [else
-         (cons (first los)
-               (create-set (remove-str (first los) (rest los))))]))
-
-; LAssoc -> List-of-string
-; produce a list of keys (String) for any attribute in a LTrack is a boolean
-(check-expect (find-booleans '()) '())
-(check-expect (find-booleans (list (list "aa" "bb"))) '())
-(check-expect (find-booleans (list (list "aa" "bb")
-                                   (list "cc" #true)
-                                   (list "dd" 3)
-                                   (list "ee" #false)))
-              (list "cc" "ee"))
-
-(define (find-booleans las)
-  (cond [(empty? las) '()]
-        [else (if (boolean? (second (first las)))
-                  (cons (first (first las))
-                        (find-booleans (rest las)))
-                  (find-booleans (rest las)))]))
+; LLists -> List-of-Strings
+; produces the strings that are associated with a boolean value
+;(check-expect (boolean-attributes LLIST1) '())
+;(check-expect (boolean-attributes LLIST2) (list "Good?"))
+#;(define (boolean-attributes llist)
+  (cond
+    [(empty? llist) '()]
+    [(cons? llist) (cons (boolean-lassoc (first llist))
+                         (boolean-attributes (rest llist)))]))
