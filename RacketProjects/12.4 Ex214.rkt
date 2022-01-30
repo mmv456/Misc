@@ -1,6 +1,6 @@
 ;; The first three lines of this file were inserted by DrRacket. They record metadata
 ;; about the language level of this file in a form that our tools can easily process.
-#reader(lib "htdp-beginner-abbr-reader.ss" "lang")((modname |12.3 Ex211|) (read-case-sensitive #t) (teachpacks ((lib "image.rkt" "teachpack" "2htdp") (lib "batch-io.rkt" "teachpack" "2htdp") (lib "universe.rkt" "teachpack" "2htdp"))) (htdp-settings #(#t constructor repeating-decimal #f #t none #f ((lib "image.rkt" "teachpack" "2htdp") (lib "batch-io.rkt" "teachpack" "2htdp") (lib "universe.rkt" "teachpack" "2htdp")) #f)))
+#reader(lib "htdp-beginner-abbr-reader.ss" "lang")((modname |12.4 Ex214|) (read-case-sensitive #t) (teachpacks ((lib "image.rkt" "teachpack" "2htdp") (lib "batch-io.rkt" "teachpack" "2htdp") (lib "universe.rkt" "teachpack" "2htdp"))) (htdp-settings #(#t constructor repeating-decimal #f #t none #f ((lib "image.rkt" "teachpack" "2htdp") (lib "batch-io.rkt" "teachpack" "2htdp") (lib "universe.rkt" "teachpack" "2htdp")) #f)))
 ; A Word is one of:
 ; – '() or
 ; – (cons 1String Word)
@@ -10,11 +10,6 @@
 ; - '()
 ; - (cons Word List-of-words)
 ; interpretation: a list of words
- 
-; Word -> List-of-words
-; finds all rearrangements of word
-(define (arrangements word)
-  (list word))
 
 ; ----Exercise 209----
 
@@ -88,4 +83,56 @@
                      (cons (first los)
                            (in-dictionary (rest los)))
                      (in-dictionary (rest los)))]))
- 
+
+; ----Exercise 212----
+
+(define WORD1 '())
+(define WORD2 (list "a" "n" "t"))
+(define WORD3 (list "b" "e" "e"))
+
+(define LOW1 '())
+(define LOW2 (list WORD2))
+(define LOW3 (list WORD2 WORD3))
+
+; ----Exercise 213----
+
+; 1String Word -> Word
+; inserts the 1String to the beginning of the word
+(check-expect (add-to-beginning "a" '())
+              (list "a"))
+(check-expect (add-to-beginning "a" (list "n" "t"))
+              (list "a" "n" "t"))
+(define (add-to-beginning s w)
+  (cons s w))
+
+
+; 1String List-of-Words -> List-of-Words
+; inserts the 1String in front of all words in list
+(check-expect (insert-everywhere/in-all-words "a" '())
+              '())
+(check-expect (insert-everywhere/in-all-words "a" (list (list "n" "t")))
+              (list (list "a" "n" "t")))
+(check-expect (insert-everywhere/in-all-words "d"
+                                              (list (list "e" "r")
+                                                    (list "r" "e")))
+              (list (list "d" "e" "r")
+                    (list "d" "r" "e")))
+(define (insert-everywhere/in-all-words s low)
+  (cond
+    [(empty? low) '()]
+    [(cons? low) (cons (add-to-beginning s (first low))
+                       (insert-everywhere/in-all-words s (rest low)))]))
+
+
+; ----Exercise 214----
+
+; Word -> List-of-words
+; creates all rearrangements of the letters in w
+(check-expect (arrangements '()) (list '()))
+(check-expect (arrangements (list "a" "m"))
+              (list (list "a" "m")))
+(define (arrangements w)
+  (cond
+    [(empty? w) (list '())]
+    [else (insert-everywhere/in-all-words (first w)
+                                          (arrangements (rest w)))]))
