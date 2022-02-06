@@ -11,6 +11,26 @@
 (define FOOD (circle 3 "solid" "orange"))
 (define TAIL (circle 3 "solid" "red"))
 
+; A Direction is one of:
+; - "Up"
+; - "Down"
+; - "Left"
+; - "Right"
+; interpretation: a direction for the worm to go to
+
+(define UP "Up")
+(define DOWN "Down")
+(define LEFT "Left")
+(define RIGHT "Right")
+
+(define-struct worm [location direction])
+; A Worm is a structure:
+; (make-struct worm (Posn Direction))
+; interpretation: a worm with a location on the screen and a
+; direction that it is heading towards
+
+(define WORM1 (make-worm 
+
 ; big-bang wishlist:
 ; - render: animates the game
 ; - on-tick: moves the worm forward
