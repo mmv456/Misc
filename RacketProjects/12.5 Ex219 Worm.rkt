@@ -1,7 +1,7 @@
 ;; The first three lines of this file were inserted by DrRacket. They record metadata
 ;; about the language level of this file in a form that our tools can easily process.
 #reader(lib "htdp-beginner-abbr-reader.ss" "lang")((modname |12.5 Ex219 Worm|) (read-case-sensitive #t) (teachpacks ((lib "image.rkt" "teachpack" "2htdp") (lib "batch-io.rkt" "teachpack" "2htdp") (lib "universe.rkt" "teachpack" "2htdp"))) (htdp-settings #(#t constructor repeating-decimal #f #t none #f ((lib "image.rkt" "teachpack" "2htdp") (lib "batch-io.rkt" "teachpack" "2htdp") (lib "universe.rkt" "teachpack" "2htdp")) #f)))
-; ----Exercise 215----
+; ----Exercises 215 and 216----
 
 (define WIDTH 100)
 (define HEIGHT 100)
@@ -44,7 +44,9 @@
 ; -X- render: renders the image
 ; -X- tock: moves the worm forward one diameter
 ; -X- change: controls the movement of the worm
-; -- main: animates the game
+; -X- main: animates the game
+; -X- hit-border?: does the worm hit the border?
+; -X- render-border-stop: renders the image when the game is over
 
 ; Worm -> Number
 ; gets the x or y value of the posn of the worm
@@ -129,10 +131,34 @@
                                  RIGHT)]
     [else w]))
 
+; Worm -> Boolean
+; does the worm hit the border?
+(check-expect (hit-border? WORM1) #true)
+(check-expect (hit-border? WORM2) #false)
+(define (hit-border? w)
+  (if (or (<= (get w "x") 0)
+          (>= (get w "x") WIDTH)
+          (<= (get w "y") 0)
+          (>= (get w "y") HEIGHT))
+      #true
+      #false))
+
+; Worm -> Image
+; renders the image when the game is over
+(check-expect (render-border-stop WORM1)
+              (place-image (text "worm hit border" 8 "red")
+                           30 (- HEIGHT 10)
+                           (render WORM1)))
+(define (render-border-stop w)
+  (place-image (text "worm hit border" 8 "red")
+               30 (- HEIGHT 10)
+               (render w)))
+
 ; Worm -> Worm
 ; animates the game
 (define (main w)
   (big-bang w
     [to-draw render]
     [on-tick tock 0.5]
-    [on-key change]))
+    [on-key change]
+    [stop-when hit-border? render-border-stop]))
