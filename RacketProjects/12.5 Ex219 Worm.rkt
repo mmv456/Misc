@@ -10,6 +10,7 @@
 (define HEAD (circle 3 "solid" "green"))
 (define FOOD (circle 3 "solid" "orange"))
 (define TAIL (circle 3 "solid" "red"))
+(define WORM-DIAMETER 6)
 
 ; A Direction is one of:
 ; - "Up"
@@ -29,9 +30,109 @@
 ; interpretation: a worm with a location on the screen and a
 ; direction that it is heading towards
 
-(define WORM1 (make-worm 
+(define WORM1 (make-worm (make-posn 0 0) UP))
+(define WORM2 (make-worm (make-posn (/ WIDTH 2) (/ HEIGHT 2))
+                         UP))
+(define WORM3 (make-worm (make-posn (/ WIDTH 2) (/ HEIGHT 2))
+                         DOWN))
+(define WORM4 (make-worm (make-posn (/ WIDTH 2) (/ HEIGHT 2))
+                         LEFT))
+(define WORM5 (make-worm (make-posn (/ WIDTH 2) (/ HEIGHT 2))
+                         RIGHT))
 
 ; big-bang wishlist:
-; - render: animates the game
-; - on-tick: moves the worm forward
-; - on-key: controls the movement
+; -X- render: renders the image
+; -X- tock: moves the worm forward one diameter
+; -X- change: controls the movement of the worm
+; -- main: animates the game
+
+; Worm -> Number
+; gets the x or y value of the posn of the worm
+(check-expect (get WORM1 "x") 0)
+(check-expect (get WORM1 "y") 0)
+(define (get w c)
+  (cond
+    [(equal? c "x") (posn-x (worm-location w))]
+    [(equal? c "y") (posn-y (worm-location w))]))
+
+; Worm -> Image
+; renders the image
+(check-expect (render WORM1)
+              (place-image HEAD 0 0 MT-SCENE))
+(check-expect (render WORM2)
+              (place-image HEAD (/ WIDTH 2) (/ HEIGHT 2) MT-SCENE))
+(check-expect (render WORM3)
+              (place-image HEAD (/ WIDTH 2) (/ HEIGHT 2) MT-SCENE))
+(check-expect (render WORM4)
+              (place-image HEAD (/ WIDTH 2) (/ HEIGHT 2) MT-SCENE))
+(check-expect (render WORM5)
+              (place-image HEAD (/ WIDTH 2) (/ HEIGHT 2) MT-SCENE))
+(define (render w)
+  (place-image HEAD (get w "x") (get w "y") MT-SCENE))
+
+; Worm -> Worm
+; moves the worm forward one diameter
+(check-expect (tock WORM1) (make-worm
+                            (make-posn 0 (- 0 WORM-DIAMETER))
+                            UP))
+(check-expect (tock WORM2) (make-worm
+                            (make-posn (/ WIDTH 2) (- (/ HEIGHT 2) WORM-DIAMETER))
+                            UP))
+(check-expect (tock WORM3) (make-worm
+                            (make-posn (/ WIDTH 2) (+ (/ HEIGHT 2) WORM-DIAMETER))
+                            DOWN))
+(check-expect (tock WORM4) (make-worm
+                            (make-posn (- (/ WIDTH 2) WORM-DIAMETER) (/ HEIGHT 2))
+                            LEFT))
+(check-expect (tock WORM5) (make-worm
+                            (make-posn (+ (/ WIDTH 2) WORM-DIAMETER) (/ HEIGHT 2))
+                            RIGHT))
+(define (tock w)
+  (cond
+    [(equal? (worm-direction w) UP) (make-worm (make-posn (get w "x")
+                                                          (- (get w "y") WORM-DIAMETER))
+                                               UP)]
+    [(equal? (worm-direction w) DOWN) (make-worm (make-posn (get w "x")
+                                                            (+ (get w "y") WORM-DIAMETER))
+                                                 DOWN)]
+    [(equal? (worm-direction w) LEFT) (make-worm (make-posn (- (get w "x") WORM-DIAMETER)
+                                                            (get w "y"))
+                                                 LEFT)]
+    [(equal? (worm-direction w) RIGHT) (make-worm (make-posn (+ (get w "x") WORM-DIAMETER)
+                                                             (get w "y"))
+                                                  RIGHT)]))
+
+; Worm Key-Expression -> Worm
+; changes the direction of the worm based on the key press
+(check-expect (change WORM1 "up")
+              (make-worm (make-posn 0 0) UP))
+(check-expect (change WORM1 "down")
+              (make-worm (make-posn 0 0) DOWN))
+(check-expect (change WORM1 "left")
+              (make-worm (make-posn 0 0) LEFT))
+(check-expect (change WORM1 "right")
+              (make-worm (make-posn 0 0) RIGHT))
+(check-expect (change WORM1 "a") WORM1)
+(define (change w ke)
+  (cond
+    [(equal? ke "up") (make-worm (make-posn (get w "x")
+                                            (get w "y"))
+                                 UP)]
+    [(equal? ke "down") (make-worm (make-posn (get w "x")
+                                            (get w "y"))
+                                 DOWN)]
+    [(equal? ke "left") (make-worm (make-posn (get w "x")
+                                            (get w "y"))
+                                 LEFT)]
+    [(equal? ke "right") (make-worm (make-posn (get w "x")
+                                            (get w "y"))
+                                 RIGHT)]
+    [else w]))
+
+; Worm -> Worm
+; animates the game
+(define (main w)
+  (big-bang w
+    [to-draw render]
+    [on-tick tock 0.5]
+    [on-key change]))
