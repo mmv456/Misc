@@ -1,7 +1,7 @@
 ;; The first three lines of this file were inserted by DrRacket. They record metadata
 ;; about the language level of this file in a form that our tools can easily process.
 #reader(lib "htdp-beginner-abbr-reader.ss" "lang")((modname |12.5 Ex219 Worm|) (read-case-sensitive #t) (teachpacks ((lib "image.rkt" "teachpack" "2htdp") (lib "batch-io.rkt" "teachpack" "2htdp") (lib "universe.rkt" "teachpack" "2htdp"))) (htdp-settings #(#t constructor repeating-decimal #f #t none #f ((lib "image.rkt" "teachpack" "2htdp") (lib "batch-io.rkt" "teachpack" "2htdp") (lib "universe.rkt" "teachpack" "2htdp")) #f)))
-; ----Exercise 217----
+; ----Exercises 217 and 218----
 
 (define WIDTH 100)
 (define HEIGHT 100)
@@ -74,9 +74,12 @@
 ; -X- tock: moves the worm forward one diameter
 ; -X- edit-direction: changes the segment's direction
 ; -X- change: controls the movement of the worm
-; -- main: animates the game
-; -- hit-border?: does the worm hit the border?
-; -- render-border-stop: renders the image when the game is over
+; -X- main: animates the game
+; -X- segment-hit-border?: is any segment hitting the border?
+; -X- hit-border?: does the worm hit the border?
+; -X- make-list-of-locations: make a list of posns of segments
+; -X- hit-itself?: did the worm hit itself?
+; -X- render-stop: renders the image when the game is over
 
 ; Segment -> Number
 ; gets the x or y coordinate of a segment
@@ -214,17 +217,17 @@
 (define (edit-direction s ke)
   (cond
     [(equal? ke "up") (make-segment (make-posn (get s "x")
-                                            (get s "y"))
-                                 UP)]
+                                               (get s "y"))
+                                    UP)]
     [(equal? ke "down") (make-segment (make-posn (get s "x")
-                                            (get s "y"))
-                                 DOWN)]
+                                                 (get s "y"))
+                                      DOWN)]
     [(equal? ke "left") (make-segment (make-posn (get s "x")
-                                            (get s "y"))
-                                 LEFT)]
+                                                 (get s "y"))
+                                      LEFT)]
     [(equal? ke "right") (make-segment (make-posn (get s "x")
-                                            (get s "y"))
-                                 RIGHT)]
+                                                  (get s "y"))
+                                       RIGHT)]
     [else s]))
 
 ; Worm Key-Expression -> Worm
@@ -233,19 +236,19 @@
               WORM1)
 (check-expect (change WORM2 "up")
               (cons (make-segment (make-posn (/ WIDTH 2) (/ HEIGHT 2))
-                           UP)
+                                  UP)
                     '()))
 (check-expect (change WORM2 "down")
               (cons (make-segment (make-posn (/ WIDTH 2) (/ HEIGHT 2))
-                           DOWN)
+                                  DOWN)
                     '()))
 (check-expect (change WORM2 "left")
               (cons (make-segment (make-posn (/ WIDTH 2) (/ HEIGHT 2))
-                           LEFT)
+                                  LEFT)
                     '()))
 (check-expect (change WORM2 "right")
               (cons (make-segment (make-posn (/ WIDTH 2) (/ HEIGHT 2))
-                           RIGHT)
+                                  RIGHT)
                     '()))
 (check-expect (change WORM2 "a") WORM2)
 (define (change w ke)
@@ -254,10 +257,110 @@
     [(cons? w) (cons (edit-direction (first w) ke)
                      (rest w))]))
 
+; Segment -> Boolean
+; is any segment hitting the border?
+(check-expect (segment-hit-border? SEG1) #true)
+(check-expect (segment-hit-border? SEG2) #false)
+(define (segment-hit-border? w)
+  (if (or (<= (get w "x") 0)
+          (>= (get w "x") WIDTH)
+          (<= (get w "y") 0)
+          (>= (get w "y") HEIGHT))
+      #true
+      #false))
+
+; Worm -> Boolean
+; does the worm hit the border?
+(check-expect (hit-border? WORM1) #false)
+(check-expect (hit-border? WORM2) #false)
+(check-expect (hit-border? (cons (make-segment (make-posn 0 10)
+                                               LEFT)
+                                 (cons (make-segment (make-posn WORM-DIAMETER 10)
+                                                     LEFT)
+                                       '())))
+              #true)
+(define (hit-border? w)
+  (cond
+    [(empty? w) #false]
+    [(cons? w) (or (segment-hit-border? (first w))
+                   (hit-border? (rest w)))]))
+
+; Worm -> List-of-Posns
+; make a list of posns of segments
+(check-expect (make-list-of-locations WORM1) '())
+(check-expect (make-list-of-locations WORM2)
+              (list (make-posn (/ WIDTH 2)
+                               (/ HEIGHT 2))))
+(define (make-list-of-locations w)
+  (cond
+    [(empty? w) '()]
+    [(cons? w) (cons (make-posn (get (first w) "x")
+                                (get (first w) "y"))
+                     (make-list-of-locations (rest w)))]))
+
+; Worm -> Boolean
+; did the worm hit itself?
+(check-expect (hit-itself? WORM1) #false)
+(check-expect (hit-itself? (cons (make-segment (make-posn 10 10)
+                                               UP)
+                                 '()))
+              #false)
+(check-expect (hit-itself? (cons (make-segment (make-posn 10 10)
+                                               UP)
+                                 (cons (make-segment (make-posn 10 10)
+                                                     LEFT)
+                                       '())))
+              #true)
+(define (hit-itself? w)
+  (cond
+    [(empty? w) #false]
+    [(empty? (rest w)) #false]
+    [(cons? (rest w)) (member? (make-posn (get (first w) "x")
+                                          (get (first w) "y"))
+                               (make-list-of-locations (rest w)))]))
+
+; Worm -> Image
+; renders the image when the game is over
+; either when the worm hits the border or hits itself
+(check-expect (render-stop (cons (make-segment (make-posn 0 10)
+                                               LEFT)
+                                 (cons (make-segment (make-posn WORM-DIAMETER 10)
+                                                     LEFT)
+                                       '())))
+              (place-image (text "worm hit border" 8 "red")
+                           30 (- HEIGHT 10)
+                           (render (cons (make-segment (make-posn 0 10)
+                                                       LEFT)
+                                         (cons (make-segment (make-posn WORM-DIAMETER 10)
+                                                             LEFT)
+                                               '())))))
+(check-expect (render-stop (cons (make-segment (make-posn 10 10)
+                                               UP)
+                                 (cons (make-segment (make-posn 10 10)
+                                                     LEFT)
+                                       '())))
+              (place-image (text "worm hit itself" 8 "red")
+                           30 (- HEIGHT 10)
+                           (render (cons (make-segment (make-posn 10 10)
+                                                       UP)
+                                         (cons (make-segment (make-posn 10 10)
+                                                             LEFT)
+                                               '())))))
+(define (render-stop w)
+  (cond
+    [(hit-border? w) (place-image (text "worm hit border" 8 "red")
+                                  30 (- HEIGHT 10)
+                                  (render w))]
+    [(hit-itself? w) (place-image (text "worm hit itself" 8 "red")
+                                  30 (- HEIGHT 10)
+                                  (render w))]))
+  
+
 ; Worm -> Worm
 ; animates the game
 (define (main w)
   (big-bang w
     [to-draw render]
     [on-tick tock 0.5]
-    [on-key change]))
+    [on-key change]
+    [stop-when hit-border? render-stop]))
