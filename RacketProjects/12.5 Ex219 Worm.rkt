@@ -63,6 +63,15 @@
                                             (+ WORM-DIAMETER (/ HEIGHT 2)))
                                  RIGHT)
                                 WORM1))))
+(define WORM5 (cons SEG2
+                    (cons (make-segment
+                           (make-posn (/ WIDTH 2) (+ (/ HEIGHT 2) WORM-DIAMETER)) UP)
+                          (cons (make-segment
+                                 (make-posn (- (/ WIDTH 2) WORM-DIAMETER) (+ (/ HEIGHT 2) WORM-DIAMETER)) RIGHT)
+                                (cons (make-segment
+                                       (make-posn (- (/ WIDTH 2) WORM-DIAMETER) (/ HEIGHT 2)) DOWN)
+                                      (cons (make-segment
+                                             (make-posn (- (/ WIDTH 2) (* 2 WORM-DIAMETER)) (/ HEIGHT 2)) LEFT) '()))))))
                                  
 
 ; big-bang wishlist:
@@ -79,6 +88,7 @@
 ; -X- hit-border?: does the worm hit the border?
 ; -X- make-list-of-locations: make a list of posns of segments
 ; -X- hit-itself?: did the worm hit itself?
+; -X- game-over?: did the worm hit the border or itself?
 ; -X- render-stop: renders the image when the game is over
 
 ; Segment -> Number
@@ -319,6 +329,23 @@
                                           (get (first w) "y"))
                                (make-list-of-locations (rest w)))]))
 
+; Worm -> Boolean
+; did the worm hit the border or itself?
+(check-expect (game-over? (cons (make-segment (make-posn 10 10)
+                                               UP)
+                                 (cons (make-segment (make-posn 10 10)
+                                                     LEFT)
+                                       '())))
+              #true)
+(check-expect (game-over? (cons (make-segment (make-posn 10 10)
+                                               UP)
+                                 (cons (make-segment (make-posn 10 10)
+                                                     LEFT)
+                                       '())))
+              #true)
+(define (game-over? w)
+  (or (hit-border? w) (hit-itself? w)))
+
 ; Worm -> Image
 ; renders the image when the game is over
 ; either when the worm hits the border or hits itself
@@ -354,7 +381,6 @@
     [(hit-itself? w) (place-image (text "worm hit itself" 8 "red")
                                   30 (- HEIGHT 10)
                                   (render w))]))
-  
 
 ; Worm -> Worm
 ; animates the game
@@ -363,4 +389,4 @@
     [to-draw render]
     [on-tick tock 0.5]
     [on-key change]
-    [stop-when hit-border? render-stop]))
+    [stop-when game-over? render-stop]))
