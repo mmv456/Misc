@@ -1,7 +1,7 @@
 ;; The first three lines of this file were inserted by DrRacket. They record metadata
 ;; about the language level of this file in a form that our tools can easily process.
 #reader(lib "htdp-beginner-abbr-reader.ss" "lang")((modname |12.5 Ex219 Worm|) (read-case-sensitive #t) (teachpacks ((lib "image.rkt" "teachpack" "2htdp") (lib "batch-io.rkt" "teachpack" "2htdp") (lib "universe.rkt" "teachpack" "2htdp"))) (htdp-settings #(#t constructor repeating-decimal #f #t none #f ((lib "image.rkt" "teachpack" "2htdp") (lib "batch-io.rkt" "teachpack" "2htdp") (lib "universe.rkt" "teachpack" "2htdp")) #f)))
-; ----Exercises 217 and 218----
+; ----Exercise 219----
 
 (define WIDTH 100)
 (define HEIGHT 100)
@@ -89,6 +89,9 @@
 ; -X- make-list-of-locations: make a list of posns of segments
 ; -X- hit-itself?: did the worm hit itself?
 ; -X- game-over?: did the worm hit the border or itself?
+; -X- food-create: creates new food
+; -X- food-check-create: creates a new posn for food if the worm head reached the food
+; -X- not=-1-1?: is the posn at any location other than (1, 1)?
 ; -X- render-stop: renders the image when the game is over
 
 ; Segment -> Number
@@ -381,6 +384,30 @@
     [(hit-itself? w) (place-image (text "worm hit itself" 8 "red")
                                   30 (- HEIGHT 10)
                                   (render w))]))
+
+; Posn -> Posn 
+; creates new food
+(check-satisfied (food-create (make-posn 1 1)) not=-1-1?)
+(define (food-create p)
+  (food-check-create
+     p (make-posn (random WIDTH) (random HEIGHT))))
+ 
+; Posn Posn -> Posn 
+; generative recursion 
+; creates a new posn for food if the worm head reached the food
+(define (food-check-create p candidate)
+  (if (equal? p candidate) (food-create p) candidate))
+ 
+; Posn -> Boolean
+; use for testing only
+; is the posn at any location other than (1, 1)?
+(check-expect (not=-1-1? (make-posn 1 1)) #false)
+(check-expect (not=-1-1? (make-posn 2 1)) #true)
+(check-expect (not=-1-1? (make-posn 1 2)) #true)
+(check-expect (not=-1-1? (make-posn 2 2)) #true)
+(define (not=-1-1? p)
+  (not (and (= (posn-x p) 1) (= (posn-y p) 1))))
+
 
 ; Worm -> Worm
 ; animates the game
