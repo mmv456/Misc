@@ -1,10 +1,10 @@
 {
   "type": "service_account",
   "project_id": "dyno-sequence-api",
-  "private_key_id": "7720c5f9d49f640f90323d077563c0e8f3707e17",
-  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQDZAsAWhu8jqXAZ\n7HC6UzHYvsAUKAwxdnvDlC77LJT4LqJ3WXqhreDzn24vk4CoD6TzzGdeju+nmcVf\npevsqUJ8PptfA6mtQbfq3AK70Nl3KTBV0O04N78opyK7nUjLpmZVve7wyUav44Oo\nuiAZo1JOB/g1LL1qKxXr0FZ46A1ltTyAhUjFva2BjdhjiAh4Po8yOr4Lh3JCtP7H\nR2IdBnhIpWYDyubg1JmCeKPWIxOpsKFaNkmB81X0cT7OPpsTGPpo6/GQlKpgQT0U\nFCgR9+nxfZo+X4npLXuhOw9SJrRieMEIw85zNHtZBsCruHjXC0vviaxr6R/WTaca\n1rsizABbAgMBAAECggEAYLqVHHVwypiP2z5E0QicQ1xjCZkANlv1tquqdVLd4/IF\ngOVlgAOdLXp3BsXcpwyyHemSedeEg1RLYeL3Ujnv5KmTX7qmOw/8BreikEz7Yd3+\nKYJC+rf+gQReuvnUpNG686UBiFpvI59p5B9yh3sBCL8Mp8cVdulVkBMBOEtXDWn1\nMPb7KmX/MZ2k6JF7unt7e882RwYHyZP+ODHAJOMiOcq3Vq/pSCPlWVR6ZyFFjPMU\n1tMci8j3KGIM7PmiSQOhfsxBu5p7oAGXHtRDW4VdVV2PyRmNMhz38pTYHIscBpKP\nzVjrEulXzFGguUs2xojKBx+i+Bo/JWYRAA1WugrtQQKBgQDwNKGkqzHv9M69Sxy8\nRQvKJ77qvURbzNaGSDq4X7arid1j6mBC6NoqTAcR/ruG9esenUSJvPB5cEuFI3QN\nWuhJet+Q45INO6czfdsYug74GJ3EV9NzQNd+pb4RLUfRycP07lsaTaoQmyZuXr9z\nhsW8TiRW8HBiyXWXBtj1AWoO0wKBgQDnR65kid4RivOPR8GZJN48r89pP1yDKqUW\nw4ugQHSUTM/rpwGwV6FrRp9jQgq4biYIsrV/I7bNpDYVhHRlqh3hUXs/wuHPWooP\neONVYiOwGMmi36E9tfP1fBhCPfDu2cds3Kwk4dACuL7w3BlgBKnzdxskIOGXgqZw\ntCIH08IjWQKBgQDUFDQPlpMtoICUQugpFfE12GfJC7h6MN3Li6REu0UmKUAOApZh\nHQPaSmwHqFfb7e5chlBIKEhNgCc9crL5Q6VJkzIm07ZU9rFGVj2GlGe5Bsrs2vo3\njS12hVHOCqOZh0H7VCOdkqqvpLyGwCLbFkgpXPjaxckEf4jSAlq13zzLvwKBgQDc\n7Qk2esgJg+0S4h2Z97De0aZUSDVMCpF2xEZ9RvTVsOYwmfCwDZVhTy3z9+MbuARW\n7LcZAvmdSI5tUYCKmM1ALcCI8NUZaMhW7UhjiILEtXjvP6XbuBKZXfgiVt7umlO4\ntrct6BL2dpnWpLkMkofxzMW9Zjd4rlHlePzE81AQyQKBgQCKpWrQ5bF2lp6B4IyM\n2xXLYf2voHMJj7xZGe73fCLcLPU2DWGsVL9OG8fpJ6RLiFveLzC5wly2a9pYZISJ\noJFla9SBK3nwj3qjMIaY+ArtbQoAsAZh9uilO9FXSynk2oQq+UYHMlHOEfsMNTVs\n+Q6paHy5FQDeteCl1+nEA9wxPw==\n-----END PRIVATE KEY-----\n",
+  "private_key_id": "PRIVATE",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nPRIVATE\n-----END PRIVATE KEY-----\n",
   "client_email": "dyno-sequence-api@appspot.gserviceaccount.com",
-  "client_id": "109597491026887639230",
+  "client_id": "PRIVATE",
   "auth_uri": "https://accounts.google.com/o/oauth2/auth",
   "token_uri": "https://oauth2.googleapis.com/token",
   "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
