@@ -1,0 +1,1881 @@
+ID: lcl|NC_026943.1_cds_YP_009134731.1_1
+Name: lcl|NC_026943.1_cds_YP_009134731.1_1
+Description: lcl|NC_026943.1_cds_YP_009134731.1_1 [gene=NS3] [locus_tag=AAW66_gp1] [db_xref=GeneID:24248404] [protein=non-structural protein 3] [protein_id=YP_009134731.1] [location=385..1296] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGCTTGCGTATACGGTATTGAGAACTGTGATCATACAAAGTGTTTTCGCTGT...TAA')ID: lcl|NC_026943.1_cds_YP_009134732.1_2
+Name: lcl|NC_026943.1_cds_YP_009134732.1_2
+Description: lcl|NC_026943.1_cds_YP_009134732.1_2 [gene=NS1] [locus_tag=AAW66_gp2] [db_xref=GeneID:24248403] [protein=non-structural protein 1] [protein_id=YP_009134732.1] [location=1289..3028] [gbkey=CDS]
+Number of features: 0
+Seq('ATGAATAATGTCCAAGAGGAAGCTGGAAGAGATGTCACCAGAACACGAAACGGA...TAA')ID: lcl|NC_026943.1_cds_YP_009134733.1_3
+Name: lcl|NC_026943.1_cds_YP_009134733.1_3
+Description: lcl|NC_026943.1_cds_YP_009134733.1_3 [gene=NS2] [locus_tag=AAW66_gp3] [db_xref=GeneID:24248401] [protein=non-structural protein 2] [protein_id=YP_009134733.1] [location=1296..2213] [gbkey=CDS]
+Number of features: 0
+Seq('ATGTCCAAGAGGAAGCTGGAAGAGATGTCACCAGAACACGAAACGGAGGAAGAG...TAA')ID: lcl|NC_026943.1_cds_YP_009134734.1_4
+Name: lcl|NC_026943.1_cds_YP_009134734.1_4
+Description: lcl|NC_026943.1_cds_YP_009134734.1_4 [gene=VP] [locus_tag=AAW66_gp4] [db_xref=GeneID:24248402] [protein=viral protein] [protein_id=YP_009134734.1] [location=complement(3154..5988)] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGCTGAGGAAGCCTTCGAGTTAATTAGGAGAACAGGCGGCAGTAGAATTCAA...TAA')ID: lcl|NC_007218.1_cds_YP_271914.1_1
+Name: lcl|NC_007218.1_cds_YP_271914.1_1
+Description: lcl|NC_007218.1_cds_YP_271914.1_1 [gene=NS2] [locus_tag=HPOPSVgp1] [db_xref=GeneID:3562190] [protein=non-structural protein 2] [protein_id=YP_271914.1] [location=216..1502] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGCGAGCAAAGGTGACTATTATTATTTTACTCCTAGAGATCTAGTGAACTTT...TAA')ID: lcl|NC_007218.1_cds_YP_271915.1_2
+Name: lcl|NC_007218.1_cds_YP_271915.1_2
+Description: lcl|NC_007218.1_cds_YP_271915.1_2 [gene=NS1] [locus_tag=HPOPSVgp2] [db_xref=GeneID:3562191] [protein=non-structural protein 1] [protein_id=YP_271915.1] [location=1487..3226] [gbkey=CDS]
+Number of features: 0
+Seq('ATGTTTCGCCAGGTAATGAAGCTCAAGAGAGAAGGGATACTGGATCATAACCCT...TAA')ID: lcl|NC_007218.1_cds_YP_271916.1_3
+Name: lcl|NC_007218.1_cds_YP_271916.1_3
+Description: lcl|NC_007218.1_cds_YP_271916.1_3 [gene=VP] [locus_tag=HPOPSVgp3] [db_xref=GeneID:3562192] [protein=structural protein] [protein_id=YP_271916.1] [location=3642..6098] [gbkey=CDS]
+Number of features: 0
+Seq('ATGTCACCTACAAGAAAAGGAGGGAATTATTATGCGAGTAAACACTTCCAAAGT...TAA')ID: lcl|NC_011545.2_cds_YP_002308469.1_1
+Name: lcl|NC_011545.2_cds_YP_002308469.1_1
+Description: lcl|NC_011545.2_cds_YP_002308469.1_1 [gene=NS2] [locus_tag=PMHV_gp1] [db_xref=GeneID:7040120] [protein=non-structural protein 2] [protein_id=YP_002308469.1] [location=215..1495] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGCGAGCAAAGGTGACTATTACTATTCTACTCCTAAAGATCTAGTAAACTTT...TAA')ID: lcl|NC_011545.2_cds_YP_002308470.1_2
+Name: lcl|NC_011545.2_cds_YP_002308470.1_2
+Description: lcl|NC_011545.2_cds_YP_002308470.1_2 [gene=NS1] [locus_tag=PMHV_gp2] [db_xref=GeneID:7040118] [protein=non-structural protein 1] [protein_id=YP_002308470.1] [location=1480..3213] [gbkey=CDS]
+Number of features: 0
+Seq('ATGTTTTGCCAGGTAATGAAGTTGAAGAGAGAAGGGATGGTGGATCATAACCCT...TAA')ID: lcl|NC_011545.2_cds_YP_002308471.1_3
+Name: lcl|NC_011545.2_cds_YP_002308471.1_3
+Description: lcl|NC_011545.2_cds_YP_002308471.1_3 [gene=VP] [locus_tag=PMHV_gp3] [db_xref=GeneID:7040119] [protein=structural protein] [protein_id=YP_002308471.1] [location=3629..6088] [gbkey=CDS]
+Number of features: 0
+Seq('ATGTCACCTACAAGAAGAGGAGGGAATTATTTTGCAAGTAAGCATTTTCAAAGC...TAA')ID: lcl|NC_023860.1_cds_YP_009021566.1_1
+Name: lcl|NC_023860.1_cds_YP_009021566.1_1
+Description: lcl|NC_023860.1_cds_YP_009021566.1_1 [locus_tag=DF56_gp1] [db_xref=GeneID:18938104] [protein=nonstructural protein] [protein_id=YP_009021566.1] [location=219..2207] [gbkey=CDS]
+Number of features: 0
+Seq('ATGTCTCAGACCTTCTGGACGGGTATTTGCAGGCTTTTCCCTGATATTGGGAAG...TAG')ID: lcl|NC_023860.1_cds_YP_009021567.1_2
+Name: lcl|NC_023860.1_cds_YP_009021567.1_2
+Description: lcl|NC_023860.1_cds_YP_009021567.1_2 [locus_tag=DF56_gp2] [db_xref=GeneID:18938103] [protein=capsid protein] [protein_id=YP_009021567.1] [location=2215..5784] [gbkey=CDS]
+Number of features: 0
+Seq('ATGAGCCGTTCTACTCAAAGAGATCTTTGGTCTTTGTTAAGGGAGAGACTTGAA...TAG')ID: lcl|NC_004286.1_cds_NP_899649.1_1
+Name: lcl|NC_004286.1_cds_NP_899649.1_1
+Description: lcl|NC_004286.1_cds_NP_899649.1_1 [locus_tag=GmDNVgp1] [db_xref=GeneID:2546232] [protein=nonstructural protein NS3] [protein_id=NP_899649.1] [location=657..1355] [gbkey=CDS]
+Number of features: 0
+Seq('ATGTCTATAGCAAAATTTCTTTATGTTCGCCGTTTATTTGAAAAAGTATACAAT...TAA')ID: lcl|NC_004286.1_cds_NP_899650.1_2
+Name: lcl|NC_004286.1_cds_NP_899650.1_2
+Description: lcl|NC_004286.1_cds_NP_899650.1_2 [locus_tag=GmDNVgp1] [db_xref=GeneID:2546232] [protein=nonstructural protein NS1] [protein_id=NP_899650.1] [location=1362..2996] [gbkey=CDS]
+Number of features: 0
+Seq('ATGAACAATGGAGACACCAACAGAGAAACCAATAATACTACCAGATCTAATCAA...TAA')ID: lcl|NC_004286.1_cds_NP_899651.1_3
+Name: lcl|NC_004286.1_cds_NP_899651.1_3
+Description: lcl|NC_004286.1_cds_NP_899651.1_3 [locus_tag=GmDNVgp1] [db_xref=GeneID:2546232] [protein=nonstructural protein NS2] [protein_id=NP_899651.1] [location=1369..2193] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGAGACACCAACAGAGAAACCAATAATACTACCAGATCTAATCAAGATAATA...TAA')ID: lcl|NC_004286.1_cds_NP_694830.1_4
+Name: lcl|NC_004286.1_cds_NP_694830.1_4
+Description: lcl|NC_004286.1_cds_NP_694830.1_4 [locus_tag=GmDNVgp2] [db_xref=GeneID:2546231] [protein=structural protein VP1] [protein_id=NP_694830.1] [location=complement(3027..5462)] [gbkey=CDS]
+Number of features: 0
+Seq('ATGTCTTTCTTCAAAAATCAGTTGATACATCGCGCACGACCTGGTTATCGTATA...TAA')ID: lcl|NC_004286.1_cds_NP_694831.1_5
+Name: lcl|NC_004286.1_cds_NP_694831.1_5
+Description: lcl|NC_004286.1_cds_NP_694831.1_5 [locus_tag=GmDNVgp2] [db_xref=GeneID:2546231] [protein=structural protein VP2] [protein_id=NP_694831.1] [location=complement(3027..4634)] [gbkey=CDS]
+Number of features: 0
+Seq('ATGTCCCGTCATATTAATCCTAGATACATTAATCAACCTAATTGGAAAGATTAT...TAA')ID: lcl|NC_004286.1_cds_NP_694832.1_6
+Name: lcl|NC_004286.1_cds_NP_694832.1_6
+Description: lcl|NC_004286.1_cds_NP_694832.1_6 [locus_tag=GmDNVgp2] [db_xref=GeneID:2546231] [protein=structural protein VP3] [protein_id=NP_694832.1] [location=complement(3027..4493)] [gbkey=CDS]
+Number of features: 0
+Seq('ATGCAAGAAGCAACGAAACGCAAGGCTGATTCTCCTGCTGTTGAAACTCCTGCA...TAA')ID: lcl|NC_004286.1_cds_NP_694833.1_7
+Name: lcl|NC_004286.1_cds_NP_694833.1_7
+Description: lcl|NC_004286.1_cds_NP_694833.1_7 [locus_tag=GmDNVgp2] [db_xref=GeneID:2546231] [protein=structural protein VP4] [protein_id=NP_694833.1] [location=complement(3027..4340)] [gbkey=CDS]
+Number of features: 0
+Seq('ATGTCATTACCAGGAACTGGCTCTGGAACATCATCTGGAGGAGGAAACACGCAA...TAA')ID: lcl|NC_005341.1_cds_NP_958098.1_1
+Name: lcl|NC_005341.1_cds_NP_958098.1_1
+Description: lcl|NC_005341.1_cds_NP_958098.1_1 [locus_tag=MlDNV_NS] [db_xref=GeneID:7872561] [protein=NS3] [protein_id=NP_958098.1] [location=655..1350] [gbkey=CDS]
+Number of features: 0
+Seq('ATGTCTATTGCAAGATTTCTTTGTGTTCGTCGCTTGTTTGAAAAGGTGTACAAT...TAA')ID: lcl|NC_005341.1_cds_NP_958099.1_2
+Name: lcl|NC_005341.1_cds_NP_958099.1_2
+Description: lcl|NC_005341.1_cds_NP_958099.1_2 [locus_tag=MlDNV_NS] [db_xref=GeneID:7872561] [protein=NS1] [protein_id=NP_958099.1] [location=1357..2994] [gbkey=CDS]
+Number of features: 0
+Seq('ATGCAAGATGGAGACACCAACAGACAAACAGATAGTACTACCAGATCTAATCAA...TAA')ID: lcl|NC_005341.1_cds_NP_958100.1_3
+Name: lcl|NC_005341.1_cds_NP_958100.1_3
+Description: lcl|NC_005341.1_cds_NP_958100.1_3 [locus_tag=MlDNV_NS] [db_xref=GeneID:7872561] [protein=NS2] [protein_id=NP_958100.1] [location=1364..2191] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGAGACACCAACAGACAAACAGATAGTACTACCAGATCTAATCAAGACGATT...TAA')ID: lcl|NC_005341.1_cds_NP_958101.1_4
+Name: lcl|NC_005341.1_cds_NP_958101.1_4
+Description: lcl|NC_005341.1_cds_NP_958101.1_4 [locus_tag=MlDNV_VP] [db_xref=GeneID:2716740] [protein=VP1] [protein_id=NP_958101.1] [location=complement(3025..5460)] [gbkey=CDS]
+Number of features: 0
+Seq('ATGTCTTTCTACACGAGCGGGTTAACACATCGCGCGCGACCTGGCTATCGTATA...TAA')ID: lcl|NC_005341.1_cds_NP_958102.1_5
+Name: lcl|NC_005341.1_cds_NP_958102.1_5
+Description: lcl|NC_005341.1_cds_NP_958102.1_5 [locus_tag=MlDNV_VP] [db_xref=GeneID:2716740] [protein=VP2] [protein_id=NP_958102.1] [location=complement(3025..4632)] [gbkey=CDS]
+Number of features: 0
+Seq('ATGTCACGTCATATTAATCCTAAATACGCTAATCAACCTAATTGGAAAGATTAT...TAA')ID: lcl|NC_005341.1_cds_NP_958103.1_6
+Name: lcl|NC_005341.1_cds_NP_958103.1_6
+Description: lcl|NC_005341.1_cds_NP_958103.1_6 [locus_tag=MlDNV_VP] [db_xref=GeneID:2716740] [protein=VP3] [protein_id=NP_958103.1] [location=complement(3025..4491)] [gbkey=CDS]
+Number of features: 0
+Seq('ATGCAAGAGCCAACGAAACGCAAAGCTGGTTCATCTGCTGCTGAGACTCCTGCT...TAA')ID: lcl|NC_005341.1_cds_NP_958104.1_7
+Name: lcl|NC_005341.1_cds_NP_958104.1_7
+Description: lcl|NC_005341.1_cds_NP_958104.1_7 [locus_tag=MlDNV_VP] [db_xref=GeneID:2716740] [protein=VP4] [protein_id=NP_958104.1] [location=complement(3025..4344)] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGCCATGTCATTACCTGGAACCGGTTCTGGAACTTCGTCTGGAGGAGGAAAT...TAA')ID: lcl|NC_019492.1_cds_YP_007003822.1_1
+Name: lcl|NC_019492.1_cds_YP_007003822.1_1
+Description: lcl|NC_019492.1_cds_YP_007003822.1_1 [locus_tag=F429_gp1] [db_xref=GeneID:14008139] [protein=nonstructural protein NS3] [protein_id=YP_007003822.1] [location=647..1348] [gbkey=CDS]
+Number of features: 0
+Seq('ATGTCCAACTCAAGAATTGCTTTAATTCGTCGTTTATTTGCACCTAAAGTGTAC...TAA')ID: lcl|NC_019492.1_cds_YP_007003823.1_2
+Name: lcl|NC_019492.1_cds_YP_007003823.1_2
+Description: lcl|NC_019492.1_cds_YP_007003823.1_2 [locus_tag=F429_gp2] [db_xref=GeneID:14008135] [protein=nonstructural protein NS1] [protein_id=YP_007003823.1] [location=1355..3019] [gbkey=CDS]
+Number of features: 0
+Seq('ATGAACAATGGAGACACCGACAGAAAAACCGATAGTACTACCAGACCTAATCAA...TAG')ID: lcl|NC_019492.1_cds_YP_007003824.1_3
+Name: lcl|NC_019492.1_cds_YP_007003824.1_3
+Description: lcl|NC_019492.1_cds_YP_007003824.1_3 [locus_tag=F429_gp3] [db_xref=GeneID:14008133] [protein=nonstructural protein NS2] [protein_id=YP_007003824.1] [location=1362..2189] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGAGACACCGACAGAAAAACCGATAGTACTACCAGACCTAATCAAGACATTA...TAA')ID: lcl|NC_019492.1_cds_YP_007003825.1_4
+Name: lcl|NC_019492.1_cds_YP_007003825.1_4
+Description: lcl|NC_019492.1_cds_YP_007003825.1_4 [locus_tag=F429_gp4] [db_xref=GeneID:14008134] [protein=structural protein VP1] [protein_id=YP_007003825.1] [location=complement(3006..5423)] [gbkey=CDS]
+Number of features: 0
+Seq('ATGTCTTTCTACACGAGAGGGTTAATACATCGCGCGCGGCCTGGTTACCGTATT...TAA')ID: lcl|NC_019492.1_cds_YP_007003826.1_5
+Name: lcl|NC_019492.1_cds_YP_007003826.1_5
+Description: lcl|NC_019492.1_cds_YP_007003826.1_5 [locus_tag=F429_gp5] [db_xref=GeneID:14008136] [protein=structural protein VP2] [protein_id=YP_007003826.1] [location=complement(3006..4592)] [gbkey=CDS]
+Number of features: 0
+Seq('ATGTCCCGTCAAATTAATCCTAAATACTTAAGTAGCTGGTCTGATTGGATTAGA...TAA')ID: lcl|NC_019492.1_cds_YP_007003827.1_6
+Name: lcl|NC_019492.1_cds_YP_007003827.1_6
+Description: lcl|NC_019492.1_cds_YP_007003827.1_6 [locus_tag=F429_gp6] [db_xref=GeneID:14008137] [protein=structural protein VP3] [protein_id=YP_007003827.1] [location=complement(3006..4457)] [gbkey=CDS]
+Number of features: 0
+Seq('ATGTCAGAGGGAACTAAACGTAAAGCTGATTCTCCAGTTGAAGAAGGTCCTTCT...TAA')ID: lcl|NC_019492.1_cds_YP_007003828.1_7
+Name: lcl|NC_019492.1_cds_YP_007003828.1_7
+Description: lcl|NC_019492.1_cds_YP_007003828.1_7 [locus_tag=F429_gp7] [db_xref=GeneID:14008138] [protein=structural protein VP4] [protein_id=YP_007003828.1] [location=complement(3006..4310)] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGCAATGTCTTTACCCGGAACTGGTCAAGGCACATCCTCTGGTGGTGGTAAT...TAA')ID: lcl|NC_001899.1_cds_NP_046812.1_1
+Name: lcl|NC_001899.1_cds_NP_046812.1_1
+Description: lcl|NC_001899.1_cds_NP_046812.1_1 [locus_tag=DsDNVgp1] [db_xref=GeneID:1449607] [protein=nonstructural protein NS3] [protein_id=NP_046812.1] [location=700..1308] [gbkey=CDS]
+Number of features: 0
+Seq('ATGTCACTTATGTATGGAAAATATAATATTTGTAAAAGAAGATTGTTTGAAACG...TAA')ID: lcl|NC_001899.1_cds_NP_046813.1_2
+Name: lcl|NC_001899.1_cds_NP_046813.1_2
+Description: lcl|NC_001899.1_cds_NP_046813.1_2 [locus_tag=DsDNVgp2] [db_xref=GeneID:1449608] [protein=nonstructural protein NS1] [protein_id=NP_046813.1] [location=1315..2952] [gbkey=CDS]
+Number of features: 0
+Seq('ATGAATAATGGAGACTCCAACAGAGAAACCGATAGTACTACCAGATCTGATCAA...TAA')ID: lcl|NC_001899.1_cds_NP_046814.1_3
+Name: lcl|NC_001899.1_cds_NP_046814.1_3
+Description: lcl|NC_001899.1_cds_NP_046814.1_3 [locus_tag=DsDNVgp3] [db_xref=GeneID:1449605] [protein=nonstructural protein NS2] [protein_id=NP_046814.1] [location=1322..2149] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGAGACTCCAACAGAGAAACCGATAGTACTACCAGATCTGATCAAAGTAATT...TAA')ID: lcl|NC_001899.1_cds_NP_046815.1_4
+Name: lcl|NC_001899.1_cds_NP_046815.1_4
+Description: lcl|NC_001899.1_cds_NP_046815.1_4 [locus_tag=DsDNVgp4] [db_xref=GeneID:1449602] [protein=viral polypeptide VP1] [protein_id=NP_046815.1] [location=complement(2982..5411)] [gbkey=CDS]
+Number of features: 0
+Seq('ATGTCTTTCTACGCGAGAGCGTTAACACATCGCGCGCGACCTGGTTATCGAATT...TAA')ID: lcl|NC_001899.1_cds_NP_046816.1_5
+Name: lcl|NC_001899.1_cds_NP_046816.1_5
+Description: lcl|NC_001899.1_cds_NP_046816.1_5 [locus_tag=DsDNVgp4] [db_xref=GeneID:1449602] [protein=viral polypeptide VP2] [protein_id=NP_046816.1] [location=complement(2982..4580)] [gbkey=CDS]
+Number of features: 0
+Seq('ATGTCTCGTGAAATTAATCCTAAATATTTAAATTCGTGGTCAGATTGGATTAAA...TAA')ID: lcl|NC_001899.1_cds_NP_046817.1_6
+Name: lcl|NC_001899.1_cds_NP_046817.1_6
+Description: lcl|NC_001899.1_cds_NP_046817.1_6 [locus_tag=DsDNVgp4] [db_xref=GeneID:1449602] [protein=viral polypeptide VP3] [protein_id=NP_046817.1] [location=complement(2982..4445)] [gbkey=CDS]
+Number of features: 0
+Seq('ATGTCAGAAAGTACGAAACGTAAAGCTGATACTCCTGCTGAAGAAACTCCTTCT...TAA')ID: lcl|NC_001899.1_cds_NP_046818.1_7
+Name: lcl|NC_001899.1_cds_NP_046818.1_7
+Description: lcl|NC_001899.1_cds_NP_046818.1_7 [locus_tag=DsDNVgp4] [db_xref=GeneID:1449602] [protein=viral polypeptide VP4] [protein_id=NP_046818.1] [location=complement(2982..4298)] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGCTATGTCATTACCTGGTACTGGTTCGGGTACTTCGTCTGGTGGTGGTAAT...TAA')ID: lcl|NC_004284.1_cds_NP_694823.1_1
+Name: lcl|NC_004284.1_cds_NP_694823.1_1
+Description: lcl|NC_004284.1_cds_NP_694823.1_1 [locus_tag=JcDNVgp1] [db_xref=GeneID:955412] [protein=hypothetical protein] [protein_id=NP_694823.1] [location=555..2987] [gbkey=CDS]
+Number of features: 0
+Seq('ATGTCTTTCTACACGGCCGGGTTAATACATCGTGCGCGACCCGGTTATCGTATT...TAA')ID: lcl|NC_004284.1_cds_NP_694824.1_2
+Name: lcl|NC_004284.1_cds_NP_694824.1_2
+Description: lcl|NC_004284.1_cds_NP_694824.1_2 [locus_tag=JcDNVgp2] [db_xref=GeneID:955411] [protein=hypothetical protein] [protein_id=NP_694824.1] [location=complement(3019..4656)] [gbkey=CDS]
+Number of features: 0
+Seq('ATGAACAATGGAGACACCAACAGAGAAACCGATAGTACTACCAGACCTAATCAA...TAA')ID: lcl|NC_004284.1_cds_NP_694825.1_3
+Name: lcl|NC_004284.1_cds_NP_694825.1_3
+Description: lcl|NC_004284.1_cds_NP_694825.1_3 [locus_tag=JcDNVgp3] [db_xref=GeneID:955413] [protein=hypothetical protein] [protein_id=NP_694825.1] [location=complement(3822..4649)] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGAGACACCAACAGAGAAACCGATAGTACTACCAGACCTAATCAAGACATTA...TAA')ID: lcl|NC_004284.1_cds_NP_694826.1_4
+Name: lcl|NC_004284.1_cds_NP_694826.1_4
+Description: lcl|NC_004284.1_cds_NP_694826.1_4 [locus_tag=JcDNVgp4] [db_xref=GeneID:955414] [protein=hypothetical protein] [protein_id=NP_694826.1] [location=complement(4663..5223)] [gbkey=CDS]
+Number of features: 0
+Seq('ATGCAGCATGATCTAGATAATCAGATTATTGCTTGTGGAGAAGACATAGATCAT...TAA')ID: lcl|NC_014665.1_cds_YP_004013956.1_1
+Name: lcl|NC_014665.1_cds_YP_004013956.1_1
+Description: lcl|NC_014665.1_cds_YP_004013956.1_1 [locus_tag=PPV4_gp1] [db_xref=GeneID:9934508] [protein=replicase] [protein_id=YP_004013956.1] [location=849..2645] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGAAACCTACTGGACAGGTATTTGCAGACTTTTTCCTGATGTTTTAAAAATA...TGA')ID: lcl|NC_014665.1_cds_YP_004013957.1_2
+Name: lcl|NC_014665.1_cds_YP_004013957.1_2
+Description: lcl|NC_014665.1_cds_YP_004013957.1_2 [locus_tag=PPV4_gp2] [db_xref=GeneID:9934506] [protein=ORF3 protein] [protein_id=YP_004013957.1] [location=2795..3409] [gbkey=CDS]
+Number of features: 0
+Seq('ATGTTCGGCGGACAAGGTATTATACCGATACTAACATGGGAGCAATTAGAAGCT...TAG')ID: lcl|NC_014665.1_cds_YP_004013958.1_3
+Name: lcl|NC_014665.1_cds_YP_004013958.1_3
+Description: lcl|NC_014665.1_cds_YP_004013958.1_3 [locus_tag=PPV4_gp3] [db_xref=GeneID:9934507] [protein=capsid] [protein_id=YP_004013958.1] [location=3673..5859] [gbkey=CDS]
+Number of features: 0
+Seq('ATGCAGAAACACGGTCACTGGCCTCATTTATGGGCACCATTTGTTGACAGACAG...TGA')ID: lcl|NC_023020.1_cds_YP_008888533.1_1
+Name: lcl|NC_023020.1_cds_YP_008888533.1_1
+Description: lcl|NC_023020.1_cds_YP_008888533.1_1 [locus_tag=X982_gp1] [db_xref=GeneID:17860710] [protein=replicase] [protein_id=YP_008888533.1] [location=862..2667] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGAAACCTACTGGACAGGTATTTGCAGACTTTTTCCTGATGTTTTAAAAATA...TAA')ID: lcl|NC_023020.1_cds_YP_008888534.1_2
+Name: lcl|NC_023020.1_cds_YP_008888534.1_2
+Description: lcl|NC_023020.1_cds_YP_008888534.1_2 [locus_tag=X982_gp2] [db_xref=GeneID:17860709] [protein=capsid] [protein_id=YP_008888534.1] [location=2787..5762] [gbkey=CDS]
+Number of features: 0
+Seq('ATGAGCTTTAGTGGGTATTCTAAAAATCTCCCCCCGGGTTTAGAGGAAGTTACA...TAA')ID: lcl|NC_012685.1_cds_YP_002887624.1_1
+Name: lcl|NC_012685.1_cds_YP_002887624.1_1
+Description: lcl|NC_012685.1_cds_YP_002887624.1_1 [locus_tag=CpDNV_gp1] [db_xref=GeneID:7871901] [protein=nonstructural protein NS-3] [protein_id=YP_002887624.1] [location=437..799] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGAAGTACCATCTCTCTTCGATCAGTGTTTAAAAAAGTGTGTATTTAGTGAT...TAA')ID: lcl|NC_012685.1_cds_YP_002887625.1_2
+Name: lcl|NC_012685.1_cds_YP_002887625.1_2
+Description: lcl|NC_012685.1_cds_YP_002887625.1_2 [gene=NS-1] [locus_tag=CpDNV_gp4] [db_xref=GeneID:7872570] [protein=nonstructural protein NS-1] [protein_id=YP_002887625.1] [location=join(1057..1720,1774..2756)] [gbkey=CDS]
+Number of features: 0
+Seq('ATGTTGAACAACGACGGATCAGAAGTATTAAGCGCAGACTCCAATTTTAAAAAT...TAA')ID: lcl|NC_012685.1_cds_YP_002887626.1_3
+Name: lcl|NC_012685.1_cds_YP_002887626.1_3
+Description: lcl|NC_012685.1_cds_YP_002887626.1_3 [gene=NS-2] [locus_tag=CpDNV_gp5] [db_xref=GeneID:7871899] [protein=nonstructural protein NS-2] [protein_id=YP_002887626.1] [location=join(1109..1720,1774..1986)] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGAATTCAAACAGATATTAGAAACTATCTGGAATTCCCACTCAGCCCAGCAA...TAA')ID: lcl|NC_012685.1_cds_YP_002887627.1_4
+Name: lcl|NC_012685.1_cds_YP_002887627.1_4
+Description: lcl|NC_012685.1_cds_YP_002887627.1_4 [gene=VP1] [locus_tag=CpDNV_gp6] [db_xref=GeneID:7871900] [protein=structural protein VP1] [protein_id=YP_002887627.1] [location=complement(2765..4957)] [gbkey=CDS]
+Number of features: 0
+Seq('ATGTCTTCAACACTTCGTCGTCGTATACCTTTCTCTGAAAGAACTCCTTTATTG...TAA')ID: lcl|NC_006259.1_cds_YP_077175.1_1
+Name: lcl|NC_006259.1_cds_YP_077175.1_1
+Description: lcl|NC_006259.1_cds_YP_077175.1_1 [locus_tag=BPV2_gp1] [db_xref=GeneID:5141507] [protein=putative non-structural protein] [protein_id=YP_077175.1] [location=306..1919] [gbkey=CDS]
+Number of features: 0
+Seq('ATGAGCTACTACACTTTTGTTGTAACTATACCTGATAAAATTGAAGACTATGGA...TAG')ID: lcl|NC_006259.1_cds_YP_077176.1_2
+Name: lcl|NC_006259.1_cds_YP_077176.1_2
+Description: lcl|NC_006259.1_cds_YP_077176.1_2 [locus_tag=BPV2_gp2] [db_xref=GeneID:5141508] [protein=putative capsid protein] [protein_id=YP_077176.1] [location=2268..5384] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGCCGCTAAACTGGGAGGGGGCTTAGTAGGGGAAGCAGCTATACACCGCATA...TGA')ID: lcl|NC_000883.2_cds_YP_004928144.1_1
+Name: lcl|NC_000883.2_cds_YP_004928144.1_1
+Description: lcl|NC_000883.2_cds_YP_004928144.1_1 [gene=NS] [locus_tag=B19V_gp1] [db_xref=GeneID:1489597] [protein=non-structural protein NS1] [protein_id=YP_004928144.1] [location=616..2631] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGAGCTATTTAGAGGGGTGCTTCAAGTTTCTTCTAATGTTCTGGACTGTGCT...TAA')ID: lcl|NC_000883.2_cds_YP_004928145.1_2
+Name: lcl|NC_000883.2_cds_YP_004928145.1_2
+Description: lcl|NC_000883.2_cds_YP_004928145.1_2 [locus_tag=B19V_gp5] [db_xref=GeneID:11293634] [protein=7.5 kDa protein] [protein_id=YP_004928145.1] [location=2084..2308] [gbkey=CDS]
+Number of features: 0
+Seq('ATGCAGATGCCCTCCACCCAGACCTCCAAACCACCCCAATTGTCACAGACACCA...TAG')ID: lcl|NC_000883.2_cds_YP_004928146.1_3
+Name: lcl|NC_000883.2_cds_YP_004928146.1_3
+Description: lcl|NC_000883.2_cds_YP_004928146.1_3 [gene=VP1] [locus_tag=B19V_gp2] [db_xref=GeneID:1489598] [protein=capsid protein 1] [protein_id=YP_004928146.1] [location=2624..4969] [gbkey=CDS]
+Number of features: 0
+Seq('ATGAGTAAAGAAAGTGGCAAATGGTGGGAAAGTGATGATGAATTTGCTAAAGCT...TAA')ID: lcl|NC_000883.2_cds_YP_004928147.1_4
+Name: lcl|NC_000883.2_cds_YP_004928147.1_4
+Description: lcl|NC_000883.2_cds_YP_004928147.1_4 [locus_tag=B19V_gp6] [db_xref=GeneID:11293635] [protein=protein X] [protein_id=YP_004928147.1] [location=2874..3119] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGACAGTTATCTGACCACCCCCATGCCTTATCATCCAGTAGCAGTCATGCAG...TAA')ID: lcl|NC_000883.2_cds_YP_004928148.1_5
+Name: lcl|NC_000883.2_cds_YP_004928148.1_5
+Description: lcl|NC_000883.2_cds_YP_004928148.1_5 [gene=VP2] [locus_tag=B19V_gp3] [db_xref=GeneID:11293627] [protein=capsid protein 2] [protein_id=YP_004928148.1] [location=3305..4969] [gbkey=CDS]
+Number of features: 0
+Seq('ATGACTTCAGTTAATTCTGCAGAAGCCAGCACTGGTGCAGGAGGGGGGGGCAGT...TAA')ID: lcl|NC_000883.2_cds_YP_004928149.1_6
+Name: lcl|NC_000883.2_cds_YP_004928149.1_6
+Description: lcl|NC_000883.2_cds_YP_004928149.1_6 [locus_tag=B19V_gp4] [db_xref=GeneID:11293636] [protein=11 kDa protein] [protein_id=YP_004928149.1] [location=4890..5174] [gbkey=CDS]
+Number of features: 0
+Seq('ATGCAAAACAACACCACAGACATGGATATGAAAAGCCTGAAGAATTGTGGACAG...TAA')ID: lcl|NC_035180.1_cds_YP_009389278.1_1
+Name: lcl|NC_035180.1_cds_YP_009389278.1_1
+Description: lcl|NC_035180.1_cds_YP_009389278.1_1 [locus_tag=CGV07_gp1] [db_xref=GeneID:33349821] [protein=gp1 protein] [protein_id=YP_009389278.1] [location=223..2208] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGCAGGTCTCCTGTACCTCGGCGTGCTCAAGCTCTACCGGGGCGACTTGGAG...TAA')ID: lcl|NC_035180.1_cds_YP_009389279.1_2
+Name: lcl|NC_035180.1_cds_YP_009389279.1_2
+Description: lcl|NC_035180.1_cds_YP_009389279.1_2 [locus_tag=CGV07_gp2] [db_xref=GeneID:33349820] [protein=gp2 protein] [protein_id=YP_009389279.1] [location=2243..5341] [gbkey=CDS]
+Number of features: 0
+Seq('ATGAGCGCTGCCGACGCGTGGAAGCCGGGTGACCGGCCCCCGCTGGAGAACCTC...TAA')ID: lcl|NC_001540.1_cds_NP_041402.1_1
+Name: lcl|NC_001540.1_cds_NP_041402.1_1
+Description: lcl|NC_001540.1_cds_NP_041402.1_1 [locus_tag=BParVgp1] [db_xref=GeneID:1724585] [protein=hypothetical protein] [protein_id=NP_041402.1] [location=740..2920] [gbkey=CDS]
+Number of features: 0
+Seq('ATGCAGCCATCTCGAGGTCTATACTCTGCACTTCATTCGTTTAAACACCTTCTG...TAA')ID: lcl|NC_001540.1_cds_NP_041403.1_2
+Name: lcl|NC_001540.1_cds_NP_041403.1_2
+Description: lcl|NC_001540.1_cds_NP_041403.1_2 [locus_tag=BParVgp2] [db_xref=GeneID:1724584] [protein=hypothetical protein] [protein_id=NP_041403.1] [location=2661..3302] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGAACGCAGCCGATCACCGAGGGAGACTGGATCGACTTCGAGTCGAGACAAA...TAA')ID: lcl|NC_001540.1_cds_NP_041404.1_3
+Name: lcl|NC_001540.1_cds_NP_041404.1_3
+Description: lcl|NC_001540.1_cds_NP_041404.1_3 [gene=VP2] [locus_tag=BParVgp3] [db_xref=GeneID:1489584] [protein=hypothetical protein] [protein_id=NP_041404.1] [location=3286..5307] [gbkey=CDS]
+Number of features: 0
+Seq('ATGCCGCCAACCAATAAAGCTAATTCAAAAAAAGGCCTGACATTACCTGGCTAC...TAG')ID: lcl|NC_001540.1_cds_NP_041406.1_4
+Name: lcl|NC_001540.1_cds_NP_041406.1_4
+Description: lcl|NC_001540.1_cds_NP_041406.1_4 [gene=VP3] [locus_tag=BParVgp4] [db_xref=GeneID:1489585] [protein=hypothetical protein] [protein_id=NP_041406.1] [location=3697..5307] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGAGGTATCAAATGATATACCTAACGACGAGGCTGGCAATCAGCCAATTGAA...TAG')ID: lcl|NC_038895.1_cds_YP_009508180.1_1
+Name: lcl|NC_038895.1_cds_YP_009508180.1_1
+Description: lcl|NC_038895.1_cds_YP_009508180.1_1 [locus_tag=D1T22_gp1] [db_xref=GeneID:37619505] [protein=NS-1] [protein_id=YP_009508180.1] [location=336..2918] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGCTACTGGGGGGCTAGCTAAATGGGTGGGAGCTGTGCAGGCCTTTGGGCAT...TAA')ID: lcl|NC_038895.1_cds_YP_009508181.1_2
+Name: lcl|NC_038895.1_cds_YP_009508181.1_2
+Description: lcl|NC_038895.1_cds_YP_009508181.1_2 [locus_tag=D1T22_gp2] [db_xref=GeneID:37619501] [protein=NS-2] [protein_id=YP_009508181.1] [location=1185..2918] [gbkey=CDS]
+Number of features: 0
+Seq('ATGCTCAACTCAAACCCAAGCGTGTGGGGAGACCTTCCAAGGGTAAGCGCTAAC...TAA')ID: lcl|NC_038895.1_cds_YP_009508182.1_3
+Name: lcl|NC_038895.1_cds_YP_009508182.1_3
+Description: lcl|NC_038895.1_cds_YP_009508182.1_3 [locus_tag=D1T22_gp3] [db_xref=GeneID:37619502] [protein=NP] [protein_id=YP_009508182.1] [location=2659..3300] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGAACGCAGCCGATCACCGAGGGAGACTGGATCGACTTCGAGTCGAGACAAA...TAA')ID: lcl|NC_038895.1_cds_YP_009508183.1_4
+Name: lcl|NC_038895.1_cds_YP_009508183.1_4
+Description: lcl|NC_038895.1_cds_YP_009508183.1_4 [locus_tag=D1T22_gp4] [db_xref=GeneID:37619503] [protein=VP1] [protein_id=YP_009508183.1] [location=3284..5305] [gbkey=CDS]
+Number of features: 0
+Seq('ATGCCGCCAACCAATAAAGCTAATTCAAAAAAAGGCCTGACATTACCTGGCTAC...TAG')ID: lcl|NC_038895.1_cds_YP_009508184.1_5
+Name: lcl|NC_038895.1_cds_YP_009508184.1_5
+Description: lcl|NC_038895.1_cds_YP_009508184.1_5 [locus_tag=D1T22_gp5] [db_xref=GeneID:37619504] [protein=VP2] [protein_id=YP_009508184.1] [location=3695..5305] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGAGGTATCAAATGATATACCTAACGACGAGGCTGGCAATCAGCCAATTGAA...TAG')ID: lcl|NC_005040.1_cds_NP_874374.1_1
+Name: lcl|NC_005040.1_cds_NP_874374.1_1
+Description: lcl|NC_005040.1_cds_NP_874374.1_1 [locus_tag=MpdVgp1] [db_xref=GeneID:1733738] [protein=putative nonstructural protein NS-3] [protein_id=NP_874374.1] [location=238..531] [gbkey=CDS]
+Number of features: 0
+Seq('ATGAAGTGTGGAACCTACAACAATATCAGTACTCATCAAAATGTCAAACTCGCA...TAA')ID: lcl|NC_005040.1_cds_NP_874375.1_2
+Name: lcl|NC_005040.1_cds_NP_874375.1_2
+Description: lcl|NC_005040.1_cds_NP_874375.1_2 [locus_tag=MpdVgp2] [db_xref=GeneID:1733740] [protein=putative nonstructural protein NS-2] [protein_id=NP_874375.1] [location=395..1144] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGATCGACCCCGATGTTCGAACTCAAATCGACAGCGCGCAAAGAATATGGGA...TAA')ID: lcl|NC_005040.1_cds_NP_874376.1_3
+Name: lcl|NC_005040.1_cds_NP_874376.1_3
+Description: lcl|NC_005040.1_cds_NP_874376.1_3 [locus_tag=MpdVgp3] [db_xref=GeneID:1733741] [protein=putative nonstructural protein NS-1] [protein_id=NP_874376.1] [location=573..2669] [gbkey=CDS]
+Number of features: 0
+Seq('ATGTGGTCAGAGGCGACGAGCAGCGATCGCTGGCGATACCGACTGAGAAATGCG...TAA')ID: lcl|NC_005040.1_cds_NP_874377.1_4
+Name: lcl|NC_005040.1_cds_NP_874377.1_4
+Description: lcl|NC_005040.1_cds_NP_874377.1_4 [locus_tag=MpdVgp4] [db_xref=GeneID:1733739] [protein=putative structural protein] [protein_id=NP_874377.1] [location=complement(2997..4856)] [gbkey=CDS]
+Number of features: 0
+Seq('ATGCGAGAATTTCGTTATTTAGGTCCTCCTCCACCGGAGCGGCCCAATTGGCAA...TGA')ID: lcl|NC_005040.1_cds_NP_874378.1_5
+Name: lcl|NC_005040.1_cds_NP_874378.1_5
+Description: lcl|NC_005040.1_cds_NP_874378.1_5 [locus_tag=MpdVgp5] [db_xref=GeneID:1733742] [protein=putative structural protein] [protein_id=NP_874378.1] [location=complement(4756..5337)] [gbkey=CDS]
+Number of features: 0
+Seq('ATGTCGTCGGTAAACGACGAATTTTATAGTGTTGAAGAGGAGAATAACGAGAGA...TAA')ID: lcl|NC_022800.1_cds_YP_008802580.1_1
+Name: lcl|NC_022800.1_cds_YP_008802580.1_1
+Description: lcl|NC_022800.1_cds_YP_008802580.1_1 [gene=NS1] [locus_tag=FBoV2_gp1] [db_xref=GeneID:17623013] [protein=NS1] [protein_id=YP_008802580.1] [location=320..2713] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGCAGAAATCCCTCTTGCTAGTATCCACGATTTTATTCAATTCGCGGATCCA...TAG')ID: lcl|NC_022800.1_cds_YP_008802581.1_2
+Name: lcl|NC_022800.1_cds_YP_008802581.1_2
+Description: lcl|NC_022800.1_cds_YP_008802581.1_2 [gene=NP1] [locus_tag=FBoV2_gp2] [db_xref=GeneID:17623010] [protein=NP1] [protein_id=YP_008802581.1] [location=2490..3179] [gbkey=CDS]
+Number of features: 0
+Seq('ATGTCGAGTGGAGAATGCTCGAAGGACGCGAGGAAAAGACACCACGACAGGAAT...TAG')ID: lcl|NC_022800.1_cds_YP_008802582.1_3
+Name: lcl|NC_022800.1_cds_YP_008802582.1_3
+Description: lcl|NC_022800.1_cds_YP_008802582.1_3 [gene=VP1] [locus_tag=FBoV2_gp3] [db_xref=GeneID:17623011] [protein=VP1] [protein_id=YP_008802582.1] [location=3163..5322] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGCACCAACCAATAGACGTCCTGGTGGTTGGACCGTTCCTGGGTTCAAATAT...TAA')ID: lcl|NC_022800.1_cds_YP_008802583.1_4
+Name: lcl|NC_022800.1_cds_YP_008802583.1_4
+Description: lcl|NC_022800.1_cds_YP_008802583.1_4 [gene=VP2] [locus_tag=FBoV2_gp4] [db_xref=GeneID:17623012] [protein=VP2] [protein_id=YP_008802583.1] [location=3586..5322] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGGAGATGCAGCTGAACTTAATGGAGTGGATGGTGGTGATGGGGGTGGTCAA...TAA')ID: lcl|NC_000936.1_cds_NP_051016.1_1
+Name: lcl|NC_000936.1_cds_NP_051016.1_1
+Description: lcl|NC_000936.1_cds_NP_051016.1_1 [locus_tag=PfdVgp1] [db_xref=GeneID:1457168] [protein=structural protein] [protein_id=NP_051016.1] [location=202..930] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGGATCAGAGCTGAGACCGTTGATATCGGAGGTACAACAGGAAAGGTTTAGT...TAA')ID: lcl|NC_000936.1_cds_NP_051017.1_2
+Name: lcl|NC_000936.1_cds_NP_051017.1_2
+Description: lcl|NC_000936.1_cds_NP_051017.1_2 [locus_tag=PfdVgp2] [db_xref=GeneID:1457174] [protein=structural protein] [protein_id=NP_051017.1] [location=965..2689] [gbkey=CDS]
+Number of features: 0
+Seq('ATGAATGAAGGTCAACGACAATATTCATATGAACAATGGATGTTATCACGTGTT...TAA')ID: lcl|NC_000936.1_cds_NP_051018.1_3
+Name: lcl|NC_000936.1_cds_NP_051018.1_3
+Description: lcl|NC_000936.1_cds_NP_051018.1_3 [locus_tag=PfdVgp3] [db_xref=GeneID:1457167] [protein=hypothetical protein] [protein_id=NP_051018.1] [location=969..1466] [gbkey=CDS]
+Number of features: 0
+Seq('ATGAAGGTCAACGACAATATTCATATGAACAATGGATGTTATCACGTGTTCGTG...TAA')ID: lcl|NC_000936.1_cds_NP_051019.1_4
+Name: lcl|NC_000936.1_cds_NP_051019.1_4
+Description: lcl|NC_000936.1_cds_NP_051019.1_4 [locus_tag=PfdVgp4] [db_xref=GeneID:1457173] [protein=hypothetical protein] [protein_id=NP_051019.1] [location=complement(2338..2703)] [gbkey=CDS]
+Number of features: 0
+Seq('ATGTTACTGTTGTTTTATTGCTCTGACAAGGAAGCATTAACATACAATCCAGCA...TAG')ID: lcl|NC_000936.1_cds_NP_051020.1_5
+Name: lcl|NC_000936.1_cds_NP_051020.1_5
+Description: lcl|NC_000936.1_cds_NP_051020.1_5 [locus_tag=PfdVgp5] [db_xref=GeneID:1457171] [protein=nonstructural protein] [protein_id=NP_051020.1] [location=complement(2719..4335)] [gbkey=CDS]
+Number of features: 0
+Seq('ATGCAAGATGGAAAGCAGCCAGACAACAGTAACTATGTCCCAGCTTTGGATGAC...TAA')ID: lcl|NC_000936.1_cds_NP_051021.1_6
+Name: lcl|NC_000936.1_cds_NP_051021.1_6
+Description: lcl|NC_000936.1_cds_NP_051021.1_6 [locus_tag=PfdVgp6] [db_xref=GeneID:1457170] [protein=hypothetical protein] [protein_id=NP_051021.1] [location=complement(3531..4328)] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGAAAGCAGCCAGACAACAGTAACTATGTCCCAGCTTTGGATGACACTATGG...TAG')ID: lcl|NC_000936.1_cds_NP_051022.1_7
+Name: lcl|NC_000936.1_cds_NP_051022.1_7
+Description: lcl|NC_000936.1_cds_NP_051022.1_7 [locus_tag=PfdVgp7] [db_xref=GeneID:1457172] [protein=hypothetical protein] [protein_id=NP_051022.1] [location=complement(4304..5131)] [gbkey=CDS]
+Number of features: 0
+Seq('ATGCAACATAATATAAAACGTATGCGAACAGATCAATGGAATCGCATGTTGCAT...TAA')ID: lcl|NC_000936.1_cds_NP_597696.1_8
+Name: lcl|NC_000936.1_cds_NP_597696.1_8
+Description: lcl|NC_000936.1_cds_NP_597696.1_8 [locus_tag=PfdVgp8] [db_xref=GeneID:1457169] [protein=structural protein fragment] [protein_id=NP_597696.1] [location=complement(5134..5388)] [gbkey=CDS]
+Number of features: 0
+Seq('ATGTGTCCGGTCGTGGTGGTGGTGGTTGTGGTGGGGTATAGCGAAGCTATGGCC...TAA')ID: lcl|NC_038883.1_cds_YP_009507388.1_1
+Name: lcl|NC_038883.1_cds_YP_009507388.1_1
+Description: lcl|NC_038883.1_cds_YP_009507388.1_1 [locus_tag=D1R65_gp1] [db_xref=GeneID:37619435] [protein=nonstructural protein] [protein_id=YP_009507388.1] [location=178..2217] [gbkey=CDS]
+Number of features: 0
+Seq('ATGAGGAAGCGTGAGGCATTCTTCGGGTGGACACTGAAGAGTGAGGAACACGTC...TAA')ID: lcl|NC_038883.1_cds_YP_009507389.1_2
+Name: lcl|NC_038883.1_cds_YP_009507389.1_2
+Description: lcl|NC_038883.1_cds_YP_009507389.1_2 [locus_tag=D1R65_gp2] [db_xref=GeneID:37619434] [protein=structural protein] [protein_id=YP_009507389.1] [location=2252..5350] [gbkey=CDS]
+Number of features: 0
+Seq('ATGAGCGCTGCCGACGCGTGGAAGCCGGGTGACCGGCCCCCGCTGGAGAACCTC...TAA')ID: lcl|NC_038536.1_cds_YP_009507354.1_1
+Name: lcl|NC_038536.1_cds_YP_009507354.1_1
+Description: lcl|NC_038536.1_cds_YP_009507354.1_1 [locus_tag=D1R54_gp1] [db_xref=GeneID:37618328] [protein=NS1] [protein_id=YP_009507354.1] [location=279..2687] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGCGATTCCTCTTGCTGCTGTCAATGATCTTATGCAATTTCCTGGGCCTTGC...TAA')ID: lcl|NC_038536.1_cds_YP_009507355.1_2
+Name: lcl|NC_038536.1_cds_YP_009507355.1_2
+Description: lcl|NC_038536.1_cds_YP_009507355.1_2 [locus_tag=D1R54_gp2] [db_xref=GeneID:37618325] [protein=NP] [protein_id=YP_009507355.1] [location=2473..3054] [gbkey=CDS]
+Number of features: 0
+Seq('ATGAGCGGTTCGTCAAAAGCATCACACGCTCGCCGCGAGCAGAGGACGAGGAGT...TAG')ID: lcl|NC_038536.1_cds_YP_009507356.1_3
+Name: lcl|NC_038536.1_cds_YP_009507356.1_3
+Description: lcl|NC_038536.1_cds_YP_009507356.1_3 [locus_tag=D1R54_gp3] [db_xref=GeneID:37618326] [protein=VP1] [protein_id=YP_009507356.1] [location=3038..5197] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGCACCCACGAATAGAAAGCCTGGTGGCTGGGTGGTGCCTGGATTCAAATAC...TAA')ID: lcl|NC_038536.1_cds_YP_009507357.1_4
+Name: lcl|NC_038536.1_cds_YP_009507357.1_4
+Description: lcl|NC_038536.1_cds_YP_009507357.1_4 [locus_tag=D1R54_gp4] [db_xref=GeneID:37618327] [protein=VP2] [protein_id=YP_009507357.1] [location=3452..5197] [gbkey=CDS]
+Number of features: 0
+Seq('ATGTCTGCAGGCGCAGAACCTACAGAAGACGTGGCCGGATCTGCGGATCCCGCG...TAA')ID: lcl|NC_025965.1_cds_YP_009112878.1_1
+Name: lcl|NC_025965.1_cds_YP_009112878.1_1
+Description: lcl|NC_025965.1_cds_YP_009112878.1_1 [locus_tag=SC20_gp1] [db_xref=GeneID:22654072] [protein=non-structural protein] [protein_id=YP_009112878.1] [location=173..2158] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGCAGGTCTCATGTACCTCGGCGTGCTCAAGCTGTACCGGGGCGACCTGGAG...TAA')ID: lcl|NC_025965.1_cds_YP_009112879.1_2
+Name: lcl|NC_025965.1_cds_YP_009112879.1_2
+Description: lcl|NC_025965.1_cds_YP_009112879.1_2 [locus_tag=SC20_gp2] [db_xref=GeneID:22654071] [protein=structural protein CDS] [protein_id=YP_009112879.1] [location=2193..5291] [gbkey=CDS]
+Number of features: 0
+Seq('ATGAGCGCTGCCGACGCGTGGAAGCCGGGTGACCGGCCCCCGCTGGAGAACCTC...TAA')ID: lcl|NC_031695.1_cds_YP_009315890.1_1
+Name: lcl|NC_031695.1_cds_YP_009315890.1_1
+Description: lcl|NC_031695.1_cds_YP_009315890.1_1 [gene=NS2] [locus_tag=BLM48_gp1] [db_xref=GeneID:30074680] [protein=NS2] [protein_id=YP_009315890.1] [location=join(223..2152,2221..2504)] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGCCGCTGTGCTTGAATCTGCTGATTTGTCTGTTCTCGCTAGCTATGTTCAG...TGA')ID: lcl|NC_031695.1_cds_YP_009315891.1_2
+Name: lcl|NC_031695.1_cds_YP_009315891.1_2
+Description: lcl|NC_031695.1_cds_YP_009315891.1_2 [gene=NS1] [locus_tag=BLM48_gp2] [db_xref=GeneID:30074677] [protein=NS1] [protein_id=YP_009315891.1] [location=223..2280] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGCCGCTGTGCTTGAATCTGCTGATTTGTCTGTTCTCGCTAGCTATGTTCAG...TGA')ID: lcl|NC_031695.1_cds_YP_009315892.1_3
+Name: lcl|NC_031695.1_cds_YP_009315892.1_3
+Description: lcl|NC_031695.1_cds_YP_009315892.1_3 [gene=NP1] [locus_tag=BLM48_gp3] [db_xref=GeneID:30074676] [protein=NP1] [protein_id=YP_009315892.1] [location=2323..2898] [gbkey=CDS]
+Number of features: 0
+Seq('ATGTCTTCTTGGGGGTCCAGGAAGAGGAGCCGGAGCCCGAACCGTCACGACGGG...TAG')ID: lcl|NC_031695.1_cds_YP_009315893.1_4
+Name: lcl|NC_031695.1_cds_YP_009315893.1_4
+Description: lcl|NC_031695.1_cds_YP_009315893.1_4 [gene=VP1] [locus_tag=BLM48_gp4] [db_xref=GeneID:30074678] [protein=VP1] [protein_id=YP_009315893.1] [location=2885..4933] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGCGCCAATTAGACGCCCGGGTGGCAGGGTCGTGCCGGGATACAAATACCTG...TGA')ID: lcl|NC_031695.1_cds_YP_009315894.1_5
+Name: lcl|NC_031695.1_cds_YP_009315894.1_5
+Description: lcl|NC_031695.1_cds_YP_009315894.1_5 [gene=VP2] [locus_tag=BLM48_gp5] [db_xref=GeneID:30074679] [protein=VP2] [protein_id=YP_009315894.1] [location=3260..4933] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGCCGACACGGCCAATAACCAAGAAAATCCTGAAGGGGGCGAAGCGGCGCCT...TGA')ID: lcl|NC_020499.1_cds_YP_007518454.1_1
+Name: lcl|NC_020499.1_cds_YP_007518454.1_1
+Description: lcl|NC_020499.1_cds_YP_007518454.1_1 [locus_tag=J358_gp1] [db_xref=GeneID:14757612] [protein=NS1] [protein_id=YP_007518454.1] [location=306..2252] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGCTCTTGCTCTGGCCGGGGTCGACGATATTATTCACTTTGCTCGTCCTGCC...TGA')ID: lcl|NC_020499.1_cds_YP_007518455.1_2
+Name: lcl|NC_020499.1_cds_YP_007518455.1_2
+Description: lcl|NC_020499.1_cds_YP_007518455.1_2 [locus_tag=J358_gp2] [db_xref=GeneID:14757609] [protein=NP1] [protein_id=YP_007518455.1] [location=2454..3041] [gbkey=CDS]
+Number of features: 0
+Seq('ATGAAAAGTTCGTCGAGAGCGTCGTCGGCGCGTCAGACGAGTCACCATCGGAGC...TAG')ID: lcl|NC_020499.1_cds_YP_007518456.1_3
+Name: lcl|NC_020499.1_cds_YP_007518456.1_3
+Description: lcl|NC_020499.1_cds_YP_007518456.1_3 [locus_tag=J358_gp3] [db_xref=GeneID:14757610] [protein=VP1] [protein_id=YP_007518456.1] [location=3025..5163] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGCGCCAGCGAATAGAAAGCCCGGTGGTTGGGTCGTGCCTGGCTATAGATAT...TAA')ID: lcl|NC_020499.1_cds_YP_007518457.1_4
+Name: lcl|NC_020499.1_cds_YP_007518457.1_4
+Description: lcl|NC_020499.1_cds_YP_007518457.1_4 [locus_tag=J358_gp4] [db_xref=GeneID:14757611] [protein=VP2] [protein_id=YP_007518457.1] [location=3439..5163] [gbkey=CDS]
+Number of features: 0
+Seq('ATGTCAGCTCCAGAAGCTCCGACCGAAGATGTGGCAGAACCGGGTCCATCTGGC...TAA')ID: lcl|NC_039044.1_cds_YP_009508781.1_1
+Name: lcl|NC_039044.1_cds_YP_009508781.1_1
+Description: lcl|NC_039044.1_cds_YP_009508781.1_1 [locus_tag=D1U43_gp1] [db_xref=GeneID:37620283] [protein=NS1] [protein_id=YP_009508781.1] [location=305..2695] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGCTGAATTCGATCTGGCTAGCCTCGACGATTTCATCCAATTTGCAGACCCA...TAA')ID: lcl|NC_039044.1_cds_YP_009508782.1_2
+Name: lcl|NC_039044.1_cds_YP_009508782.1_2
+Description: lcl|NC_039044.1_cds_YP_009508782.1_2 [locus_tag=D1U43_gp2] [db_xref=GeneID:37620280] [protein=NP1] [protein_id=YP_009508782.1] [location=2466..3152] [gbkey=CDS]
+Number of features: 0
+Seq('ATGTCGAGTGGAGAATCATCGAAACGTCTTCTCGAAAAACGCCGTCGCCCGAGG...TAG')ID: lcl|NC_039044.1_cds_YP_009508783.1_3
+Name: lcl|NC_039044.1_cds_YP_009508783.1_3
+Description: lcl|NC_039044.1_cds_YP_009508783.1_3 [locus_tag=D1U43_gp3] [db_xref=GeneID:37620281] [protein=VP1] [protein_id=YP_009508783.1] [location=3136..5271] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGCACCAACCAATAGACGTCCTGGCGGTTGGACCGTTCCTGGCTTTAAATAT...TAA')ID: lcl|NC_039044.1_cds_YP_009508784.1_4
+Name: lcl|NC_039044.1_cds_YP_009508784.1_4
+Description: lcl|NC_039044.1_cds_YP_009508784.1_4 [locus_tag=D1U43_gp4] [db_xref=GeneID:37620282] [protein=VP2] [protein_id=YP_009508784.1] [location=3556..5271] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGAAAATGAAGTGGAAACGGCTGGAGATGGACAAGAGGGGGCGCCTGCGAGC...TAA')ID: lcl|NC_022104.1_cds_YP_008439207.1_1
+Name: lcl|NC_022104.1_cds_YP_008439207.1_1
+Description: lcl|NC_022104.1_cds_YP_008439207.1_1 [gene=NS1] [locus_tag=O192_gp1] [db_xref=GeneID:16607898] [protein=nonstructural protein 1] [protein_id=YP_008439207.1] [location=308..2218] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGAGGCGTCCTGTTTCACCGCGGTTCTGCACGTGCCTAAGAGTCTCTGTGAG...TGA')ID: lcl|NC_022104.1_cds_YP_008439208.1_2
+Name: lcl|NC_022104.1_cds_YP_008439208.1_2
+Description: lcl|NC_022104.1_cds_YP_008439208.1_2 [gene=VP1] [locus_tag=O192_gp2] [db_xref=GeneID:16607897] [protein=minor structural protein] [protein_id=YP_008439208.1] [location=2372..5149] [gbkey=CDS]
+Number of features: 0
+Seq('ATGACAGCCGCTGACGCCTTTAAGCCGGGGCAACCTTACCCCCTCGATACCCTC...TAA')ID: lcl|NC_022104.1_cds_YP_008439209.1_3
+Name: lcl|NC_022104.1_cds_YP_008439209.1_3
+Description: lcl|NC_022104.1_cds_YP_008439209.1_3 [gene=VP2] [locus_tag=O192_gp3] [db_xref=GeneID:16607896] [protein=major structural protein] [protein_id=YP_008439209.1] [location=3482..5149] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGCTGCGCCGGTAACGGGCGCCACCGGTGGGGGTGTCAAAGTTAAAGCTCAA...TAA')ID: lcl|NC_004289.1_cds_NP_694841.1_1
+Name: lcl|NC_004289.1_cds_NP_694841.1_1
+Description: lcl|NC_004289.1_cds_NP_694841.1_1 [locus_tag=PcdVgp1] [db_xref=GeneID:955431] [protein=putative structural protein] [protein_id=NP_694841.1] [location=159..989] [gbkey=CDS]
+Number of features: 0
+Seq('ATGTCTGATCAAGTAGTGCCGGACGTACCTACGTTTACCGCGTTAGCTAGTGTT...TAA')ID: lcl|NC_004289.1_cds_NP_694842.1_2
+Name: lcl|NC_004289.1_cds_NP_694842.1_2
+Description: lcl|NC_004289.1_cds_NP_694842.1_2 [locus_tag=PcdVgp2] [db_xref=GeneID:955430] [protein=putative structural protein] [protein_id=NP_694842.1] [location=979..2850] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGCACCTAAGCGTATCCCACCTTTGAAAGCACCTCCTAACGAAAGACCTAAT...TAA')ID: lcl|NC_004289.1_cds_NP_694843.1_3
+Name: lcl|NC_004289.1_cds_NP_694843.1_3
+Description: lcl|NC_004289.1_cds_NP_694843.1_3 [locus_tag=PcdVgp3] [db_xref=GeneID:955433] [protein=putative nonstructural protein] [protein_id=NP_694843.1] [location=complement(2865..4571)] [gbkey=CDS]
+Number of features: 0
+Seq('ATGTTCCGGTTCGCATTATATCGATGTAGCCAATCATTGGTCAGTACCTTACGA...TAA')ID: lcl|NC_004289.1_cds_NP_694844.1_4
+Name: lcl|NC_004289.1_cds_NP_694844.1_4
+Description: lcl|NC_004289.1_cds_NP_694844.1_4 [locus_tag=PcdVgp4] [db_xref=GeneID:955432] [protein=putative nonstructural protein] [protein_id=NP_694844.1] [location=complement(4508..5221)] [gbkey=CDS]
+Number of features: 0
+Seq('ATGTCGTTCATCAATCGGTTCAACAGTTTATTCGAGCGTCGTAGTTCTTCTAGT...TAA')ID: lcl|NC_038541.1_cds_YP_009507371.1_1
+Name: lcl|NC_038541.1_cds_YP_009507371.1_1
+Description: lcl|NC_038541.1_cds_YP_009507371.1_1 [locus_tag=D1R59_gp1] [db_xref=GeneID:37618348] [protein=NS protein] [protein_id=YP_009507371.1] [location=439..2490] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGACATGTTCCGGGGAGTTATTCAACTGACTGCTAACATTACTGACTTTGCT...TAG')ID: lcl|NC_038541.1_cds_YP_009507372.1_2
+Name: lcl|NC_038541.1_cds_YP_009507372.1_2
+Description: lcl|NC_038541.1_cds_YP_009507372.1_2 [locus_tag=D1R59_gp2] [db_xref=GeneID:37618347] [protein=capsid protein] [protein_id=YP_009507372.1] [location=2480..4942] [gbkey=CDS]
+Number of features: 0
+Seq('ATGACCAGTAGTCCTGCTAAGAAAAAACCAAGAAAATGGTGGGATGATGAAGAT...TAA')ID: lcl|NC_005041.2_cds_NP_874383.1_1
+Name: lcl|NC_005041.2_cds_NP_874383.1_1
+Description: lcl|NC_005041.2_cds_NP_874383.1_1 [locus_tag=BgdVgp1] [db_xref=GeneID:1733765] [protein=non-structural protein NS-3] [protein_id=NP_874383.1] [location=282..932] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGCATCTTTAAAAGATTTGTGTAAACAGGCAGTGTTAAAGTATTATAGATGG...TAG')ID: lcl|NC_005041.2_cds_NP_874381.1_2
+Name: lcl|NC_005041.2_cds_NP_874381.1_2
+Description: lcl|NC_005041.2_cds_NP_874381.1_2 [locus_tag=BgdVgp2] [db_xref=GeneID:1733766] [protein=non-structural protein NS-1] [protein_id=NP_874381.1] [location=933..2525] [gbkey=CDS]
+Number of features: 0
+Seq('ATGAATTATGGCCGTCTCACCGACTTTTGGAGCCGCTTTGGAGTCACTATGGGA...TAA')ID: lcl|NC_005041.2_cds_NP_874382.1_3
+Name: lcl|NC_005041.2_cds_NP_874382.1_3
+Description: lcl|NC_005041.2_cds_NP_874382.1_3 [locus_tag=BgdVgp3] [db_xref=GeneID:1733764] [protein=non-structural protein NS-2] [protein_id=NP_874382.1] [location=940..1728] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGCCGTCTCACCGACTTTTGGAGCCGCTTTGGAGTCACTATGGGAGATGATG...TAA')ID: lcl|NC_005041.2_cds_NP_874379.2_4
+Name: lcl|NC_005041.2_cds_NP_874379.2_4
+Description: lcl|NC_005041.2_cds_NP_874379.2_4 [locus_tag=BgdVgp4] [db_xref=GeneID:1733768] [protein=structural protein VP1] [protein_id=NP_874379.2] [location=complement(join(2528..4191,4421..5093))] [gbkey=CDS]
+Number of features: 0
+Seq('ATGTCTACGTCCGGCTTAGAGTCAGTGCCTTTGTTACCAGTGAATAGTGCAACA...TAA')ID: lcl|NC_005041.2_cds_NP_874380.1_5
+Name: lcl|NC_005041.2_cds_NP_874380.1_5
+Description: lcl|NC_005041.2_cds_NP_874380.1_5 [locus_tag=BgdVPgp5] [db_xref=GeneID:1733767] [protein=structural protein VP2] [protein_id=NP_874380.1] [location=complement(2528..4414)] [gbkey=CDS]
+Number of features: 0
+Seq('ATGCCAGTTAATTATAATAAACCACCTCCTTATGAACGGCCAAATTGGGAGCGG...TAA')ID: lcl|NC_005041.2_cds_YP_009407715.1_6
+Name: lcl|NC_005041.2_cds_YP_009407715.1_6
+Description: lcl|NC_005041.2_cds_YP_009407715.1_6 [locus_tag=BgdVgp6] [db_xref=GeneID:34998791] [protein=structural protein VP3] [protein_id=YP_009407715.1] [location=complement(2528..4060)] [gbkey=CDS]
+Number of features: 0
+Seq('ATGTCTGCACCAGAGGCTATAGTTACAGGAAAAAGAGGAGCGGAAGAACCTGAT...TAA')ID: lcl|NC_017823.1_cds_YP_006272944.1_1
+Name: lcl|NC_017823.1_cds_YP_006272944.1_1
+Description: lcl|NC_017823.1_cds_YP_006272944.1_1 [gene=NS1] [locus_tag=YOI_gp1] [db_xref=GeneID:12413910] [protein=NS1] [protein_id=YP_006272944.1] [location=257..2671] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGCTGAATTCGATACAGCAAGTCTCGACGACTTCATCCAATTTGCAGACCCA...TAA')ID: lcl|NC_017823.1_cds_YP_006272945.1_2
+Name: lcl|NC_017823.1_cds_YP_006272945.1_2
+Description: lcl|NC_017823.1_cds_YP_006272945.1_2 [gene=NP1] [locus_tag=YOI_gp2] [db_xref=GeneID:12413911] [protein=NP1] [protein_id=YP_006272945.1] [location=2424..3080] [gbkey=CDS]
+Number of features: 0
+Seq('ATGTCGAGTGGCGCGTCGTCCAAGAACGAGCAGAAGCGGCGGCGGCCGAGGTCT...TAG')ID: lcl|NC_017823.1_cds_YP_006272946.1_3
+Name: lcl|NC_017823.1_cds_YP_006272946.1_3
+Description: lcl|NC_017823.1_cds_YP_006272946.1_3 [gene=VP1] [locus_tag=YOI_gp3] [db_xref=GeneID:12413912] [protein=VP1] [protein_id=YP_006272946.1] [location=3064..5202] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGCACCGACCAATAGGCGTCCTGGCGGTTGGACTCTGCCCGGTTTCAGATAT...TAA')ID: lcl|NC_017823.1_cds_YP_006272947.1_4
+Name: lcl|NC_017823.1_cds_YP_006272947.1_4
+Description: lcl|NC_017823.1_cds_YP_006272947.1_4 [gene=VP2] [locus_tag=YOI_gp4] [db_xref=GeneID:12413913] [protein=VP2] [protein_id=YP_006272947.1] [location=3484..5202] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGAAAATGAAGTTGAGACGGCTGGGGATGGACAAGAGGGGGCGCCAGCTGGC...TAA')ID: lcl|NC_001539.1_cds_NP_041399.1_1
+Name: lcl|NC_001539.1_cds_NP_041399.1_1
+Description: lcl|NC_001539.1_cds_NP_041399.1_1 [locus_tag=CPVgp1] [db_xref=GeneID:1724588] [protein=polyprotein] [protein_id=NP_041399.1] [location=272..2278] [gbkey=CDS]
+Number of features: 0
+Seq('ATGTCTGGCAACCAGTATACTGAGGAAGTTATGGAGGGAGTAAATTGGTTAAAG...TAA')ID: lcl|NC_001539.1_cds_NP_041400.1_2
+Name: lcl|NC_001539.1_cds_NP_041400.1_2
+Description: lcl|NC_001539.1_cds_NP_041400.1_2 [locus_tag=CPVgp2] [db_xref=GeneID:1724587] [protein=polyprotein] [transl_except=(pos:79..81,aa:Other)] [protein_id=NP_041400.1] [location=2285..4540] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGCACCTCCGGCAAAGAGAGCCAGGAGAGGTAAGGGTGTGTTAGTAAAGTGG...TAA')ID: lcl|NC_001539.1_cds_NP_041401.1_3
+Name: lcl|NC_001539.1_cds_NP_041401.1_3
+Description: lcl|NC_001539.1_cds_NP_041401.1_3 [locus_tag=CPVgp5] [db_xref=GeneID:1724589] [protein=hypothetical protein] [protein_id=NP_041401.1] [location=5110..5313] [gbkey=CDS]
+Number of features: 0
+Seq('ATGTCAAGAATTGTAACTTACTCAGATTTTTGGTGGAAAGGTAAATTAGTATTT...TAA')ID: lcl|NC_007455.1_cds_YP_338086.1_1
+Name: lcl|NC_007455.1_cds_YP_338086.1_1
+Description: lcl|NC_007455.1_cds_YP_338086.1_1 [gene=NS1] [locus_tag=HBoV_gp1] [db_xref=GeneID:3711585] [protein=NS1] [protein_id=YP_338086.1] [location=253..2172] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGCTTTCAATCCTCCTGTGATTAGAGCTTTTTCTCAACCTGCTTTTACTTAT...TAA')ID: lcl|NC_007455.1_cds_YP_338087.1_2
+Name: lcl|NC_007455.1_cds_YP_338087.1_2
+Description: lcl|NC_007455.1_cds_YP_338087.1_2 [gene=NP-1] [locus_tag=HBoV_gp2] [db_xref=GeneID:3711586] [protein=NP-1] [protein_id=YP_338087.1] [location=2410..3069] [gbkey=CDS]
+Number of features: 0
+Seq('ATGAGCTCAGGGAATATGAAAGACAAGCATCGCTCCTACAAAAGAAAAGGGAGT...TAA')ID: lcl|NC_007455.1_cds_YP_338088.1_3
+Name: lcl|NC_007455.1_cds_YP_338088.1_3
+Description: lcl|NC_007455.1_cds_YP_338088.1_3 [gene=VP1] [locus_tag=HBoV_gp3] [db_xref=GeneID:3711587] [protein=VP1] [protein_id=YP_338088.1] [location=3056..5071] [gbkey=CDS]
+Number of features: 0
+Seq('ATGCCTCCAATTAAGAGACAGCCTAGAGGGTGGGTGCTGCCTGGATACAGATAT...TAA')ID: lcl|NC_007455.1_cds_YP_338089.1_4
+Name: lcl|NC_007455.1_cds_YP_338089.1_4
+Description: lcl|NC_007455.1_cds_YP_338089.1_4 [gene=VP2] [locus_tag=HBoV_gp4] [db_xref=GeneID:3711588] [protein=VP2] [protein_id=YP_338089.1] [location=3443..5071] [gbkey=CDS]
+Number of features: 0
+Seq('ATGTCTGACACTGACATTCAAGACCAACAACCTGATACTGTGGACGCACCACAA...TAA')ID: lcl|NC_022748.1_cds_YP_008766860.1_1
+Name: lcl|NC_022748.1_cds_YP_008766860.1_1
+Description: lcl|NC_022748.1_cds_YP_008766860.1_1 [locus_tag=V189_gp1] [db_xref=GeneID:17494381] [protein=NS3] [protein_id=YP_008766860.1] [location=369..947] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGCATACTCACCATTATCTTTACAAACTCTTGCTAGACAAGTCGTAAATAAG...TAA')ID: lcl|NC_022748.1_cds_YP_008766861.1_2
+Name: lcl|NC_022748.1_cds_YP_008766861.1_2
+Description: lcl|NC_022748.1_cds_YP_008766861.1_2 [locus_tag=V189_gp2] [db_xref=GeneID:17494377] [protein=NS2] [protein_id=YP_008766861.1] [location=947..1813] [gbkey=CDS]
+Number of features: 0
+Seq('ATGACGGAGCTAGCAGTAGCTCCTCTTCAGCGATTGTATCTACAACTGAAAGAG...TAA')ID: lcl|NC_022748.1_cds_YP_008766862.1_3
+Name: lcl|NC_022748.1_cds_YP_008766862.1_3
+Description: lcl|NC_022748.1_cds_YP_008766862.1_3 [locus_tag=V189_gp3] [db_xref=GeneID:17494378] [protein=NS1] [protein_id=YP_008766862.1] [location=1012..2670] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGAGCCCGAAGAACCTGGAGAATCTGTGGTTCGGTGTGAACACTTTAATGGA...TGA')ID: lcl|NC_022748.1_cds_YP_008766863.1_4
+Name: lcl|NC_022748.1_cds_YP_008766863.1_4
+Description: lcl|NC_022748.1_cds_YP_008766863.1_4 [locus_tag=V189_gp4] [db_xref=GeneID:17494379] [protein=VP2] [protein_id=YP_008766863.1] [location=complement(2616..4319)] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGTTTGGAAAAATATAAAACCTGAAGATAGACCTAATTGGCATAAGTTAAAT...TAA')ID: lcl|NC_022748.1_cds_YP_008766864.1_5
+Name: lcl|NC_022748.1_cds_YP_008766864.1_5
+Description: lcl|NC_022748.1_cds_YP_008766864.1_5 [locus_tag=V189_gp5] [db_xref=GeneID:17494380] [protein=VP1] [protein_id=YP_008766864.1] [location=complement(4301..4990)] [gbkey=CDS]
+Number of features: 0
+Seq('ATGAATCAACCAGGTAGTGCGATATCACGTGTCGAACGGAGCGGACGTGGATCA...TAA')ID: lcl|NC_016031.1_cds_YP_004869641.1_1
+Name: lcl|NC_016031.1_cds_YP_004869641.1_1
+Description: lcl|NC_016031.1_cds_YP_004869641.1_1 [gene=NS1] [locus_tag=PBoV3_gp1] [db_xref=GeneID:11162928] [protein=NS1] [protein_id=YP_004869641.1] [location=331..2334] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGCTTCTCTTGGAGTTGGGCTGTCTGATCAGGAATGGCTTAGTTATTGGCAC...TGA')ID: lcl|NC_016031.1_cds_YP_004869642.1_2
+Name: lcl|NC_016031.1_cds_YP_004869642.1_2
+Description: lcl|NC_016031.1_cds_YP_004869642.1_2 [gene=NP1] [locus_tag=PBoV3_gp2] [db_xref=GeneID:11162929] [protein=NP1] [protein_id=YP_004869642.1] [location=2456..3136] [gbkey=CDS]
+Number of features: 0
+Seq('ATGAGTCAGAGATTCTCCGATACAACATCTCGCAGCGGGAAGAGCAACCTCCGG...TAA')ID: lcl|NC_016031.1_cds_YP_004869643.1_3
+Name: lcl|NC_016031.1_cds_YP_004869643.1_3
+Description: lcl|NC_016031.1_cds_YP_004869643.1_3 [gene=VP1] [locus_tag=PBoV3_gp3] [db_xref=GeneID:11162930] [protein=VP1] [protein_id=YP_004869643.1] [location=3126..5177] [gbkey=CDS]
+Number of features: 0
+Seq('ATGAGTCTTAAGCGCGGTCAGTTCCGCGGTGTTCTGTTTCCTGGTTATAATTAT...TAA')ID: lcl|NC_016031.1_cds_YP_004869644.1_4
+Name: lcl|NC_016031.1_cds_YP_004869644.1_4
+Description: lcl|NC_016031.1_cds_YP_004869644.1_4 [gene=VP2] [locus_tag=PBoV3_gp4] [db_xref=GeneID:11162931] [protein=VP2] [protein_id=YP_004869644.1] [location=3534..5177] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGATGGGGACATGGATAATAATGAACAAGGGGCGGGTGAGGCGCCAGCTGCT...TAA')ID: lcl|NC_023673.1_cds_YP_009010974.1_1
+Name: lcl|NC_023673.1_cds_YP_009010974.1_1
+Description: lcl|NC_023673.1_cds_YP_009010974.1_1 [gene=NS1] [locus_tag=CI10_gp1] [db_xref=GeneID:18507388] [protein=NS1] [protein_id=YP_009010974.1] [location=330..2333] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGCTTCTGCTAGAGTTGGGCTGTCTGATCAGGAATGGCTGGGTTTTTGGCAC...TGA')ID: lcl|NC_023673.1_cds_YP_009010975.1_2
+Name: lcl|NC_023673.1_cds_YP_009010975.1_2
+Description: lcl|NC_023673.1_cds_YP_009010975.1_2 [gene=NP1] [locus_tag=CI10_gp2] [db_xref=GeneID:18507385] [protein=NP1] [protein_id=YP_009010975.1] [location=2464..3144] [gbkey=CDS]
+Number of features: 0
+Seq('ATGAGTCAGAGATTCAGCGATACAACATCTCGCAGCGGGAAGAGCAACCTCCGG...TAA')ID: lcl|NC_023673.1_cds_YP_009010976.1_3
+Name: lcl|NC_023673.1_cds_YP_009010976.1_3
+Description: lcl|NC_023673.1_cds_YP_009010976.1_3 [gene=VP1] [locus_tag=CI10_gp3] [db_xref=GeneID:18507386] [protein=VP1] [protein_id=YP_009010976.1] [location=3134..5182] [gbkey=CDS]
+Number of features: 0
+Seq('ATGAGTCTTAAGCGCGGTCAGTTCCGCGGGCTTCTATTTCCTGGTTATAATTAT...TAA')ID: lcl|NC_023673.1_cds_YP_009010977.1_4
+Name: lcl|NC_023673.1_cds_YP_009010977.1_4
+Description: lcl|NC_023673.1_cds_YP_009010977.1_4 [gene=VP2] [locus_tag=CI10_gp4] [db_xref=GeneID:18507387] [protein=VP2] [protein_id=YP_009010977.1] [location=3542..5182] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGATGGTGATATGGATAATAATGAACAAGGGGCGGGTGAGGCGCCAGCTGCT...TAA')ID: lcl|NC_007018.1_cds_YP_238482.1_1
+Name: lcl|NC_007018.1_cds_YP_238482.1_1
+Description: lcl|NC_007018.1_cds_YP_238482.1_1 [gene=ORF1] [locus_tag=HParV4gp1] [db_xref=GeneID:3416585] [protein=ORF1] [protein_id=YP_238482.1] [location=283..2274] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGACGCTCCTGCCTGGATTGCCGTGCTACAAATTCCTACTGGATTTCTCTCC...TAA')ID: lcl|NC_007018.1_cds_YP_238483.1_2
+Name: lcl|NC_007018.1_cds_YP_238483.1_2
+Description: lcl|NC_007018.1_cds_YP_238483.1_2 [locus_tag=HParV4gp2] [db_xref=GeneID:3416586] [protein=ORF2] [protein_id=YP_238483.1] [location=2378..5122] [gbkey=CDS]
+Number of features: 0
+Seq('ATGTCTGCTGCTGATGCTTATCGTCCAGGTGGCAAGCTGCCTCTAGATGAGCTA...TAA')ID: lcl|NC_038538.1_cds_YP_009507362.1_1
+Name: lcl|NC_038538.1_cds_YP_009507362.1_1
+Description: lcl|NC_038538.1_cds_YP_009507362.1_1 [locus_tag=D1R56_gp1] [db_xref=GeneID:37618338] [protein=NS1] [protein_id=YP_009507362.1] [location=489..2396] [gbkey=CDS]
+Number of features: 0
+Seq('ATGCCTCTGAACAACTTTCAAGCCGCATTTGAAAGCTTCGGGGGAATTGCATAT...TAA')ID: lcl|NC_038538.1_cds_YP_009507363.1_2
+Name: lcl|NC_038538.1_cds_YP_009507363.1_2
+Description: lcl|NC_038538.1_cds_YP_009507363.1_2 [locus_tag=D1R56_gp2] [db_xref=GeneID:37618335] [protein=NP1] [protein_id=YP_009507363.1] [location=2582..3238] [gbkey=CDS]
+Number of features: 0
+Seq('ATGAGTGGGCATCACAACCACAGGATGAATCAGAGATCGAGCTATACAACCGAA...TAA')ID: lcl|NC_038538.1_cds_YP_009507364.1_3
+Name: lcl|NC_038538.1_cds_YP_009507364.1_3
+Description: lcl|NC_038538.1_cds_YP_009507364.1_3 [locus_tag=D1R56_gp3] [db_xref=GeneID:37618336] [protein=VP1] [protein_id=YP_009507364.1] [location=3291..5153] [gbkey=CDS]
+Number of features: 0
+Seq('ATGAATCAATTGTTTCCTGTGGTACGCTCCAAAAAAAACGACGGCAAAAGAGGA...TAA')ID: lcl|NC_038538.1_cds_YP_009507365.1_4
+Name: lcl|NC_038538.1_cds_YP_009507365.1_4
+Description: lcl|NC_038538.1_cds_YP_009507365.1_4 [locus_tag=D1R56_gp4] [db_xref=GeneID:37618337] [protein=VP2] [protein_id=YP_009507365.1] [location=3498..5153] [gbkey=CDS]
+Number of features: 0
+Seq('ATGTCCGCACAGGGGGGCGAGAACATTGAAGAGGTTGAAGTGGATACAGGTGCG...TAA')ID: lcl|NC_038535.1_cds_YP_009507350.1_1
+Name: lcl|NC_038535.1_cds_YP_009507350.1_1
+Description: lcl|NC_038535.1_cds_YP_009507350.1_1 [locus_tag=D1R53_gp1] [db_xref=GeneID:37618323] [protein=NS1] [protein_id=YP_009507350.1] [location=258..2639] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGCGCTGCCTCTCGCTACTACTGCTGATATTATTCAGTTTGCTGAGCCTGCT...TGA')ID: lcl|NC_038535.1_cds_YP_009507351.1_2
+Name: lcl|NC_038535.1_cds_YP_009507351.1_2
+Description: lcl|NC_038535.1_cds_YP_009507351.1_2 [locus_tag=D1R53_gp2] [db_xref=GeneID:37618320] [protein=NP] [protein_id=YP_009507351.1] [location=2443..3024] [gbkey=CDS]
+Number of features: 0
+Seq('ATGAGCAGTTCGTCAAGAGCATCGCACAACCGGCGCCATCAGAGAGCGATGACT...TAG')ID: lcl|NC_038535.1_cds_YP_009507352.1_3
+Name: lcl|NC_038535.1_cds_YP_009507352.1_3
+Description: lcl|NC_038535.1_cds_YP_009507352.1_3 [locus_tag=D1R53_gp3] [db_xref=GeneID:37618321] [protein=VP1] [protein_id=YP_009507352.1] [location=3008..5167] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGCACCCACGAATAGAAAGCCTGGTGGCTGGGTGGTGCCTGGTTTCCGATAC...TAA')ID: lcl|NC_038535.1_cds_YP_009507353.1_4
+Name: lcl|NC_038535.1_cds_YP_009507353.1_4
+Description: lcl|NC_038535.1_cds_YP_009507353.1_4 [locus_tag=D1R53_gp4] [db_xref=GeneID:37618322] [protein=VP2] [protein_id=YP_009507353.1] [location=3422..5167] [gbkey=CDS]
+Number of features: 0
+Seq('ATGTCTAACGCTGCAGAACCCACAGACGACGTGGCGGGACCTTCGGATCCCGCG...TAA')ID: lcl|NC_024452.1_cds_YP_009046818.1_1
+Name: lcl|NC_024452.1_cds_YP_009046818.1_1
+Description: lcl|NC_024452.1_cds_YP_009046818.1_1 [gene=NS1] [locus_tag=HR27_gp1] [db_xref=GeneID:19738573] [protein=NS1] [protein_id=YP_009046818.1] [location=411..2495] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGCATTCCCAACACGCGGTGGGTTTTCCGCTATTCTAAATCTTCCCAGCGAT...TAG')ID: lcl|NC_024452.1_cds_YP_009046819.1_2
+Name: lcl|NC_024452.1_cds_YP_009046819.1_2
+Description: lcl|NC_024452.1_cds_YP_009046819.1_2 [gene=NP1] [locus_tag=HR27_gp2] [db_xref=GeneID:19738570] [protein=NP1] [protein_id=YP_009046819.1] [location=2696..3001] [gbkey=CDS]
+Number of features: 0
+Seq('ATGTGTTGGTATAATGCTAATATTACACAGATTCAGACAGTAGAAGGTGATCCT...TGA')ID: lcl|NC_024452.1_cds_YP_009046820.1_3
+Name: lcl|NC_024452.1_cds_YP_009046820.1_3
+Description: lcl|NC_024452.1_cds_YP_009046820.1_3 [gene=VP1] [locus_tag=HR27_gp3] [db_xref=GeneID:19738571] [protein=VP1] [protein_id=YP_009046820.1] [location=2998..5025] [gbkey=CDS]
+Number of features: 0
+Seq('ATGAAATACAAAGCTCCGAAAGGCTACGTCCCTTCACTGCCCACCACTGATGAA...TAA')ID: lcl|NC_024452.1_cds_YP_009046821.1_4
+Name: lcl|NC_024452.1_cds_YP_009046821.1_4
+Description: lcl|NC_024452.1_cds_YP_009046821.1_4 [gene=VP2] [locus_tag=HR27_gp4] [db_xref=GeneID:19738572] [protein=VP2] [protein_id=YP_009046821.1] [location=3415..5025] [gbkey=CDS]
+Number of features: 0
+Seq('ATGATGGCAGATGAAAATGAACCTGATCAATCTGGGATCCCTATGGAATTAAGC...TAA')ID: lcl|NC_038547.1_cds_YP_009507390.1_1
+Name: lcl|NC_038547.1_cds_YP_009507390.1_1
+Description: lcl|NC_038547.1_cds_YP_009507390.1_1 [gene=NS1] [locus_tag=D1R66_gp1] [db_xref=GeneID:37618371] [protein=non-structural protein] [protein_id=YP_009507390.1] [location=189..2159] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGATGCCTCCTGCTTCACCGCCGTGCTCCAGATCCCCACGCTGTTCTGTGAG...TGA')ID: lcl|NC_038547.1_cds_YP_009507391.1_2
+Name: lcl|NC_038547.1_cds_YP_009507391.1_2
+Description: lcl|NC_038547.1_cds_YP_009507391.1_2 [gene=VP2] [locus_tag=D1R66_gp2] [db_xref=GeneID:37618370] [protein=minor structural protein] [protein_id=YP_009507391.1] [location=2266..5067] [gbkey=CDS]
+Number of features: 0
+Seq('ATGTCGGCCACCGACTCTTTTCGACCGGGCGGGAAAATGCCATTGGATACCTTG...TAA')ID: lcl|NC_038547.1_cds_YP_009507392.1_3
+Name: lcl|NC_038547.1_cds_YP_009507392.1_3
+Description: lcl|NC_038547.1_cds_YP_009507392.1_3 [gene=VP2] [locus_tag=D1R66_gp2] [db_xref=GeneID:37618370] [protein=major structural protein] [protein_id=YP_009507392.1] [location=3412..5067] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGCATCCAATCCCGCTGGAGGAGCTGGTGGTGGAGTAAAGGTTAAAGCTCAA...TAA')ID: lcl|NC_012564.1_cds_YP_002808454.1_1
+Name: lcl|NC_012564.1_cds_YP_002808454.1_1
+Description: lcl|NC_012564.1_cds_YP_002808454.1_1 [locus_tag=HBoV3_gp1] [db_xref=GeneID:7768240] [protein=NS1] [protein_id=YP_002808454.1] [location=224..2209] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGCTTTCAATCCACCTGTTATTAGAGCATTCTCTTCACCTGCTTTTACTTAT...TGA')ID: lcl|NC_012564.1_cds_YP_002808455.1_2
+Name: lcl|NC_012564.1_cds_YP_002808455.1_2
+Description: lcl|NC_012564.1_cds_YP_002808455.1_2 [locus_tag=HBoV3_gp2] [db_xref=GeneID:7768237] [protein=NP1] [protein_id=YP_002808455.1] [location=2380..3036] [gbkey=CDS]
+Number of features: 0
+Seq('ATGAGCTCAGGGAATACGAAAGACAAGCATCGCGCCTACAAAAGAAAAGGGAGT...TAA')ID: lcl|NC_012564.1_cds_YP_002808456.1_3
+Name: lcl|NC_012564.1_cds_YP_002808456.1_3
+Description: lcl|NC_012564.1_cds_YP_002808456.1_3 [locus_tag=HBoV3_gp3] [db_xref=GeneID:7768238] [protein=VP1] [protein_id=YP_002808456.1] [location=3023..5029] [gbkey=CDS]
+Number of features: 0
+Seq('ATGCCTCCAATTAAAAGGCAACCTGGAGGGTGGGTGCTTCCTGGTTACAAATAC...TAA')ID: lcl|NC_012564.1_cds_YP_002808457.1_4
+Name: lcl|NC_012564.1_cds_YP_002808457.1_4
+Description: lcl|NC_012564.1_cds_YP_002808457.1_4 [locus_tag=HBoV3_gp4] [db_xref=GeneID:7768239] [protein=VP2] [protein_id=YP_002808457.1] [location=3410..5029] [gbkey=CDS]
+Number of features: 0
+Seq('ATGTCTGAAAATGAAATTCAAGACCAACAGCCATCAGAACCTAATGATGGCCAA...TAA')ID: lcl|NC_004290.1_cds_YP_227599.1_1
+Name: lcl|NC_004290.1_cds_YP_227599.1_1
+Description: lcl|NC_004290.1_cds_YP_227599.1_1 [locus_tag=AdDNV_gp1] [db_xref=GeneID:5075922] [protein=Putative nonstructural protein NS3] [protein_id=YP_227599.1] [location=129..770] [gbkey=CDS]
+Number of features: 0
+Seq('ATGTTGTTCGCTGCAGTAGAAGCGCCTCCAGCATGTACGTTCGAACCTCGTTCA...TGA')ID: lcl|NC_004290.1_cds_YP_227600.1_2
+Name: lcl|NC_004290.1_cds_YP_227600.1_2
+Description: lcl|NC_004290.1_cds_YP_227600.1_2 [locus_tag=AdDNV_gp2] [db_xref=GeneID:5075918] [protein=Putative nonstructural protein NS1] [protein_id=YP_227600.1] [location=760..2490] [gbkey=CDS]
+Number of features: 0
+Seq('ATGATAACTGAGTTAAACGATGGAGCCAGTACAAGCACAGGACAATCTGGATGG...TAA')ID: lcl|NC_004290.1_cds_YP_227601.1_3
+Name: lcl|NC_004290.1_cds_YP_227601.1_3
+Description: lcl|NC_004290.1_cds_YP_227601.1_3 [locus_tag=AdDNV_gp3] [db_xref=GeneID:5075920] [protein=Putative nonstructural protein NS2] [protein_id=YP_227601.1] [location=779..1639] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGAGCCAGTACAAGCACAGGACAATCTGGATGGAGTAGAGGAGACGTTGAAG...TGA')ID: lcl|NC_004290.1_cds_YP_227602.1_4
+Name: lcl|NC_004290.1_cds_YP_227602.1_4
+Description: lcl|NC_004290.1_cds_YP_227602.1_4 [locus_tag=AdDNV_gp4] [db_xref=GeneID:5075919] [protein=Putative structural protein] [protein_id=YP_227602.1] [location=complement(2509..4302)] [gbkey=CDS]
+Number of features: 0
+Seq('ATGACACCCCCACTGAAACCTCATCCACAAGAACGTGATAATTGGGAATACTTA...TGA')ID: lcl|NC_004290.1_cds_YP_227603.1_5
+Name: lcl|NC_004290.1_cds_YP_227603.1_5
+Description: lcl|NC_004290.1_cds_YP_227603.1_5 [locus_tag=AdDNV_gp5] [db_xref=GeneID:5075921] [protein=Putative structural protein] [protein_id=YP_227603.1] [location=complement(4328..5134)] [gbkey=CDS]
+Number of features: 0
+Seq('ATGTCTGGCGTCTTTACAGATCTCACGTTGCGTGATTTCAGTTTAGGTACTAAT...TGA')ID: lcl|NC_030402.1_cds_YP_009259490.1_1
+Name: lcl|NC_030402.1_cds_YP_009259490.1_1
+Description: lcl|NC_030402.1_cds_YP_009259490.1_1 [gene=ORF1] [locus_tag=BBA79_gp1] [db_xref=GeneID:28218221] [protein=nonstructural protein] [protein_id=YP_009259490.1] [location=170..2743] [gbkey=CDS]
+Number of features: 0
+Seq('ATGACTACGGGGGGCTTAACAACTACTATTGCTGAAATACAGAGCTTTGGGCAT...TAA')ID: lcl|NC_030402.1_cds_YP_009259491.1_2
+Name: lcl|NC_030402.1_cds_YP_009259491.1_2
+Description: lcl|NC_030402.1_cds_YP_009259491.1_2 [gene=ORF2] [locus_tag=BBA79_gp2] [db_xref=GeneID:28218220] [protein=structural protein] [protein_id=YP_009259491.1] [location=3109..5073] [gbkey=CDS]
+Number of features: 0
+Seq('ATGCCACCAATAAATAAAGCTAAAAAAAGCGGTCTAACTTTACCTGGTTACAAA...TAA')ID: lcl|NC_030873.1_cds_YP_009272913.1_1
+Name: lcl|NC_030873.1_cds_YP_009272913.1_1
+Description: lcl|NC_030873.1_cds_YP_009272913.1_1 [gene=NS1] [locus_tag=BHR85_gp1] [db_xref=GeneID:28715661] [protein=non-structural protein 1] [protein_id=YP_009272913.1] [location=76..2511] [gbkey=CDS]
+Number of features: 0
+Seq('ATGACGTGGCACATGTATATAAGGAGGGATCCAGGAAGCAGAAATCATACTGCT...TGA')ID: lcl|NC_030873.1_cds_YP_009272914.1_2
+Name: lcl|NC_030873.1_cds_YP_009272914.1_2
+Description: lcl|NC_030873.1_cds_YP_009272914.1_2 [gene=NP1] [locus_tag=BHR85_gp2] [db_xref=GeneID:28715658] [protein=non-capsid protein 1] [protein_id=YP_009272914.1] [location=2306..2947] [gbkey=CDS]
+Number of features: 0
+Seq('ATGAGCTCGAGATACAGCTATGGGAACAGTCACTACGGCAAGAGCCAGAGCAGT...TAA')ID: lcl|NC_030873.1_cds_YP_009272915.1_3
+Name: lcl|NC_030873.1_cds_YP_009272915.1_3
+Description: lcl|NC_030873.1_cds_YP_009272915.1_3 [gene=VP1] [locus_tag=BHR85_gp3] [db_xref=GeneID:28715659] [protein=capsid protein 1] [protein_id=YP_009272915.1] [location=2934..5084] [gbkey=CDS]
+Number of features: 0
+Seq('ATGCCTCCTCATAATAGAAAACCTGGTGGCTGGGTTTTGCCTGGTTTCAAGTAT...TAA')ID: lcl|NC_030873.1_cds_YP_009272916.1_4
+Name: lcl|NC_030873.1_cds_YP_009272916.1_4
+Description: lcl|NC_030873.1_cds_YP_009272916.1_4 [gene=VP2] [locus_tag=BHR85_gp4] [db_xref=GeneID:28715660] [protein=capsid protein 2] [protein_id=YP_009272916.1] [location=3351..5084] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGAGGGACCGAGCGACCAGATTGAAGGGGGCGGTGATGGGCCCGAACAAAAG...TAA')ID: lcl|NC_029133.1_cds_YP_009227290.1_1
+Name: lcl|NC_029133.1_cds_YP_009227290.1_1
+Description: lcl|NC_029133.1_cds_YP_009227290.1_1 [gene=NS2] [locus_tag=AXK36_gp1] [db_xref=GeneID:26828037] [protein=NS2] [protein_id=YP_009227290.1] [location=join(120..2028,2112..2479)] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGGCTCTGAAAACCTCGATATATCGAACGATCCCGGGTTTATCGAAACACTG...TGA')ID: lcl|NC_029133.1_cds_YP_009227291.1_2
+Name: lcl|NC_029133.1_cds_YP_009227291.1_2
+Description: lcl|NC_029133.1_cds_YP_009227291.1_2 [gene=NS1] [locus_tag=AXK36_gp2] [db_xref=GeneID:26828034] [protein=NS1] [protein_id=YP_009227291.1] [location=120..2054] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGGCTCTGAAAACCTCGATATATCGAACGATCCCGGGTTTATCGAAACACTG...TAA')ID: lcl|NC_029133.1_cds_YP_009227292.1_3
+Name: lcl|NC_029133.1_cds_YP_009227292.1_3
+Description: lcl|NC_029133.1_cds_YP_009227292.1_3 [gene=NP1] [locus_tag=AXK36_gp3] [db_xref=GeneID:26828033] [protein=NP1] [protein_id=YP_009227292.1] [location=2286..2873] [gbkey=CDS]
+Number of features: 0
+Seq('ATGAACAGGACAAACGGTGGTTACGCTGGCTTCAAGAGGAAGAGAGGCGACTCT...TAG')ID: lcl|NC_029133.1_cds_YP_009227293.1_4
+Name: lcl|NC_029133.1_cds_YP_009227293.1_4
+Description: lcl|NC_029133.1_cds_YP_009227293.1_4 [gene=VP1] [locus_tag=AXK36_gp4] [db_xref=GeneID:26828035] [protein=VP1] [protein_id=YP_009227293.1] [location=2857..4965] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGCTCCAGTGAATAGAAAGCCCAAAGGGTGGGTGCTACCAGGGTTCAAATAC...TGA')ID: lcl|NC_029133.1_cds_YP_009227294.1_5
+Name: lcl|NC_029133.1_cds_YP_009227294.1_5
+Description: lcl|NC_029133.1_cds_YP_009227294.1_5 [gene=VP2] [locus_tag=AXK36_gp5] [db_xref=GeneID:26828036] [protein=VP2] [protein_id=YP_009227294.1] [location=3262..4965] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGCAGACGGAGGCGAAAGCAGTAATGCTAACGCAGGAGAAGGGACATCTGGT...TGA')ID: lcl|NC_038543.1_cds_YP_009507375.1_1
+Name: lcl|NC_038543.1_cds_YP_009507375.1_1
+Description: lcl|NC_038543.1_cds_YP_009507375.1_1 [locus_tag=D1R61_gp1] [db_xref=GeneID:37618356] [protein=NS1] [protein_id=YP_009507375.1] [location=306..2441] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGCTCAAGCTTGTCTTTCTCTGTCTTGGGCAGATTGCTTTGCCGCTGTCATT...TGA')ID: lcl|NC_038543.1_cds_YP_009507376.1_2
+Name: lcl|NC_038543.1_cds_YP_009507376.1_2
+Description: lcl|NC_038543.1_cds_YP_009507376.1_2 [locus_tag=D1R61_gp2] [db_xref=GeneID:37618353] [protein=NS2] [protein_id=YP_009507376.1] [location=1864..2295] [gbkey=CDS]
+Number of features: 0
+Seq('ATGCCCCGGAAGAAGAGATCCTTGATCTCCTTACCCAAACAAACTTCGTCACTC...TGA')ID: lcl|NC_038543.1_cds_YP_009507377.1_3
+Name: lcl|NC_038543.1_cds_YP_009507377.1_3
+Description: lcl|NC_038543.1_cds_YP_009507377.1_3 [locus_tag=D1R61_gp3] [db_xref=GeneID:37618354] [protein=VP1] [protein_id=YP_009507377.1] [location=2619..5108] [gbkey=CDS]
+Number of features: 0
+Seq('ATGCCCAAGAGAAAGGGCGCCGGGGAGGCTTTTCGTGTGTTGTTGGATGAGTTG...TAA')ID: lcl|NC_038543.1_cds_YP_009507378.1_4
+Name: lcl|NC_038543.1_cds_YP_009507378.1_4
+Description: lcl|NC_038543.1_cds_YP_009507378.1_4 [locus_tag=D1R61_gp4] [db_xref=GeneID:37618355] [protein=VP2] [protein_id=YP_009507378.1] [location=3432..5108] [gbkey=CDS]
+Number of features: 0
+Seq('ATGCAACAAGCTAGCGCGGTGTCCGGTGCGGGGGGAGACCACACCCCTGCTGCG...TAA')ID: lcl|NC_029300.1_cds_YP_009229908.1_1
+Name: lcl|NC_029300.1_cds_YP_009229908.1_1
+Description: lcl|NC_029300.1_cds_YP_009229908.1_1 [locus_tag=AYK83_gp1] [db_xref=GeneID:26836915] [protein=NS1 protein] [protein_id=YP_009229908.1] [location=279..2648] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGCCACGTCAGCTCTATCCTTACTGGGGGAGCCCAGCATTGAAGAGATCAAG...TGA')ID: lcl|NC_029300.1_cds_YP_009229909.1_2
+Name: lcl|NC_029300.1_cds_YP_009229909.1_2
+Description: lcl|NC_029300.1_cds_YP_009229909.1_2 [locus_tag=AYK83_gp2] [db_xref=GeneID:26836912] [protein=NP1 protein] [protein_id=YP_009229909.1] [location=2446..3030] [gbkey=CDS]
+Number of features: 0
+Seq('ATGAGCTCGAGATCCTACAATACGAAACAGAGCTCCAGGACAAAGAGCAGCTAC...TAG')ID: lcl|NC_029300.1_cds_YP_009229910.1_3
+Name: lcl|NC_029300.1_cds_YP_009229910.1_3
+Description: lcl|NC_029300.1_cds_YP_009229910.1_3 [locus_tag=AYK83_gp3] [db_xref=GeneID:26836913] [protein=VP1 protein] [protein_id=YP_009229910.1] [location=3014..5095] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGCACCAATAAATAGAAAGCCTCGCGGTTGGGTTTTGCCAGGCTATAAATAC...TAA')ID: lcl|NC_029300.1_cds_YP_009229911.1_4
+Name: lcl|NC_029300.1_cds_YP_009229911.1_4
+Description: lcl|NC_029300.1_cds_YP_009229911.1_4 [locus_tag=AYK83_gp4] [db_xref=GeneID:26836914] [protein=VP2 protein] [protein_id=YP_009229911.1] [location=3404..5095] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGAACAGCCTGATGCTGCGGCGGCTGATGAAACCAGCACCACACCACACTCG...TAA')ID: lcl|NC_012042.1_cds_YP_002586773.1_1
+Name: lcl|NC_012042.1_cds_YP_002586773.1_1
+Description: lcl|NC_012042.1_cds_YP_002586773.1_1 [locus_tag=HBoV2_gp1] [db_xref=GeneID:7755626] [protein=NS1] [protein_id=YP_002586773.1] [location=179..2101] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGCCTTTTCTGCTCCTGTAATTAGAGCTTTTTCTCAACCTGCTTTTACTTAT...TAA')ID: lcl|NC_012042.1_cds_YP_002586774.1_2
+Name: lcl|NC_012042.1_cds_YP_002586774.1_2
+Description: lcl|NC_012042.1_cds_YP_002586774.1_2 [locus_tag=HBoV2_gp2] [db_xref=GeneID:7755623] [protein=NP1] [protein_id=YP_002586774.1] [location=2330..2974] [gbkey=CDS]
+Number of features: 0
+Seq('ATGAGCTCCGAATCTATGAAGAACAAGCATCGCAACTCCAAAAGAACACCAAGT...TAA')ID: lcl|NC_012042.1_cds_YP_002586775.1_3
+Name: lcl|NC_012042.1_cds_YP_002586775.1_3
+Description: lcl|NC_012042.1_cds_YP_002586775.1_3 [locus_tag=HBoV2_gp3] [db_xref=GeneID:7755624] [protein=VP1] [protein_id=YP_002586775.1] [location=2961..4964] [gbkey=CDS]
+Number of features: 0
+Seq('ATGCCTCCAATTAAACGCCAGCCTGGAGGGTGGGTGCTTCCTGGTTATAAATAC...TAA')ID: lcl|NC_012042.1_cds_YP_002586776.1_4
+Name: lcl|NC_012042.1_cds_YP_002586776.1_4
+Description: lcl|NC_012042.1_cds_YP_002586776.1_4 [locus_tag=HBoV2_gp4] [db_xref=GeneID:7755625] [protein=VP2] [protein_id=YP_002586776.1] [location=3348..4964] [gbkey=CDS]
+Number of features: 0
+Seq('ATGTCTGAAAATGAAATCCAAGACCAACAACCATCTGGCTCCATGGAGGAGCGA...TAA')ID: lcl|NC_035185.1_cds_YP_009389289.1_1
+Name: lcl|NC_035185.1_cds_YP_009389289.1_1
+Description: lcl|NC_035185.1_cds_YP_009389289.1_1 [gene=NS1] [locus_tag=CFK53_gp1] [db_xref=GeneID:33374371] [protein=NS1] [protein_id=YP_009389289.1] [location=316..2793] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGAGAACTCTTGGCACTTGGCTAATTTGAGGGACGAACTGGTTCGCTTTCAC...TAA')ID: lcl|NC_035185.1_cds_YP_009389290.1_2
+Name: lcl|NC_035185.1_cds_YP_009389290.1_2
+Description: lcl|NC_035185.1_cds_YP_009389290.1_2 [gene=NP1] [locus_tag=CFK53_gp2] [db_xref=GeneID:33374369] [protein=NP1] [protein_id=YP_009389290.1] [location=2666..3187] [gbkey=CDS]
+Number of features: 0
+Seq('ATGTCGTCCAAAACCTACAATATCAAGAAAGACAACTCGTATGGGACGAACAAA...TAA')ID: lcl|NC_035185.1_cds_YP_009389291.1_3
+Name: lcl|NC_035185.1_cds_YP_009389291.1_3
+Description: lcl|NC_035185.1_cds_YP_009389291.1_3 [gene=VP2] [locus_tag=CFK53_gp3] [db_xref=GeneID:33374370] [protein=VP2] [protein_id=YP_009389291.1] [location=3506..5107] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGATGCAGTAGATGCCGGTGAAAATGCTCAAGAAACAACAGCCGTCGAAGGA...TAA')ID: lcl|NC_035186.1_cds_YP_009389292.1_1
+Name: lcl|NC_035186.1_cds_YP_009389292.1_1
+Description: lcl|NC_035186.1_cds_YP_009389292.1_1 [gene=NS1] [locus_tag=CGU96_gp1] [db_xref=GeneID:33349839] [protein=NS1] [protein_id=YP_009389292.1] [location=301..2394] [gbkey=CDS]
+Number of features: 0
+Seq('ATGTCCTTTCCAACTACCGATCACGAATGGATCGAAAAGTGGTACGGGAGAATC...TGA')ID: lcl|NC_035186.1_cds_YP_009389293.1_2
+Name: lcl|NC_035186.1_cds_YP_009389293.1_2
+Description: lcl|NC_035186.1_cds_YP_009389293.1_2 [gene=NP1] [locus_tag=CGU96_gp2] [db_xref=GeneID:33349836] [protein=NP1] [protein_id=YP_009389293.1] [location=2433..3092] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGACAGGAACAGCTGGAAGTCATCTCGATCTCCAGTGCGGAGGAAGGAGGAG...TAA')ID: lcl|NC_035186.1_cds_YP_009389294.1_3
+Name: lcl|NC_035186.1_cds_YP_009389294.1_3
+Description: lcl|NC_035186.1_cds_YP_009389294.1_3 [gene=VP1] [locus_tag=CGU96_gp3] [db_xref=GeneID:33349837] [protein=VP1] [protein_id=YP_009389294.1] [location=3079..5121] [gbkey=CDS]
+Number of features: 0
+Seq('ATGCCTCCAGCTAAACAGAGAGGGGAATTTAGAGGCATCCTCTTTCCTGGGTAC...TAA')ID: lcl|NC_035186.1_cds_YP_009389295.1_4
+Name: lcl|NC_035186.1_cds_YP_009389295.1_4
+Description: lcl|NC_035186.1_cds_YP_009389295.1_4 [gene=VP2] [locus_tag=CGU96_gp4] [db_xref=GeneID:33349838] [protein=VP2] [protein_id=YP_009389295.1] [location=3514..5121] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGAAGCTGAGCAACCTGTGGAGGAGGAGACAGCGCCTCAGGAGGCAGCTGCA...TAA')ID: lcl|NC_016032.1_cds_YP_004869645.1_1
+Name: lcl|NC_016032.1_cds_YP_004869645.1_1
+Description: lcl|NC_016032.1_cds_YP_004869645.1_1 [gene=NS1] [locus_tag=PBoV4_gp1] [db_xref=GeneID:11162934] [protein=NS1] [protein_id=YP_004869645.1] [location=232..2235] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGCTTCTCTTGGAGTTGGGCTGTCTGATCAGGAATGGCTTGGTTATTGGCAC...TGA')ID: lcl|NC_016032.1_cds_YP_004869646.1_2
+Name: lcl|NC_016032.1_cds_YP_004869646.1_2
+Description: lcl|NC_016032.1_cds_YP_004869646.1_2 [gene=NP1] [locus_tag=PBoV4_gp2] [db_xref=GeneID:11162935] [protein=NP1] [protein_id=YP_004869646.1] [location=2360..3040] [gbkey=CDS]
+Number of features: 0
+Seq('ATGAGTCAGAGATTCTCCGATACAACATCTCGCAGCGGGAAGAGCAACCTCCGG...TAA')ID: lcl|NC_016032.1_cds_YP_004869647.1_3
+Name: lcl|NC_016032.1_cds_YP_004869647.1_3
+Description: lcl|NC_016032.1_cds_YP_004869647.1_3 [gene=VP1] [locus_tag=PBoV4_gp3] [db_xref=GeneID:11162936] [protein=VP1] [protein_id=YP_004869647.1] [location=3030..5084] [gbkey=CDS]
+Number of features: 0
+Seq('ATGAGTCTTAAGCGCGGTCAGTTCCGCGGGCTTCTGTTTCCTGGTTATAATTAT...TAA')ID: lcl|NC_016032.1_cds_YP_004869648.1_4
+Name: lcl|NC_016032.1_cds_YP_004869648.1_4
+Description: lcl|NC_016032.1_cds_YP_004869648.1_4 [gene=VP2] [locus_tag=PBoV4_gp4] [db_xref=GeneID:11162937] [protein=VP2] [protein_id=YP_004869648.1] [location=3438..5084] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGATGGTGATATGGGAGATAACGAACAGGGAGCGGGTGAGGCGCCAGCTGCT...TAA')ID: lcl|NC_031450.1_cds_YP_009310052.1_1
+Name: lcl|NC_031450.1_cds_YP_009310052.1_1
+Description: lcl|NC_031450.1_cds_YP_009310052.1_1 [locus_tag=BKN26_gp1] [db_xref=GeneID:29345002] [protein=ORF5] [protein_id=YP_009310052.1] [location=327..839] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGAAAGGGGATGGGAGGCATTGAAGCCCTTTGGTCCAACTACATTTGTGTAC...TAA')ID: lcl|NC_031450.1_cds_YP_009310053.1_2
+Name: lcl|NC_031450.1_cds_YP_009310053.1_2
+Description: lcl|NC_031450.1_cds_YP_009310053.1_2 [locus_tag=BKN26_gp2] [db_xref=GeneID:29344998] [protein=ORF3] [protein_id=YP_009310053.1] [location=873..2474] [gbkey=CDS]
+Number of features: 0
+Seq('ATGAATAATGACGACCACTTTTGGGAATATTTTGACAGTACTCTGGGAGATGCT...TAA')ID: lcl|NC_031450.1_cds_YP_009310054.1_3
+Name: lcl|NC_031450.1_cds_YP_009310054.1_3
+Description: lcl|NC_031450.1_cds_YP_009310054.1_3 [locus_tag=BKN26_gp3] [db_xref=GeneID:29344999] [protein=ORF4] [protein_id=YP_009310054.1] [location=880..1677] [gbkey=CDS]
+Number of features: 0
+Seq('ATGACGACCACTTTTGGGAATATTTTGACAGTACTCTGGGAGATGCTTCCGGAC...TAA')ID: lcl|NC_031450.1_cds_YP_009310055.1_4
+Name: lcl|NC_031450.1_cds_YP_009310055.1_4
+Description: lcl|NC_031450.1_cds_YP_009310055.1_4 [locus_tag=BKN26_gp4] [db_xref=GeneID:29345000] [protein=ORF1] [protein_id=YP_009310055.1] [location=complement(2475..4256)] [gbkey=CDS]
+Number of features: 0
+Seq('ATGCCTAGAGTTAGACCGTTGGGTCCGAGTCCTCAGGATCGTCCTAATTGGGAT...TAA')ID: lcl|NC_031450.1_cds_YP_009310056.1_5
+Name: lcl|NC_031450.1_cds_YP_009310056.1_5
+Description: lcl|NC_031450.1_cds_YP_009310056.1_5 [locus_tag=BKN26_gp5] [db_xref=GeneID:29345001] [protein=ORF2] [protein_id=YP_009310056.1] [location=complement(4196..5107)] [gbkey=CDS]
+Number of features: 0
+Seq('ATGCGCAGGTTATTTCCAGTCAGTATGTCCGAGTACATCGAGCTGAGCACTATT...TGA')ID: lcl|NC_024453.2_cds_YP_009046822.1_1
+Name: lcl|NC_024453.2_cds_YP_009046822.1_1
+Description: lcl|NC_024453.2_cds_YP_009046822.1_1 [locus_tag=HR25_gp1] [db_xref=GeneID:19738578] [protein=NS1] [protein_id=YP_009046822.1] [location=149..2260] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGAGTGCTTCGCTCTGGGAGAATACGCTACCTATGAGGACTTTCTGGGCTTT...TAG')ID: lcl|NC_024453.2_cds_YP_009046823.1_2
+Name: lcl|NC_024453.2_cds_YP_009046823.1_2
+Description: lcl|NC_024453.2_cds_YP_009046823.1_2 [locus_tag=HR25_gp2] [db_xref=GeneID:19738575] [protein=NP1] [protein_id=YP_009046823.1] [location=2333..3019] [gbkey=CDS]
+Number of features: 0
+Seq('ATGAGCTCAGCGAGATCCGACACAGACACAGGCAGGAGAGGGAAGCGGTCGAGG...TAG')ID: lcl|NC_024453.2_cds_YP_009046824.1_3
+Name: lcl|NC_024453.2_cds_YP_009046824.1_3
+Description: lcl|NC_024453.2_cds_YP_009046824.1_3 [locus_tag=HR25_gp3] [db_xref=GeneID:19738576] [protein=VP1] [protein_id=YP_009046824.1] [location=3003..5120] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGCACCCACGAATAGAAAACCGGGAGGGTGGGTGCTGCCGGGACATAGATAC...TAA')ID: lcl|NC_024453.2_cds_YP_009046825.1_4
+Name: lcl|NC_024453.2_cds_YP_009046825.1_4
+Description: lcl|NC_024453.2_cds_YP_009046825.1_4 [locus_tag=HR25_gp4] [db_xref=GeneID:19738577] [protein=VP2] [protein_id=YP_009046825.1] [location=3417..5120] [gbkey=CDS]
+Number of features: 0
+Seq('ATGAGCTCGGGAGGTGATCCCAGCGAAGACACGGGGGCGGGAGACGGAGAGCAG...TAA')ID: lcl|NC_001510.1_cds_NP_041242.1_1
+Name: lcl|NC_001510.1_cds_NP_041242.1_1
+Description: lcl|NC_001510.1_cds_NP_041242.1_1 [gene=NS1] [locus_tag=MMVgp1] [db_xref=GeneID:1489590] [protein=nonstructural protein] [protein_id=NP_041242.1] [location=114..2279] [gbkey=CDS]
+Number of features: 0
+Seq('ATGATAAGCGGTTCAGGGAGTTTAAACCAAGGCGCGAAAAGGAAGTGGGCGTGG...TAA')ID: lcl|NC_001510.1_cds_NP_041243.1_2
+Name: lcl|NC_001510.1_cds_NP_041243.1_2
+Description: lcl|NC_001510.1_cds_NP_041243.1_2 [gene=NS1] [locus_tag=MMVgp1] [db_xref=GeneID:1489590] [protein=nonstructural protein] [protein_id=NP_041243.1] [location=261..2279] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGCTGGAAATGCTTACTCTGATGAAGTTTTGGGAGCAACCAACTGGTTAAAG...TAA')ID: lcl|NC_001510.1_cds_NP_041244.1_3
+Name: lcl|NC_001510.1_cds_NP_041244.1_3
+Description: lcl|NC_001510.1_cds_NP_041244.1_3 [gene=VP1] [locus_tag=MMVgp3] [db_xref=GeneID:1489592] [protein=hypothetical protein] [protein_id=NP_041244.1] [location=join(2286..2316,2399..4557)] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGCGCCTCCAGCTAAAAGAGCTAAAAGAGGTTGGGTGCCTCCTGGCTACAAG...TAA')ID: lcl|NC_001510.1_cds_NP_041245.1_4
+Name: lcl|NC_001510.1_cds_NP_041245.1_4
+Description: lcl|NC_001510.1_cds_NP_041245.1_4 [gene=VP] [locus_tag=MMVgp2] [db_xref=GeneID:1489591] [protein=hypothetical protein] [protein_id=NP_041245.1] [location=2286..2354] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGCGCCTCCAGCTAAAAGAGCTAAAAGAGGTAAGGGTTTAAGGGATGGTTGG...TAA')ID: lcl|NC_001510.1_cds_NP_041246.1_5
+Name: lcl|NC_001510.1_cds_NP_041246.1_5
+Description: lcl|NC_001510.1_cds_NP_041246.1_5 [gene=VP] [locus_tag=MMVgp2] [db_xref=GeneID:1489591] [protein=hypothetical protein] [protein_id=NP_041246.1] [location=2332..2361] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGTTGGTTGGTGGGGTATTAATGTTTAA')ID: lcl|NC_001510.1_cds_NP_041247.1_6
+Name: lcl|NC_001510.1_cds_NP_041247.1_6
+Description: lcl|NC_001510.1_cds_NP_041247.1_6 [gene=VP] [locus_tag=MMVgp2] [db_xref=GeneID:1489591] [protein=hypothetical protein] [protein_id=NP_041247.1] [location=2354..2398] [gbkey=CDS]
+Number of features: 0
+Seq('ATGTTTAATTACCTGTTTTACAGGCCTGAAATCACTTGGTTTTAG')ID: lcl|NC_001510.1_cds_NP_041248.1_7
+Name: lcl|NC_001510.1_cds_NP_041248.1_7
+Description: lcl|NC_001510.1_cds_NP_041248.1_7 [gene=VP1] [locus_tag=MMVgp3] [db_xref=GeneID:1489592] [protein=hypothetical protein] [protein_id=NP_041248.1] [location=2794..4557] [gbkey=CDS]
+Number of features: 0
+Seq('ATGAGTGATGGCACCAGCCAACCTGACAGCGGAAACGCTGTCCACTCAGCTGCA...TAA')ID: lcl|NC_006147.2_cds_YP_068410.1_1
+Name: lcl|NC_006147.2_cds_YP_068410.1_1
+Description: lcl|NC_006147.2_cds_YP_068410.1_1 [gene=rep] [locus_tag=MDPV_gp1] [db_xref=GeneID:2957132] [protein=REP protein] [protein_id=YP_068410.1] [location=548..2431] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGCATTTTCTAGGCCTCTTCAGATTTCTTCTGACAAATTCTATGAAGTTATC...TAA')ID: lcl|NC_006147.2_cds_YP_068411.1_2
+Name: lcl|NC_006147.2_cds_YP_068411.1_2
+Description: lcl|NC_006147.2_cds_YP_068411.1_2 [gene=vp] [locus_tag=MDPV_gp2] [db_xref=GeneID:2957133] [protein=capsid protein VP] [protein_id=YP_068411.1] [location=2450..4648] [gbkey=CDS]
+Number of features: 0
+Seq('ATGTCTACTTTTTTAGAGAAATTTGAAGACTGGTATGAGACTGCAGCCGCATCT...TAA')ID: lcl|NC_006147.2_cds_YP_068412.1_3
+Name: lcl|NC_006147.2_cds_YP_068412.1_3
+Description: lcl|NC_006147.2_cds_YP_068412.1_3 [gene=vp] [locus_tag=MDPV_gp2] [db_xref=GeneID:2957133] [protein=capsid protein VP] [protein_id=YP_068412.1] [location=2885..4648] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGCTCCTGCTAAAAAGAGTAGTGGAAAACTAACAGATCACGACCCTATAGTA...TAA')ID: lcl|NC_006147.2_cds_YP_068413.1_4
+Name: lcl|NC_006147.2_cds_YP_068413.1_4
+Description: lcl|NC_006147.2_cds_YP_068413.1_4 [gene=vp] [locus_tag=MDPV_gp2] [db_xref=GeneID:2957133] [protein=capsid protein VP] [protein_id=YP_068413.1] [location=3044..4648] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGCAGAGGGAGGAAGCGGAGCTATGGGCGACTCTGCAGGGGGTGCCGATGGA...TAA')ID: lcl|NC_038546.1_cds_YP_009507385.1_1
+Name: lcl|NC_038546.1_cds_YP_009507385.1_1
+Description: lcl|NC_038546.1_cds_YP_009507385.1_1 [gene=NS1] [locus_tag=D1R64_gp1] [db_xref=GeneID:37618368] [protein=non-structural protein] [protein_id=YP_009507385.1] [location=176..2086] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGAGGCGTCCTGTTTCACCGCGGTTCTGCACGTGCCTAAGAGTCTCTGTGAG...TGA')ID: lcl|NC_038546.1_cds_YP_009507386.1_2
+Name: lcl|NC_038546.1_cds_YP_009507386.1_2
+Description: lcl|NC_038546.1_cds_YP_009507386.1_2 [gene=VP1] [locus_tag=D1R64_gp2] [db_xref=GeneID:37618366] [protein=minor structural protein] [protein_id=YP_009507386.1] [location=2240..5017] [gbkey=CDS]
+Number of features: 0
+Seq('ATGACAGCCGCTGACGCCTTTAAGCCGGGGCAACCTTTCCCCCTCGATACCCTC...TAA')ID: lcl|NC_038546.1_cds_YP_009507387.1_3
+Name: lcl|NC_038546.1_cds_YP_009507387.1_3
+Description: lcl|NC_038546.1_cds_YP_009507387.1_3 [gene=VP2] [locus_tag=D1R64_gp3] [db_xref=GeneID:37618367] [protein=major structural protein] [protein_id=YP_009507387.1] [location=3350..5017] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGCTGCGCCGGTAACGGGCGCCACCGGTGGGGGTATCAAAGTTAAAGCTCAA...TAA')ID: lcl|NC_028136.1_cds_YP_009175068.1_1
+Name: lcl|NC_028136.1_cds_YP_009175068.1_1
+Description: lcl|NC_028136.1_cds_YP_009175068.1_1 [gene=NS1] [locus_tag=ASD96_gp1] [db_xref=GeneID:26122313] [protein=nonstructural protein] [protein_id=YP_009175068.1] [location=193..2151] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGACGCCACCTGCTTCACCGCTGTGCTCCAGGTCCCCACTGTCTTCTGTGAT...TAG')ID: lcl|NC_028136.1_cds_YP_009175069.1_2
+Name: lcl|NC_028136.1_cds_YP_009175069.1_2
+Description: lcl|NC_028136.1_cds_YP_009175069.1_2 [gene=VP1] [locus_tag=ASD96_gp2] [db_xref=GeneID:26122311] [protein=minor structural protein] [protein_id=YP_009175069.1] [location=2265..5060] [gbkey=CDS]
+Number of features: 0
+Seq('ATGTCCGCTGCAGATGCCTACCGCCCCGGTGATCGACTCCCTCTGGATACCCTG...TAA')ID: lcl|NC_028136.1_cds_YP_009175070.1_3
+Name: lcl|NC_028136.1_cds_YP_009175070.1_3
+Description: lcl|NC_028136.1_cds_YP_009175070.1_3 [gene=VP2] [locus_tag=ASD96_gp3] [db_xref=GeneID:26122312] [protein=major structural protein] [protein_id=YP_009175070.1] [location=3399..5060] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGCTTCAGAGGCTACCGGGGGTGCCGGAGGCGGCATAAAAGTAAAAGCTCAA...TAA')ID: lcl|NC_001701.1_cds_NP_043514.1_1
+Name: lcl|NC_001701.1_cds_NP_043514.1_1
+Description: lcl|NC_001701.1_cds_NP_043514.1_1 [gene=rep] [locus_tag=GPVgp1] [db_xref=GeneID:1403422] [protein=REP] [protein_id=NP_043514.1] [location=537..2420] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGCACTTTCTAGGCCTCTTCAGATTTCTTCTGATAAATTCTATGAAGTTATT...TAA')ID: lcl|NC_001701.1_cds_NP_043515.1_2
+Name: lcl|NC_001701.1_cds_NP_043515.1_2
+Description: lcl|NC_001701.1_cds_NP_043515.1_2 [gene=vp1] [locus_tag=GPVgp2] [db_xref=GeneID:1403423] [protein=VP1] [protein_id=NP_043515.1] [location=2439..4637] [gbkey=CDS]
+Number of features: 0
+Seq('ATGTCTACTTTTTTAGATTCTTTTGAAGAGTGGTATGAGACTGCAGCCGCCTCG...TAA')ID: lcl|NC_001701.1_cds_NP_043516.1_3
+Name: lcl|NC_001701.1_cds_NP_043516.1_3
+Description: lcl|NC_001701.1_cds_NP_043516.1_3 [gene=vp2] [locus_tag=GPVgp3] [db_xref=GeneID:1403424] [protein=VP2] [transl_except=(pos:1..3,aa:Met)] [protein_id=NP_043516.1] [location=2874..4637] [gbkey=CDS]
+Number of features: 0
+Seq('ACGGCACCTGCAAAAAAAAATACAGGGAAGCTTACTGACCATTACCCGGTAGTT...TAA')ID: lcl|NC_001701.1_cds_NP_043517.1_4
+Name: lcl|NC_001701.1_cds_NP_043517.1_4
+Description: lcl|NC_001701.1_cds_NP_043517.1_4 [gene=vp3] [locus_tag=GPVgp4] [db_xref=GeneID:1403425] [protein=VP3] [protein_id=NP_043517.1] [location=3033..4637] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGCAGAGGGAGGAGGCGGAGCTATGGGCGACTCTTCAGGGGGTGCCGATGGA...TAA')ID: lcl|NC_038898.1_cds_YP_009508196.1_1
+Name: lcl|NC_038898.1_cds_YP_009508196.1_1
+Description: lcl|NC_038898.1_cds_YP_009508196.1_1 [gene=NS1] [locus_tag=D1T24_gp1] [db_xref=GeneID:37619522] [protein=non-structural protein] [protein_id=YP_009508196.1] [location=202..2160] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGACGCCACCTGCTTCACCGCTGTGCTCCAGGTCCCCACTGTCTTCTGTGAT...TAG')ID: lcl|NC_038898.1_cds_YP_009508197.1_2
+Name: lcl|NC_038898.1_cds_YP_009508197.1_2
+Description: lcl|NC_038898.1_cds_YP_009508197.1_2 [gene=VP1] [locus_tag=D1T24_gp2] [db_xref=GeneID:37619520] [protein=minor structural protein] [protein_id=YP_009508197.1] [location=2274..5069] [gbkey=CDS]
+Number of features: 0
+Seq('ATGTCCGCTGCAGATGCCTACCGCCCCGGTGATCGACTCCCTCTGGATACCCTG...TAA')ID: lcl|NC_038898.1_cds_YP_009508198.1_3
+Name: lcl|NC_038898.1_cds_YP_009508198.1_3
+Description: lcl|NC_038898.1_cds_YP_009508198.1_3 [gene=VP2] [locus_tag=D1T24_gp3] [db_xref=GeneID:37619521] [protein=major structural protein] [protein_id=YP_009508198.1] [location=3408..5069] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGCTTCAGAGGCTACCGGGGGTGCCGGAGGCGGCATAAAAGTAAAAGCTCAA...TAA')ID: lcl|NC_012729.2_cds_YP_002916059.1_1
+Name: lcl|NC_012729.2_cds_YP_002916059.1_1
+Description: lcl|NC_012729.2_cds_YP_002916059.1_1 [gene=NS2] [locus_tag=HBoV4_gp1] [db_xref=GeneID:7922604] [protein=non structural protein NS2] [protein_id=YP_002916059.1] [location=join(162..2073,2142..2560)] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGCCTTTTCTGCTCCTGTACTTAGAGCTTTTTCTCAACCTACTTTTACCTAT...TAG')ID: lcl|NC_012729.2_cds_YP_002916060.1_2
+Name: lcl|NC_012729.2_cds_YP_002916060.1_2
+Description: lcl|NC_012729.2_cds_YP_002916060.1_2 [gene=NS1] [locus_tag=HBoV4_gp2] [db_xref=GeneID:7922600] [protein=non structural protein NS1] [protein_id=YP_002916060.1] [location=162..2084] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGCCTTTTCTGCTCCTGTACTTAGAGCTTTTTCTCAACCTACTTTTACCTAT...TAA')ID: lcl|NC_012729.2_cds_YP_002916061.1_3
+Name: lcl|NC_012729.2_cds_YP_002916061.1_3
+Description: lcl|NC_012729.2_cds_YP_002916061.1_3 [gene=NP1] [locus_tag=HBoV4_gp3] [db_xref=GeneID:7922601] [protein=NP1] [protein_id=YP_002916061.1] [location=2313..2957] [gbkey=CDS]
+Number of features: 0
+Seq('ATGAGCTCAGAATCTACGAAGAACAGGCATCGCAGTTCCAAAAGAACACCAAGT...TAA')ID: lcl|NC_012729.2_cds_YP_002916062.1_4
+Name: lcl|NC_012729.2_cds_YP_002916062.1_4
+Description: lcl|NC_012729.2_cds_YP_002916062.1_4 [gene=VP1] [locus_tag=HBoV4_gp4] [db_xref=GeneID:7922602] [protein=capsid protein VP1] [protein_id=YP_002916062.1] [location=2944..4956] [gbkey=CDS]
+Number of features: 0
+Seq('ATGCCTCCAATTAAACGCCAACCTGGAGGGTGGGTGCTTCCTGGTTATAAATAC...TAA')ID: lcl|NC_012729.2_cds_YP_002916063.1_5
+Name: lcl|NC_012729.2_cds_YP_002916063.1_5
+Description: lcl|NC_012729.2_cds_YP_002916063.1_5 [gene=VP2] [locus_tag=HBoV4_gp5] [db_xref=GeneID:7922603] [protein=capsid protein VP2] [protein_id=YP_002916063.1] [location=3331..4956] [gbkey=CDS]
+Number of features: 0
+Seq('ATGTCTGAAAATGAAATTCAAGACCAACAACCATCAGATTCTATGGATGGACAA...TAA')ID: lcl|NC_037053.1_cds_YP_009465713.1_1
+Name: lcl|NC_037053.1_cds_YP_009465713.1_1
+Description: lcl|NC_037053.1_cds_YP_009465713.1_1 [locus_tag=C5Y51_gp1] [db_xref=GeneID:35996796] [protein=nonstructural protein] [protein_id=YP_009465713.1] [location=26..1981] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGAGTCCTATTCCCGCGCTGTGATTCGGCTACCATGGGAAAACATCTACGAA...TAG')ID: lcl|NC_037053.1_cds_YP_009465714.1_2
+Name: lcl|NC_037053.1_cds_YP_009465714.1_2
+Description: lcl|NC_037053.1_cds_YP_009465714.1_2 [locus_tag=C5Y51_gp2] [db_xref=GeneID:35996795] [protein=structural protein] [protein_id=YP_009465714.1] [location=1984..4827] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGCGTTCAACCCTCTGACTATGTCCTCTCGCTTGCTAGTACCTGTCACGCCT...TGA')ID: lcl|NC_004442.1_cds_NP_758521.1_1
+Name: lcl|NC_004442.1_cds_NP_758521.1_1
+Description: lcl|NC_004442.1_cds_NP_758521.1_1 [locus_tag=Mvocgp1] [db_xref=GeneID:956024] [protein=non structural protein 1] [protein_id=NP_758521.1] [location=429..2579] [gbkey=CDS]
+Number of features: 0
+Seq('ATGCCTGGTCCCGATAGTCCGGTTGAGCAGACGAGTTTTCTCGAGACACATGGA...TGA')ID: lcl|NC_004442.1_cds_NP_758522.1_2
+Name: lcl|NC_004442.1_cds_NP_758522.1_2
+Description: lcl|NC_004442.1_cds_NP_758522.1_2 [locus_tag=Mvocgp2] [db_xref=GeneID:956021] [protein=NP1] [protein_id=NP_758522.1] [location=2389..2949] [gbkey=CDS]
+Number of features: 0
+Seq('ATGTCTACGAGACATATGAGCAAGAGATCAAAAGCGAGGAGCCGGAGTCGCAGT...TAG')ID: lcl|NC_004442.1_cds_NP_758523.1_3
+Name: lcl|NC_004442.1_cds_NP_758523.1_3
+Description: lcl|NC_004442.1_cds_NP_758523.1_3 [locus_tag=Mvocgp3] [db_xref=GeneID:956022] [protein=virus protein 1] [protein_id=NP_758523.1] [location=2933..5044] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGCTCCTCCGAATAGAAAACCAGGTGGTTGGGTCGTTCCTGGATATAAATAT...TAA')ID: lcl|NC_004442.1_cds_NP_758524.1_4
+Name: lcl|NC_004442.1_cds_NP_758524.1_4
+Description: lcl|NC_004442.1_cds_NP_758524.1_4 [locus_tag=Mvocgp4] [db_xref=GeneID:956023] [protein=virus protein 2] [protein_id=NP_758524.1] [location=3329..5044] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGAACCGCAGGAAACTGAGAACACTATTGAGGCTGATGCGGGCATTGCGGGG...TAA')ID: lcl|NC_004287.1_cds_NP_694834.1_1
+Name: lcl|NC_004287.1_cds_NP_694834.1_1
+Description: lcl|NC_004287.1_cds_NP_694834.1_1 [locus_tag=BmdV5gp1] [db_xref=GeneID:1732742] [protein=nonstructural protein] [protein_id=NP_694834.1] [location=345..2609] [gbkey=CDS]
+Number of features: 0
+Seq('ATGTCCACACAGTCTGGCGCTTACGAGGACTCCTGGGAAGACGGGCTTAATCCA...TAA')ID: lcl|NC_004287.1_cds_NP_694835.1_2
+Name: lcl|NC_004287.1_cds_NP_694835.1_2
+Description: lcl|NC_004287.1_cds_NP_694835.1_2 [gene=orf3] [locus_tag=BmdV5gp4] [db_xref=GeneID:955426] [protein=nonstructural protein] [protein_id=NP_694835.1] [location=478..1833] [gbkey=CDS]
+Number of features: 0
+Seq('ATGTTAATACTCCTCGTGAACTTTTGTCTGCTATGGAGTCTTTTGAAGAGTCTT...TAG')ID: lcl|NC_004287.1_cds_NP_694836.1_3
+Name: lcl|NC_004287.1_cds_NP_694836.1_3
+Description: lcl|NC_004287.1_cds_NP_694836.1_3 [gene=orf4] [locus_tag=BmdV5gp5] [db_xref=GeneID:955425] [protein=nonstructural protein] [protein_id=NP_694836.1] [location=complement(1011..1502)] [gbkey=CDS]
+Number of features: 0
+Seq('ATGTTCCGTGTCGACCGGGTCGATAGGGATTGCCTTATTCTTCCTTGGATTGAC...TAA')ID: lcl|NC_004287.1_cds_NP_694837.1_4
+Name: lcl|NC_004287.1_cds_NP_694837.1_4
+Description: lcl|NC_004287.1_cds_NP_694837.1_4 [gene=orf2] [locus_tag=BmdV5gp8] [db_xref=GeneID:955428] [protein=capsid protein] [protein_id=NP_694837.1] [location=2713..4731] [gbkey=CDS]
+Number of features: 0
+Seq('ATGCCTCGTATTCATTTTCCTTATCATAATTATCTTGGTCCGGGTACTGATAAC...TAA')ID: lcl|NC_003346.1_cds_NP_542609.1_1
+Name: lcl|NC_003346.1_cds_NP_542609.1_1
+Description: lcl|NC_003346.1_cds_NP_542609.1_1 [locus_tag=BmdV1gp1] [db_xref=GeneID:929648] [protein=helicase NS1] [protein_id=NP_542609.1] [location=344..2608] [gbkey=CDS]
+Number of features: 0
+Seq('ATGTCCACACAGTCTGGCGCTTACGAGGACTCCTGGGAAGACGGGCTTAATCCA...TAA')ID: lcl|NC_003346.1_cds_NP_542610.1_2
+Name: lcl|NC_003346.1_cds_NP_542610.1_2
+Description: lcl|NC_003346.1_cds_NP_542610.1_2 [locus_tag=BmdV1gp2] [db_xref=GeneID:929646] [protein=NS2] [protein_id=NP_542610.1] [location=477..1832] [gbkey=CDS]
+Number of features: 0
+Seq('ATGTTAATACTCCTCGTGAACTTTTGTCTGCTATGGAGTCTTTTGAAGAGTCTT...TAG')ID: lcl|NC_003346.1_cds_NP_542611.1_3
+Name: lcl|NC_003346.1_cds_NP_542611.1_3
+Description: lcl|NC_003346.1_cds_NP_542611.1_3 [locus_tag=BmdV1gp3] [db_xref=GeneID:929647] [protein=capsid protein VP] [protein_id=NP_542611.1] [location=2712..4730] [gbkey=CDS]
+Number of features: 0
+Seq('ATGCCTCGTATTCATTTTCCTTATCATAATTATCTTGGTCCGGGTACTGATAAC...TAA')ID: lcl|NC_016647.1_cds_YP_005086948.1_1
+Name: lcl|NC_016647.1_cds_YP_005086948.1_1
+Description: lcl|NC_016647.1_cds_YP_005086948.1_1 [gene=NS1] [locus_tag=PBoV5_gp1] [db_xref=GeneID:11537660] [protein=NS1] [protein_id=YP_005086948.1] [location=199..2202] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGCTTCTGCTGGAGTTGGGCTGTCTGATCAGGAGTGGATTAATTACTGGCAT...TGA')ID: lcl|NC_016647.1_cds_YP_005086949.1_2
+Name: lcl|NC_016647.1_cds_YP_005086949.1_2
+Description: lcl|NC_016647.1_cds_YP_005086949.1_2 [gene=NP1] [locus_tag=PBoV5_gp2] [db_xref=GeneID:11537661] [protein=NP1] [protein_id=YP_005086949.1] [location=2332..3006] [gbkey=CDS]
+Number of features: 0
+Seq('ATGAGTCAGAGATTCTCCGATATCAAATCTCGCAGCAGCAACCGGTTCTCTCCT...TAA')ID: lcl|NC_016647.1_cds_YP_005086950.1_3
+Name: lcl|NC_016647.1_cds_YP_005086950.1_3
+Description: lcl|NC_016647.1_cds_YP_005086950.1_3 [gene=VP1] [locus_tag=PBoV5_gp3] [db_xref=GeneID:11537662] [protein=VP1] [protein_id=YP_005086950.1] [location=2996..5050] [gbkey=CDS]
+Number of features: 0
+Seq('ATGAGTCTTAAGCGCGGTCAGTTCCGCGGTGTTCTGTTTCCTGGTTATAATTAT...TAA')ID: lcl|NC_016647.1_cds_YP_005086951.1_4
+Name: lcl|NC_016647.1_cds_YP_005086951.1_4
+Description: lcl|NC_016647.1_cds_YP_005086951.1_4 [gene=VP2] [locus_tag=PBoV5_gp4] [db_xref=GeneID:11537663] [protein=VP2] [protein_id=YP_005086951.1] [location=3404..5050] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGATGGTGATATGGGAGATAACGAACAAGGGGCGGGTGAAGCGCCAGCTGCT...TAA')ID: lcl|NC_001718.1_cds_NP_757368.1_1
+Name: lcl|NC_001718.1_cds_NP_757368.1_1
+Description: lcl|NC_001718.1_cds_NP_757368.1_1 [gene=PT4] [locus_tag=PPVgp1] [db_xref=GeneID:1489594] [protein=non-structure protein 3] [protein_id=NP_757368.1] [location=join(292..548,2388..2454)] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGCAGCGGGAAACACTTACTCGGAAGAGGTACTAAAAGCTACCAACTGGCTT...TAA')ID: lcl|NC_001718.1_cds_NP_757369.1_2
+Name: lcl|NC_001718.1_cds_NP_757369.1_2
+Description: lcl|NC_001718.1_cds_NP_757369.1_2 [gene=PT4] [locus_tag=PPVgp1] [db_xref=GeneID:1489594] [protein=non-structure protein 1] [protein_id=NP_757369.1] [location=292..2280] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGCAGCGGGAAACACTTACTCGGAAGAGGTACTAAAAGCTACCAACTGGCTT...TAA')ID: lcl|NC_001718.1_cds_NP_757370.1_3
+Name: lcl|NC_001718.1_cds_NP_757370.1_3
+Description: lcl|NC_001718.1_cds_NP_757370.1_3 [gene=PT4] [locus_tag=PPVgp1] [db_xref=GeneID:1489594] [protein=non-structure protein 2] [protein_id=NP_757370.1] [location=join(292..548,2021..2249)] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGCAGCGGGAAACACTTACTCGGAAGAGGTACTAAAAGCTACCAACTGGCTT...TGA')ID: lcl|NC_001718.1_cds_NP_757371.1_4
+Name: lcl|NC_001718.1_cds_NP_757371.1_4
+Description: lcl|NC_001718.1_cds_NP_757371.1_4 [gene=PT40] [locus_tag=PPVgp2] [db_xref=GeneID:1489595] [protein=capsid protein 1] [protein_id=NP_757371.1] [location=join(2287..2314,2388..4549)] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGCGCCTCCTGCAAAAAGAGCAAGAGGACTAACTCTACCAGGATACAAATAC...TAG')ID: lcl|NC_001718.1_cds_NP_757372.1_5
+Name: lcl|NC_001718.1_cds_NP_757372.1_5
+Description: lcl|NC_001718.1_cds_NP_757372.1_5 [gene=PT40] [locus_tag=PPVgp2] [db_xref=GeneID:1489595] [protein=capsid protein 2] [protein_id=NP_757372.1] [location=2810..4549] [gbkey=CDS]
+Number of features: 0
+Seq('ATGAGTGAAAATGTGGAACAACACAACCCTATTAATGCAGGCACTGAATTGTCT...TAG')ID: lcl|NC_001718.1_cds_YP_006355433.1_6
+Name: lcl|NC_001718.1_cds_YP_006355433.1_6
+Description: lcl|NC_001718.1_cds_YP_006355433.1_6 [gene=SAT] [locus_tag=PPVgp3] [db_xref=GeneID:12978011] [protein=SAT protein] [protein_id=YP_006355433.1] [location=2820..3026] [gbkey=CDS]
+Number of features: 0
+Seq('ATGTGGAACAACACAACCCTATTAATGCAGGCACTGAATTGTCTGCAACAGGAA...TAA')ID: lcl|NC_030296.1_cds_YP_009256210.1_1
+Name: lcl|NC_030296.1_cds_YP_009256210.1_1
+Description: lcl|NC_030296.1_cds_YP_009256210.1_1 [locus_tag=A9272_gp1] [db_xref=GeneID:27963665] [protein=putative nonstructural protein] [protein_id=YP_009256210.1] [location=300..1598] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGATTGTTCAGCGGACGGAAAATTTAAACGTTTGGATTGTTTGTGTTACTTT...TGA')ID: lcl|NC_030296.1_cds_YP_009256211.1_2
+Name: lcl|NC_030296.1_cds_YP_009256211.1_2
+Description: lcl|NC_030296.1_cds_YP_009256211.1_2 [locus_tag=A9272_gp2] [db_xref=GeneID:27963662] [protein=putative nonstructural protein NS1] [protein_id=YP_009256211.1] [location=338..2377] [gbkey=CDS]
+Number of features: 0
+Seq('TTGTTTGTGTTACTTTTGTTTACTTCCAAAATTGCCAACACCAGTAGTGAGTAT...TAA')ID: lcl|NC_030296.1_cds_YP_009256212.1_3
+Name: lcl|NC_030296.1_cds_YP_009256212.1_3
+Description: lcl|NC_030296.1_cds_YP_009256212.1_3 [locus_tag=A9272_gp3] [db_xref=GeneID:27963663] [protein=putative structural protein] [protein_id=YP_009256212.1] [location=complement(2402..4168)] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGCACCGAGGAAGCGTAAACCCCCGGGTCCAAAGCCTACAGTTAAACGTCCG...TAA')ID: lcl|NC_030296.1_cds_YP_009256213.1_4
+Name: lcl|NC_030296.1_cds_YP_009256213.1_4
+Description: lcl|NC_030296.1_cds_YP_009256213.1_4 [locus_tag=A9272_gp4] [db_xref=GeneID:27963664] [protein=putative structural protein VP1] [protein_id=YP_009256213.1] [location=complement(4149..4766)] [gbkey=CDS]
+Number of features: 0
+Seq('ATGTCATCTGTAAATAATAGTGCTCAGATAAAAGCGATAAAAAAACCCTCCAGC...TAA')ID: lcl|NC_016744.1_cds_YP_005090504.1_1
+Name: lcl|NC_016744.1_cds_YP_005090504.1_1
+Description: lcl|NC_016744.1_cds_YP_005090504.1_1 [locus_tag=Eh-BtPV-1_gpp1] [db_xref=GeneID:11763498] [protein=putative non structural protein NS1] [protein_id=YP_005090504.1] [location=174..2252] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGACGTGGAGTGCGTTATTGCTGTGCTTGCCGTGCCTAAGTCGCACTACGCC...TAA')ID: lcl|NC_016744.1_cds_YP_005090505.1_2
+Name: lcl|NC_016744.1_cds_YP_005090505.1_2
+Description: lcl|NC_016744.1_cds_YP_005090505.1_2 [locus_tag=Eh-BtPV-1_gpp2] [db_xref=GeneID:11763499] [protein=putative capsid protein VP1] [protein_id=YP_005090505.1] [location=2279..5038] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGCGTCCGGCGGCGTCGCATTTTTTATGCCTACGGGGGAAGGAGGGAAAGCC...TAA')ID: lcl|NC_016744.1_cds_YP_005090506.1_3
+Name: lcl|NC_016744.1_cds_YP_005090506.1_3
+Description: lcl|NC_016744.1_cds_YP_005090506.1_3 [gene=MARF] [locus_tag=Eh-BtPV-1_gpp3] [db_xref=GeneID:11546460] [protein=MARF] [protein_id=YP_005090506.1] [location=2829..3062] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGAGGAGCCGCTACTGAACAGCGCTCTGACGTCCCTGAAAGTCCTAGCCCCC...TAG')ID: lcl|NC_016744.1_cds_YP_005090507.1_4
+Name: lcl|NC_016744.1_cds_YP_005090507.1_4
+Description: lcl|NC_016744.1_cds_YP_005090507.1_4 [locus_tag=Eh-BtPV-1_gpp4] [db_xref=GeneID:11763500] [protein=putative capsid protein VP2] [protein_id=YP_005090507.1] [location=3404..5038] [gbkey=CDS]
+Number of features: 0
+Seq('ATGTCCACTGAAGCCGAGGGAAGTGGCGGAGGCATTAAAGTTAAAGCTCTGTGG...TAA')ID: lcl|NC_018450.1_cds_YP_006589928.1_1
+Name: lcl|NC_018450.1_cds_YP_006589928.1_1
+Description: lcl|NC_018450.1_cds_YP_006589928.1_1 [gene=NS1] [locus_tag=B864_gp1] [db_xref=GeneID:13455360] [protein=nonstructural protein 1] [protein_id=YP_006589928.1] [location=349..2631] [gbkey=CDS]
+Number of features: 0
+Seq('ATGAATTCACAGTGCGGAGCATACGAGTTTTCGTATACAGATCAAAGTCCAATA...TAA')ID: lcl|NC_018450.1_cds_YP_006589929.1_2
+Name: lcl|NC_018450.1_cds_YP_006589929.1_2
+Description: lcl|NC_018450.1_cds_YP_006589929.1_2 [gene=NS2] [locus_tag=B864_gp2] [db_xref=GeneID:13455358] [protein=nonstructural protein 2] [protein_id=YP_006589929.1] [location=482..1849] [gbkey=CDS]
+Number of features: 0
+Seq('ATGCTAACGTTGCTCATCAATTATTGTCTAGTATGGAGTCTTTTGAAGAGTCTT...TAG')ID: lcl|NC_018450.1_cds_YP_006589930.1_3
+Name: lcl|NC_018450.1_cds_YP_006589930.1_3
+Description: lcl|NC_018450.1_cds_YP_006589930.1_3 [gene=VP] [locus_tag=B864_gp3] [db_xref=GeneID:13455359] [protein=structural protein VP] [protein_id=YP_006589930.1] [location=2686..4707] [gbkey=CDS]
+Number of features: 0
+Seq('ATGCCTCGTATTCATTTTCCTAAACATAATTATCTTGGTCCTGGTAGTGGTAAT...TAA')ID: lcl|NC_031670.1_cds_YP_009315886.1_1
+Name: lcl|NC_031670.1_cds_YP_009315886.1_1
+Description: lcl|NC_031670.1_cds_YP_009315886.1_1 [locus_tag=BLA30_gp1] [db_xref=GeneID:30074670] [protein=NS1] [protein_id=YP_009315886.1] [location=77..2029] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGATGCTCCTGCCTTTACCGCTGTACTGCAAGTGCCCACCACCGTCTGTGAG...TGA')ID: lcl|NC_031670.1_cds_YP_009315887.1_2
+Name: lcl|NC_031670.1_cds_YP_009315887.1_2
+Description: lcl|NC_031670.1_cds_YP_009315887.1_2 [locus_tag=BLA30_gp2] [db_xref=GeneID:30074669] [protein=VP1] [protein_id=YP_009315887.1] [location=2171..4972] [gbkey=CDS]
+Number of features: 0
+Seq('ATGTCTGCGGCAGATGCTTTTCGGCCCGGGGATCCACCTCCCCTAGAAACCCTG...TAA')ID: lcl|NC_038532.1_cds_YP_009507339.1_1
+Name: lcl|NC_038532.1_cds_YP_009507339.1_1
+Description: lcl|NC_038532.1_cds_YP_009507339.1_1 [locus_tag=D1R50_gp1] [db_xref=GeneID:37618307] [protein=structural protein] [protein_id=YP_009507339.1] [location=37..2805] [gbkey=CDS]
+Number of features: 0
+Seq('ATGTCGGGTGAAGTCTTTGCGCGTATACGTGAGGGTTTACGATTGAGAAATCCT...TAA')ID: lcl|NC_038532.1_cds_YP_009507340.1_2
+Name: lcl|NC_038532.1_cds_YP_009507340.1_2
+Description: lcl|NC_038532.1_cds_YP_009507340.1_2 [locus_tag=D1R50_gp2] [db_xref=GeneID:37618306] [protein=nonstructural protein] [protein_id=YP_009507340.1] [location=complement(2848..4545)] [gbkey=CDS]
+Number of features: 0
+Seq('ATGAGTAATGTCGAAAAGGAAGGAATCAGAGATGTCGGGATCGGAGGAGAGCGA...TAA')ID: lcl|NC_026251.1_cds_YP_009116876.1_1
+Name: lcl|NC_026251.1_cds_YP_009116876.1_1
+Description: lcl|NC_026251.1_cds_YP_009116876.1_1 [locus_tag=TI48_gp1] [db_xref=GeneID:22934512] [protein=NS1] [protein_id=YP_009116876.1] [location=314..1975] [gbkey=CDS]
+Number of features: 0
+Seq('ATGAACAGCACCGTGGAGTGGAATCCGGGAGACACGTTTGCTGGCGTTGTGAGA...TAA')ID: lcl|NC_026251.1_cds_YP_009116877.1_2
+Name: lcl|NC_026251.1_cds_YP_009116877.1_2
+Description: lcl|NC_026251.1_cds_YP_009116877.1_2 [locus_tag=TI48_gp2] [db_xref=GeneID:22934511] [protein=VP1] [protein_id=YP_009116877.1] [location=2060..4954] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGTCGAATGGGACCCCACACGAGTAATAGAATGGCAAAAAAAAGCAGTATGG...TGA')ID: lcl|NC_038542.1_cds_YP_009507373.1_1
+Name: lcl|NC_038542.1_cds_YP_009507373.1_1
+Description: lcl|NC_038542.1_cds_YP_009507373.1_1 [locus_tag=D1R60_gp1] [db_xref=GeneID:37618351] [protein=NS protein] [protein_id=YP_009507373.1] [location=296..2314] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGAAATGTTTCGGGGTGTTGTACATGTTTCTGCTAACTTTATTAACTTTGTT...TGA')ID: lcl|NC_038542.1_cds_YP_009507374.1_2
+Name: lcl|NC_038542.1_cds_YP_009507374.1_2
+Description: lcl|NC_038542.1_cds_YP_009507374.1_2 [locus_tag=D1R60_gp2] [db_xref=GeneID:37618350] [protein=capsid protein] [protein_id=YP_009507374.1] [location=2307..4664] [gbkey=CDS]
+Number of features: 0
+Seq('ATGACTGATGAAAAACCAAAAGAAAAAAAATGGTGGGAAACAGGGGATCCATTT...TAA')ID: lcl|NC_006555.1_cds_YP_164339.1_1
+Name: lcl|NC_006555.1_cds_YP_164339.1_1
+Description: lcl|NC_006555.1_cds_YP_164339.1_1 [gene=NS1] [locus_tag=DPDVgp1] [db_xref=GeneID:3197256] [protein=nonstructural protein 1] [protein_id=YP_164339.1] [location=328..2655] [gbkey=CDS]
+Number of features: 0
+Seq('ATGAACGCGCAGTCAACAAGTGAACAAGTAATAATAAGTGAAGATATAAATCCA...TAA')ID: lcl|NC_006555.1_cds_YP_164340.1_2
+Name: lcl|NC_006555.1_cds_YP_164340.1_2
+Description: lcl|NC_006555.1_cds_YP_164340.1_2 [gene=NS2] [locus_tag=DPDVgp2] [db_xref=GeneID:3197258] [protein=nonstructural protein 2] [protein_id=YP_164340.1] [location=494..1855] [gbkey=CDS]
+Number of features: 0
+Seq('ATGTTCCAACTGATCGCCAACAAAGGTCTATTGACCGGAATAATGAAATCGTTA...TAG')ID: lcl|NC_006555.1_cds_YP_164341.1_3
+Name: lcl|NC_006555.1_cds_YP_164341.1_3
+Description: lcl|NC_006555.1_cds_YP_164341.1_3 [gene=VP] [locus_tag=DPDVgp3] [db_xref=GeneID:3197257] [protein=viral protein] [protein_id=YP_164341.1] [location=2745..4751] [gbkey=CDS]
+Number of features: 0
+Seq('ATGCCGCACTTGCCGGGTCATAAATATATTGGTCCCGGTACTAGTGACTTTAAA...TAA')ID: lcl|NC_039045.1_cds_YP_009508785.1_1
+Name: lcl|NC_039045.1_cds_YP_009508785.1_1
+Description: lcl|NC_039045.1_cds_YP_009508785.1_1 [locus_tag=D1U44_gp1] [db_xref=GeneID:37620288] [protein=NS1] [protein_id=YP_009508785.1] [location=224..2386] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGATTCACCTCCATCTACACCTAGAAATGCAGACATACCTGAAACTATCAAA...TAA')ID: lcl|NC_039045.1_cds_YP_009508786.1_2
+Name: lcl|NC_039045.1_cds_YP_009508786.1_2
+Description: lcl|NC_039045.1_cds_YP_009508786.1_2 [locus_tag=D1U44_gp2] [db_xref=GeneID:37620285] [protein=NP1] [protein_id=YP_009508786.1] [location=2542..3045] [gbkey=CDS]
+Number of features: 0
+Seq('ATGAAGAGAGCACACTCTCCGGCATCTACGAGTTGGAAGTCCCAACCGATGTCG...TAA')ID: lcl|NC_039045.1_cds_YP_009508787.1_3
+Name: lcl|NC_039045.1_cds_YP_009508787.1_3
+Description: lcl|NC_039045.1_cds_YP_009508787.1_3 [locus_tag=D1U44_gp3] [db_xref=GeneID:37620286] [protein=VP1] [protein_id=YP_009508787.1] [location=3032..5011] [gbkey=CDS]
+Number of features: 0
+Seq('ATGCCTCCACTTAAAAAAAATCAAAGAGGATGGGTTCTACCTGGTTATAAATAT...TAA')ID: lcl|NC_039045.1_cds_YP_009508788.1_4
+Name: lcl|NC_039045.1_cds_YP_009508788.1_4
+Description: lcl|NC_039045.1_cds_YP_009508788.1_4 [locus_tag=D1U44_gp4] [db_xref=GeneID:37620287] [protein=VP2] [protein_id=YP_009508788.1] [location=3401..5011] [gbkey=CDS]
+Number of features: 0
+Seq('ATGTCAGACCAGGTCGACGCACCAGCAGAAGGCGCTGTCCGCGGAGATCTTAGC...TAA')ID: lcl|NC_004295.1_cds_NP_694863.1_1
+Name: lcl|NC_004295.1_cds_NP_694863.1_1
+Description: lcl|NC_004295.1_cds_NP_694863.1_1 [gene=NS1] [locus_tag=HeVV9gp1] [db_xref=GOA:Q912B9,InterPro:IPR001257,InterPro:IPR014015,InterPro:IPR014835,UniProtKB/TrEMBL:Q912B9] [protein=NS1 protein] [protein_id=NP_694863.1] [location=328..2343] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGAGCTATTTCGGGGTGTCTTGCACATTTCCTCTAACATTCTGGACTGTGCT...TAA')ID: lcl|NC_004295.1_cds_NP_694864.1_2
+Name: lcl|NC_004295.1_cds_NP_694864.1_2
+Description: lcl|NC_004295.1_cds_NP_694864.1_2 [gene=7.5-kDa] [locus_tag=HeVV9gp2] [db_xref=UniProtKB/TrEMBL:Q910P6] [protein=7.5-kDa protein] [protein_id=NP_694864.1] [location=1796..2020] [gbkey=CDS]
+Number of features: 0
+Seq('ATGCAGATGCCCTCCACCCAGATCTCCAAACCACCCCCATTGTCCCAGACACCA...TAG')ID: lcl|NC_004295.1_cds_NP_694865.1_3
+Name: lcl|NC_004295.1_cds_NP_694865.1_3
+Description: lcl|NC_004295.1_cds_NP_694865.1_3 [gene=VP1] [locus_tag=HeVV9gp3] [db_xref=GOA:Q912B8,InterPro:IPR001403,InterPro:IPR013607,InterPro:IPR016184,UniProtKB/TrEMBL:Q912B8] [protein=VP1 protein] [protein_id=NP_694865.1] [location=2336..4681] [gbkey=CDS]
+Number of features: 0
+Seq('ATGAGTAAAACCACTAACAAATGGTGGGAAAGCAGTGACAAATTTGCCCAGGAC...TAA')ID: lcl|NC_004295.1_cds_NP_694866.1_4
+Name: lcl|NC_004295.1_cds_NP_694866.1_4
+Description: lcl|NC_004295.1_cds_NP_694866.1_4 [gene=X] [locus_tag=HeVV9gp4] [db_xref=InterPro:IPR009629,UniProtKB/TrEMBL:Q910M7] [protein=X protein] [protein_id=NP_694866.1] [location=2586..2831] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGACAGTTATCTGACCACCCCCATGCCTTATCATCCAGTAACAGTAGTGCAG...TAA')ID: lcl|NC_004295.1_cds_NP_694867.1_5
+Name: lcl|NC_004295.1_cds_NP_694867.1_5
+Description: lcl|NC_004295.1_cds_NP_694867.1_5 [gene=VP2] [locus_tag=HeVV9gp5] [db_xref=GOA:Q912B7,InterPro:IPR001403,InterPro:IPR016184,UniProtKB/TrEMBL:Q912B7] [protein=VP2 protein] [protein_id=NP_694867.1] [location=3017..4681] [gbkey=CDS]
+Number of features: 0
+Seq('ATGACTTCAGTTAACTCTGCAGAAGCCAGCACTGGTGCAGGCGGGGGAGGTAGC...TAA')ID: lcl|NC_004295.1_cds_NP_694868.1_6
+Name: lcl|NC_004295.1_cds_NP_694868.1_6
+Description: lcl|NC_004295.1_cds_NP_694868.1_6 [gene=11-kDa] [locus_tag=HeVV9gp6] [db_xref=UniProtKB/TrEMBL:Q912B6] [protein=11-kDa protein] [protein_id=NP_694868.1] [location=4575..4886] [gbkey=CDS]
+Number of features: 0
+Seq('ATGTACTGTATGACCCCACAGCTACAGATGCAAAGCAACACCACAGACACGGAT...TAA')ID: lcl|NC_028973.1_cds_YP_009215301.1_1
+Name: lcl|NC_028973.1_cds_YP_009215301.1_1
+Description: lcl|NC_028973.1_cds_YP_009215301.1_1 [locus_tag=AVT84_gp1] [db_xref=GeneID:26641704] [protein=nonstructural protein 1] [protein_id=YP_009215301.1] [location=97..2253] [gbkey=CDS]
+Number of features: 0
+Seq('CTGTCGGGAGAGAACCAGTGGAACTTTGAAAACAACGGAGACTTCAGACCGCAC...TAG')ID: lcl|NC_028973.1_cds_YP_009215302.1_2
+Name: lcl|NC_028973.1_cds_YP_009215302.1_2
+Description: lcl|NC_028973.1_cds_YP_009215302.1_2 [locus_tag=AVT84_gp2] [db_xref=GeneID:26641702] [protein=NP1] [protein_id=YP_009215302.1] [location=2075..2689] [gbkey=CDS]
+Number of features: 0
+Seq('ATGAGTTCGCGTCACAGCCCGTATCCGAGGAAGACATCCGGCGATACGACCGGC...TAG')ID: lcl|NC_028973.1_cds_YP_009215303.1_3
+Name: lcl|NC_028973.1_cds_YP_009215303.1_3
+Description: lcl|NC_028973.1_cds_YP_009215303.1_3 [locus_tag=AVT84_gp3] [db_xref=GeneID:26641703] [protein=capsid protein] [protein_id=YP_009215303.1] [location=2676..4850] [gbkey=CDS]
+Number of features: 0
+Seq('ATGCCTCCCATTAGACAACCTAAAGGGTGGCTCTTTCCTGGGTATCGCTATTTG...TAA')ID: lcl|NC_018399.1_cds_YP_006576512.1_1
+Name: lcl|NC_018399.1_cds_YP_006576512.1_1
+Description: lcl|NC_018399.1_cds_YP_006576512.1_1 [locus_tag=B718_gp1] [db_xref=GeneID:13436217] [protein=nonstructural protein 1] [protein_id=YP_006576512.1] [location=354..2615] [gbkey=CDS]
+Number of features: 0
+Seq('ATGTCAAGTCAGTCTGGCAGTTACGAGCACTCATACGAGGATAATAATTATCCC...TAA')ID: lcl|NC_018399.1_cds_YP_006576513.1_2
+Name: lcl|NC_018399.1_cds_YP_006576513.1_2
+Description: lcl|NC_018399.1_cds_YP_006576513.1_2 [locus_tag=B718_gp2] [db_xref=GeneID:13436215] [protein=nonstructural protein 2] [protein_id=YP_006576513.1] [location=481..1839] [gbkey=CDS]
+Number of features: 0
+Seq('ATGCTAATACTACTGGTGAACTCTTGTCTGCTATGGAGTCTTTTGAAGAGCCTA...TAG')ID: lcl|NC_018399.1_cds_YP_006576514.1_3
+Name: lcl|NC_018399.1_cds_YP_006576514.1_3
+Description: lcl|NC_018399.1_cds_YP_006576514.1_3 [locus_tag=B718_gp3] [db_xref=GeneID:13436216] [protein=structural protein VP] [protein_id=YP_006576514.1] [location=2669..4714] [gbkey=CDS]
+Number of features: 0
+Seq('ATGCCTCGTATTCATTTACCTTATCATAATTACTTTGGTCCGGGTACTGATAAC...TAA')ID: lcl|NC_023842.1_cds_YP_009021036.1_1
+Name: lcl|NC_023842.1_cds_YP_009021036.1_1
+Description: lcl|NC_023842.1_cds_YP_009021036.1_1 [gene=Rep] [locus_tag=DF38_gp1] [db_xref=GeneID:18937717] [protein=nonstructural protein NS1] [protein_id=YP_009021036.1] [location=360..2618] [gbkey=CDS]
+Number of features: 0
+Seq('ATGTCAATTCAGTCTGGCAGTTACGAGCACTCATACGAGGACCATACTTACCCG...TAA')ID: lcl|NC_023842.1_cds_YP_009021037.1_2
+Name: lcl|NC_023842.1_cds_YP_009021037.1_2
+Description: lcl|NC_023842.1_cds_YP_009021037.1_2 [gene=NS2] [locus_tag=DF38_gp2] [db_xref=GeneID:18937715] [protein=nonstructural protein NS2] [protein_id=YP_009021037.1] [location=487..1842] [gbkey=CDS]
+Number of features: 0
+Seq('ATGCTAATACTACTGGTGAACTCTTGTCTGCTATGGAGTCTTTTGAAGAGCCTT...TAG')ID: lcl|NC_023842.1_cds_YP_009021038.1_3
+Name: lcl|NC_023842.1_cds_YP_009021038.1_3
+Description: lcl|NC_023842.1_cds_YP_009021038.1_3 [gene=cap] [locus_tag=DF38_gp3] [db_xref=GeneID:18937716] [protein=structural protein VP] [protein_id=YP_009021038.1] [location=2677..4710] [gbkey=CDS]
+Number of features: 0
+Seq('ATGCCTCGTATTCATTTTCCTTATCATAATTATCTTGGTCCGGGTAGTGATAAC...TAA')ID: lcl|NC_004288.1_cds_NP_694838.1_1
+Name: lcl|NC_004288.1_cds_NP_694838.1_1
+Description: lcl|NC_004288.1_cds_NP_694838.1_1 [gene=NS1] [locus_tag=CeDNVgp1] [db_xref=GeneID:955436] [protein=nonstructural protein 1] [protein_id=NP_694838.1] [location=354..2615] [gbkey=CDS]
+Number of features: 0
+Seq('ATGTTAAGTCAGTCTGGCAGTTACGAGCACTCATACGAGGACCATAATTATCCT...TAA')ID: lcl|NC_004288.1_cds_NP_694839.1_2
+Name: lcl|NC_004288.1_cds_NP_694839.1_2
+Description: lcl|NC_004288.1_cds_NP_694839.1_2 [gene=NS2] [locus_tag=CeDNVgp2] [db_xref=GeneID:955435] [protein=nonstructural protein 2] [protein_id=NP_694839.1] [location=481..1839] [gbkey=CDS]
+Number of features: 0
+Seq('ATGCTAATACTACTGGTGAACTCTTGTCTGCTATGGAGTCTTTTGAAGAGTCTT...TAG')ID: lcl|NC_004288.1_cds_NP_694840.1_3
+Name: lcl|NC_004288.1_cds_NP_694840.1_3
+Description: lcl|NC_004288.1_cds_NP_694840.1_3 [gene=VP] [locus_tag=CeDNVgp3] [db_xref=GeneID:955437] [protein=viral protein 1-4] [protein_id=NP_694840.1] [location=2674..4710] [gbkey=CDS]
+Number of features: 0
+Seq('ATGCCTCGTATTCATTTTCCTTATCATAATTATCTTGGTCCGGGCAGTGATAAC...TAA')ID: lcl|NC_039046.1_cds_YP_009508789.1_1
+Name: lcl|NC_039046.1_cds_YP_009508789.1_1
+Description: lcl|NC_039046.1_cds_YP_009508789.1_1 [gene=NS1] [locus_tag=D1U45_gp1] [db_xref=GeneID:37620293] [protein=nonstructural protein] [protein_id=YP_009508789.1] [location=16..2421] [gbkey=CDS]
+Number of features: 0
+Seq('ATGTCTTTCTCTACATTTTTGAGCGATTTGACATCTTTTCATCAGCCTGCATAT...TAG')ID: lcl|NC_039046.1_cds_YP_009508790.1_2
+Name: lcl|NC_039046.1_cds_YP_009508790.1_2
+Description: lcl|NC_039046.1_cds_YP_009508790.1_2 [gene=NP1] [locus_tag=D1U45_gp2] [db_xref=GeneID:37620290] [protein=hypothetical protein] [protein_id=YP_009508790.1] [location=2186..2791] [gbkey=CDS]
+Number of features: 0
+Seq('ATGAGCTCGAGAAGCAGCTATTCGAAATCGAGCAGCGGGAGCTACAGCAACCGC...TAA')ID: lcl|NC_039046.1_cds_YP_009508791.1_3
+Name: lcl|NC_039046.1_cds_YP_009508791.1_3
+Description: lcl|NC_039046.1_cds_YP_009508791.1_3 [gene=VP1] [locus_tag=D1U45_gp3] [db_xref=GeneID:37620291] [protein=capsid protein VP1] [protein_id=YP_009508791.1] [location=2778..4892] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGCGCCAACTAACCGTAAACCGGGTGGTTGGGTTATTCCTGGCTACAAATAT...TAA')ID: lcl|NC_039046.1_cds_YP_009508792.1_4
+Name: lcl|NC_039046.1_cds_YP_009508792.1_4
+Description: lcl|NC_039046.1_cds_YP_009508792.1_4 [gene=VP2] [locus_tag=D1U45_gp4] [db_xref=GeneID:37620292] [protein=capsid protein VP2] [protein_id=YP_009508792.1] [location=3174..4892] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGATAATCCTGGAGGCGATAACAATGAACCACAAGATAATGGTTCGGGTCCA...TAA')ID: lcl|NC_038540.1_cds_YP_009507368.1_1
+Name: lcl|NC_038540.1_cds_YP_009507368.1_1
+Description: lcl|NC_038540.1_cds_YP_009507368.1_1 [locus_tag=D1R58_gp1] [db_xref=GeneID:37618345] [protein=NS1] [protein_id=YP_009507368.1] [location=307..2370] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGAGATGTATAGAGGAGTTATTCAGGTAAATGCTAACTTTACTGACTTTGCT...TGA')ID: lcl|NC_038540.1_cds_YP_009507369.1_2
+Name: lcl|NC_038540.1_cds_YP_009507369.1_2
+Description: lcl|NC_038540.1_cds_YP_009507369.1_2 [locus_tag=D1R58_gp2] [db_xref=GeneID:37618343] [protein=VP1] [protein_id=YP_009507369.1] [location=2363..4819] [gbkey=CDS]
+Number of features: 0
+Seq('ATGAGTGAGCCTGCTTCCAAAAAACAAAAATGGTGGGACGAAGAAAATGCTTAT...TAA')ID: lcl|NC_038540.1_cds_YP_009507370.1_3
+Name: lcl|NC_038540.1_cds_YP_009507370.1_3
+Description: lcl|NC_038540.1_cds_YP_009507370.1_3 [locus_tag=D1R58_gp3] [db_xref=GeneID:37618344] [protein=VP2] [protein_id=YP_009507370.1] [location=3149..4819] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGCCTCTGTCACGTCTACTGAAGGAACTACTGGAGCTGGAGGCGGTGGCAGT...TAA')ID: lcl|NC_034532.1_cds_YP_009362129.1_1
+Name: lcl|NC_034532.1_cds_YP_009362129.1_1
+Description: lcl|NC_034532.1_cds_YP_009362129.1_1 [locus_tag=CA795_gp1] [db_xref=GeneID:37627435] [protein=putative non-structural protein] [protein_id=YP_009362129.1] [location=join(174..1282,1337..2360)] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGTGGATGCAGTAGTTTGCGACAAAGTGTTCAATTGTTCAGATATACCGGAC...TAA')ID: lcl|NC_034532.1_cds_YP_009362130.1_2
+Name: lcl|NC_034532.1_cds_YP_009362130.1_2
+Description: lcl|NC_034532.1_cds_YP_009362130.1_2 [locus_tag=CA795_gp2] [db_xref=GeneID:37627434] [protein=putative non-structural protein] [protein_id=YP_009362130.1] [location=join(238..1282,1337..1536)] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGAAGCAATTCAAAAAACACCGGAGCACAAGACGGCGGACGAAGATATCGTT...TAG')ID: lcl|NC_034532.1_cds_YP_009362131.1_3
+Name: lcl|NC_034532.1_cds_YP_009362131.1_3
+Description: lcl|NC_034532.1_cds_YP_009362131.1_3 [locus_tag=CA795_gp3] [db_xref=GeneID:37627436] [protein=putative major structural protein] [protein_id=YP_009362131.1] [location=complement(2491..4344)] [gbkey=CDS]
+Number of features: 0
+Seq('ATGCCTCATCGTTATCAAGGTCCCCCTCCACCACAAAGGCCTAATTGGTCTAAA...TAG')ID: lcl|NC_034532.1_cds_YP_009362132.1_4
+Name: lcl|NC_034532.1_cds_YP_009362132.1_4
+Description: lcl|NC_034532.1_cds_YP_009362132.1_4 [locus_tag=CA795_gp4] [db_xref=GeneID:37627437] [protein=putative structural protein] [protein_id=YP_009362132.1] [location=complement(4301..4870)] [gbkey=CDS]
+Number of features: 0
+Seq('ATGTTGGGACTGTCGTGGAGTTTAAATCGCGCGCCACAACAAATTCAACAATTT...TAA')ID: lcl|NC_022564.1_cds_YP_008658567.1_1
+Name: lcl|NC_022564.1_cds_YP_008658567.1_1
+Description: lcl|NC_022564.1_cds_YP_008658567.1_1 [gene=NS3] [locus_tag=T315_gp1] [db_xref=GeneID:17165486] [protein=nonstructural protein 3] [protein_id=YP_008658567.1] [location=283..948] [gbkey=CDS]
+Number of features: 0
+Seq('ATGAGTGTGAGTTTTCGTGTTCCATCACTTTTAAGCCTAACTAGTGCACGTGTA...TAA')ID: lcl|NC_022564.1_cds_YP_008658568.1_2
+Name: lcl|NC_022564.1_cds_YP_008658568.1_2
+Description: lcl|NC_022564.1_cds_YP_008658568.1_2 [gene=NS1] [locus_tag=T315_gp2] [db_xref=GeneID:17165483] [protein=nonstructural protein 1] [protein_id=YP_008658568.1] [location=1176..2663] [gbkey=CDS]
+Number of features: 0
+Seq('ATGTCTTCAAGTAGCGAAGAAGATGATATGCCAACAAATGTCAGTAGTGTTCAA...TAG')ID: lcl|NC_022564.1_cds_YP_008658569.1_3
+Name: lcl|NC_022564.1_cds_YP_008658569.1_3
+Description: lcl|NC_022564.1_cds_YP_008658569.1_3 [gene=NS2] [locus_tag=T315_gp3] [db_xref=GeneID:17165484] [protein=nonstructural protein 2] [protein_id=YP_008658569.1] [location=1198..1866] [gbkey=CDS]
+Number of features: 0
+Seq('ATGATATGCCAACAAATGTCAGTAGTGTTCAAACGAGCAAAATCGATCAGTACG...TAA')ID: lcl|NC_022564.1_cds_YP_008658570.1_4
+Name: lcl|NC_022564.1_cds_YP_008658570.1_4
+Description: lcl|NC_022564.1_cds_YP_008658570.1_4 [gene=VP1] [locus_tag=T315_gp4] [db_xref=GeneID:17165485] [protein=structural protein] [protein_id=YP_008658570.1] [location=complement(2664..4712)] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGCGCCGGTACTAGTTGTTCCAGGACATAAATATTTAGGTCCTGGAAATAAA...TAA')ID: lcl|NC_014358.1_cds_YP_003799996.1_1
+Name: lcl|NC_014358.1_cds_YP_003799996.1_1
+Description: lcl|NC_014358.1_cds_YP_003799996.1_1 [locus_tag=GBoV_gp1] [db_xref=GeneID:9487922] [protein=non structural protein 1] [protein_id=YP_003799996.1] [location=14..2428] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGCTTTCAATCCTCCTGTGATTAGAGCTTTCTCTCAACCTGCTTTTACTTAT...TAG')ID: lcl|NC_014358.1_cds_YP_003799997.1_2
+Name: lcl|NC_014358.1_cds_YP_003799997.1_2
+Description: lcl|NC_014358.1_cds_YP_003799997.1_2 [locus_tag=GBoV_gp2] [db_xref=GeneID:9487919] [protein=nucleoprotein 1] [protein_id=YP_003799997.1] [location=2169..2828] [gbkey=CDS]
+Number of features: 0
+Seq('ATGAGCTCAGGGAATATGAAAGACAAACATCGCTCTTACAAAAGAAAAGGCAGT...TAA')ID: lcl|NC_014358.1_cds_YP_003799998.1_3
+Name: lcl|NC_014358.1_cds_YP_003799998.1_3
+Description: lcl|NC_014358.1_cds_YP_003799998.1_3 [locus_tag=GBoV_gp3] [db_xref=GeneID:9487920] [protein=capsid protein] [protein_id=YP_003799998.1] [location=2815..4830] [gbkey=CDS]
+Number of features: 0
+Seq('ATGCCTCCAATTAAAAGGCAACCTGGAGGCTGGGTACTACCTGGTTATAGATAT...TAA')ID: lcl|NC_014358.1_cds_YP_003799999.1_4
+Name: lcl|NC_014358.1_cds_YP_003799999.1_4
+Description: lcl|NC_014358.1_cds_YP_003799999.1_4 [locus_tag=GBoV_gp4] [db_xref=GeneID:9487921] [protein=capsid protein] [protein_id=YP_003799999.1] [location=3202..4830] [gbkey=CDS]
+Number of features: 0
+Seq('ATGTCAGAAAACGAAATTCAAGACCAACAACCATCAGACGCTGTTGATGGCCAA...TAA')ID: lcl|NC_025825.1_cds_YP_009110759.1_1
+Name: lcl|NC_025825.1_cds_YP_009110759.1_1
+Description: lcl|NC_025825.1_cds_YP_009110759.1_1 [locus_tag=RJ98_gp1] [db_xref=GeneID:22475014] [protein=NS1] [protein_id=YP_009110759.1] [location=join(237..1992,2082..2251)] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGCTCAGGCTCAGCTTAACGAGCAAAAGAGACTGCAAGAACTATTCACAAAG...TAA')ID: lcl|NC_025825.1_cds_YP_009110760.1_2
+Name: lcl|NC_025825.1_cds_YP_009110760.1_2
+Description: lcl|NC_025825.1_cds_YP_009110760.1_2 [locus_tag=RJ98_gp2] [db_xref=GeneID:22475010] [protein=NS2] [protein_id=YP_009110760.1] [location=join(237..415,2082..2247)] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGCTCAGGCTCAGCTTAACGAGCAAAAGAGACTGCAAGAACTATTCACAAAG...TGA')ID: lcl|NC_025825.1_cds_YP_009110761.1_3
+Name: lcl|NC_025825.1_cds_YP_009110761.1_3
+Description: lcl|NC_025825.1_cds_YP_009110761.1_3 [locus_tag=RJ98_gp3] [db_xref=GeneID:22475011] [protein=NS3] [protein_id=YP_009110761.1] [location=join(237..415,1768..1789)] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGCTCAGGCTCAGCTTAACGAGCAAAAGAGACTGCAAGAACTATTCACAAAG...TAA')ID: lcl|NC_025825.1_cds_YP_009110762.1_4
+Name: lcl|NC_025825.1_cds_YP_009110762.1_4
+Description: lcl|NC_025825.1_cds_YP_009110762.1_4 [locus_tag=RJ98_gp4] [db_xref=GeneID:22475012] [protein=VP1] [protein_id=YP_009110762.1] [location=join(2244..2253,2326..4355)] [gbkey=CDS]
+Number of features: 0
+Seq('ATGAGTAAAATTCCTCAGCACTTTCCTGGAAAAAAGAGAAGTGCTCCAAGACAC...TAA')ID: lcl|NC_025825.1_cds_YP_009110763.1_5
+Name: lcl|NC_025825.1_cds_YP_009110763.1_5
+Description: lcl|NC_025825.1_cds_YP_009110763.1_5 [locus_tag=RJ98_gp5] [db_xref=GeneID:22475013] [protein=VP2] [protein_id=YP_009110763.1] [location=2445..4355] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGATTCTACTGAACCTGAGCAAATGGACACTGAGCAAGCAACTAACCAAACT...TAA')ID: lcl|NC_015718.1_cds_YP_004678719.1_1
+Name: lcl|NC_015718.1_cds_YP_004678719.1_1
+Description: lcl|NC_015718.1_cds_YP_004678719.1_1 [locus_tag=HeArDNV_gp1] [db_xref=GeneID:10894487] [protein=NS2] [protein_id=YP_004678719.1] [location=370..1629] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGTTGTATTCTCTACTATCGCGTATTGTGAAGTTTTGAGTTTCCTCGTCAAG...TAG')ID: lcl|NC_015718.1_cds_YP_004678720.1_2
+Name: lcl|NC_015718.1_cds_YP_004678720.1_2
+Description: lcl|NC_015718.1_cds_YP_004678720.1_2 [locus_tag=HeArDNV_gp2] [db_xref=GeneID:10894485] [protein=NS1] [protein_id=YP_004678720.1] [location=447..2456] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGAATCACGTGATCAAATCAGTGAAATCGTTGAAGACTGCCCTCATATCAGT...TGA')ID: lcl|NC_015718.1_cds_YP_004678721.1_3
+Name: lcl|NC_015718.1_cds_YP_004678721.1_3
+Description: lcl|NC_015718.1_cds_YP_004678721.1_3 [locus_tag=HeArDNV_gp3] [db_xref=GeneID:10894486] [protein=VP] [protein_id=YP_004678721.1] [location=2521..4500] [gbkey=CDS]
+Number of features: 0
+Seq('ATGCCTTTTCATTGGCCTAGACACAACTATCTAGGACCTGGTACAAAAGACTTT...TAG')ID: lcl|NC_039049.1_cds_YP_009508802.1_1
+Name: lcl|NC_039049.1_cds_YP_009508802.1_1
+Description: lcl|NC_039049.1_cds_YP_009508802.1_1 [locus_tag=D1U48_gp1] [db_xref=GeneID:37620307] [protein=nonstructural protein 1] [protein_id=YP_009508802.1] [location=8..2005] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGATCAAAAAAACTACATAGAGAGCTGTGGACTAAGTTTTGTATTCAAAATA...TAA')ID: lcl|NC_039049.1_cds_YP_009508803.1_2
+Name: lcl|NC_039049.1_cds_YP_009508803.1_2
+Description: lcl|NC_039049.1_cds_YP_009508803.1_2 [locus_tag=D1U48_gp2] [db_xref=GeneID:37620306] [protein=VP-1] [protein_id=YP_009508803.1] [location=2209..4422] [gbkey=CDS]
+Number of features: 0
+Seq('ATGCTTATATGGGCCTTATTCATATGGCTATTTTATTTTCATGAAGGAACAATA...TAA')ID: lcl|NC_025891.1_cds_YP_009111339.1_1
+Name: lcl|NC_025891.1_cds_YP_009111339.1_1
+Description: lcl|NC_025891.1_cds_YP_009111339.1_1 [locus_tag=RN59_gp1] [db_xref=GeneID:22520968] [protein=NS1] [protein_id=YP_009111339.1] [location=146..1894] [gbkey=CDS]
+Number of features: 0
+Seq('ATGACAGAGGACAGACCTGATCTCTCTCCGCTGAACGGCAAAGGTTTTTGGGAA...TAG')ID: lcl|NC_025891.1_cds_YP_009111340.1_2
+Name: lcl|NC_025891.1_cds_YP_009111340.1_2
+Description: lcl|NC_025891.1_cds_YP_009111340.1_2 [locus_tag=RN59_gp2] [db_xref=GeneID:22520967] [protein=VP1] [protein_id=YP_009111340.1] [location=2187..4655] [gbkey=CDS]
+Number of features: 0
+Seq('ATGTCTCTCTCTGATGCAATGCGAATCACTCATTACCTACAGAGTGACGACTTT...TAA')ID: lcl|NC_031959.1_cds_YP_009325417.1_1
+Name: lcl|NC_031959.1_cds_YP_009325417.1_1
+Description: lcl|NC_031959.1_cds_YP_009325417.1_1 [locus_tag=BSB08_gp1] [db_xref=GeneID:34443307] [protein=nonstructural protein] [protein_id=YP_009325417.1] [location=165..2009] [gbkey=CDS]
+Number of features: 0
+Seq('ATGCTCTCTTACTACTACGGGGTAGCTAATTTATTCCCTGATATGTCCATTATA...TGA')ID: lcl|NC_031959.1_cds_YP_009325418.1_2
+Name: lcl|NC_031959.1_cds_YP_009325418.1_2
+Description: lcl|NC_031959.1_cds_YP_009325418.1_2 [locus_tag=BSB08_gp2] [db_xref=GeneID:34443306] [protein=structural protein] [protein_id=YP_009325418.1] [location=2290..4482] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGAACATGGGGAATGGCCATATATATATGATGAGTCTGATGATGTGTTAGCC...TAA')ID: lcl|NC_039047.1_cds_YP_009508793.1_1
+Name: lcl|NC_039047.1_cds_YP_009508793.1_1
+Description: lcl|NC_039047.1_cds_YP_009508793.1_1 [gene=NS1] [locus_tag=D1U46_gp1] [db_xref=GeneID:37620298] [protein=nonstructural protein] [protein_id=YP_009508793.1] [location=88..2313] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGACAGTCCTGGTGAGCAACTATACTTTTTCGATCGATATGGGCCTGATGAG...TAG')ID: lcl|NC_039047.1_cds_YP_009508794.1_2
+Name: lcl|NC_039047.1_cds_YP_009508794.1_2
+Description: lcl|NC_039047.1_cds_YP_009508794.1_2 [gene=NP1] [locus_tag=D1U46_gp2] [db_xref=GeneID:37620295] [protein=hypothetical protein] [protein_id=YP_009508794.1] [location=2084..2680] [gbkey=CDS]
+Number of features: 0
+Seq('ATGAGTGCGAGGAGCAACTCTTCAACGAGGAGTGGCGAGGCATCTGGGGGAATG...TAA')ID: lcl|NC_039047.1_cds_YP_009508795.1_3
+Name: lcl|NC_039047.1_cds_YP_009508795.1_3
+Description: lcl|NC_039047.1_cds_YP_009508795.1_3 [gene=VP1] [locus_tag=D1U46_gp3] [db_xref=GeneID:37620296] [protein=capsid protein VP1] [protein_id=YP_009508795.1] [location=2667..4775] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGCGCCAACTAATCGTAAACCTGGTGGTTGGGTAATTCCTGGCTATCGTTAT...TAA')ID: lcl|NC_039047.1_cds_YP_009508796.1_4
+Name: lcl|NC_039047.1_cds_YP_009508796.1_4
+Description: lcl|NC_039047.1_cds_YP_009508796.1_4 [gene=VP2] [locus_tag=D1U46_gp4] [db_xref=GeneID:37620297] [protein=capsid protein VP2] [protein_id=YP_009508796.1] [location=3063..4775] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGATAACACGAACGACAACAACGACCAACCAGACGGAGGAGACGATGTCATT...TAA')ID: lcl|NC_038544.1_cds_YP_009507379.1_1
+Name: lcl|NC_038544.1_cds_YP_009507379.1_1
+Description: lcl|NC_038544.1_cds_YP_009507379.1_1 [locus_tag=D1R62_gp1] [db_xref=GeneID:37618361] [protein=NS1] [protein_id=YP_009507379.1] [location=2..2017] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGCTCTCAGCAAAGATGTCATGGATGGCATAGACTGGATTAAAAAGAAAAGA...TAG')ID: lcl|NC_038544.1_cds_YP_009507380.1_2
+Name: lcl|NC_038544.1_cds_YP_009507380.1_2
+Description: lcl|NC_038544.1_cds_YP_009507380.1_2 [locus_tag=D1R62_gp2] [db_xref=GeneID:37618358] [protein=putative VP1] [protein_id=YP_009507380.1] [location=join(2004..2028,2397..4495)] [gbkey=CDS]
+Number of features: 0
+Seq('ATGCCAGCAATTAGAAAAGCTAGAGGCTGGGTTCCGCCTGGATACAACTACCTG...TAA')ID: lcl|NC_038544.1_cds_YP_009507381.1_3
+Name: lcl|NC_038544.1_cds_YP_009507381.1_3
+Description: lcl|NC_038544.1_cds_YP_009507381.1_3 [locus_tag=D1R62_gp3] [db_xref=GeneID:37618359] [protein=hypothetical protein] [protein_id=YP_009507381.1] [location=2004..2396] [gbkey=CDS]
+Number of features: 0
+Seq('ATGCCAGCAATTAGAAAAGCTAGAGGTAAGTTTCACTTTCTCATTATAACACTA...TAG')ID: lcl|NC_038544.1_cds_YP_009507382.1_4
+Name: lcl|NC_038544.1_cds_YP_009507382.1_4
+Description: lcl|NC_038544.1_cds_YP_009507382.1_4 [locus_tag=D1R62_gp4] [db_xref=GeneID:37618360] [protein=VP2] [protein_id=YP_009507382.1] [location=2786..4495] [gbkey=CDS]
+Number of features: 0
+Seq('ATGACTGACACACAAGATGTATCTGAACAACAGTCTGACCAACCAAGCGTTGCG...TAA')ID: lcl|NC_039048.1_cds_YP_009508797.1_1
+Name: lcl|NC_039048.1_cds_YP_009508797.1_1
+Description: lcl|NC_039048.1_cds_YP_009508797.1_1 [gene=NS1] [locus_tag=D1U47_gp1] [db_xref=GeneID:37620304] [protein=NS1] [protein_id=YP_009508797.1] [location=37..2712] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGCCGCTGTGCTTGAATCTGCTGATTTGTCTGCTCTCGCTAGCTATGTTCAG...TAG')ID: lcl|NC_039048.1_cds_YP_009508798.1_2
+Name: lcl|NC_039048.1_cds_YP_009508798.1_2
+Description: lcl|NC_039048.1_cds_YP_009508798.1_2 [gene=NS2] [locus_tag=D1U47_gp2] [db_xref=GeneID:37620300] [protein=NS2] [protein_id=YP_009508798.1] [location=join(37..1966,2035..2318)] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGCCGCTGTGCTTGAATCTGCTGATTTGTCTGCTCTCGCTAGCTATGTTCAG...TGA')ID: lcl|NC_039048.1_cds_YP_009508799.1_3
+Name: lcl|NC_039048.1_cds_YP_009508799.1_3
+Description: lcl|NC_039048.1_cds_YP_009508799.1_3 [gene=NP1] [locus_tag=D1U47_gp3] [db_xref=GeneID:37620301] [protein=NP1] [protein_id=YP_009508799.1] [location=2137..2712] [gbkey=CDS]
+Number of features: 0
+Seq('ATGTCTTCTTGGGGGTCCAGGAAGAGGAGCCGGAGCCCGAACCGTCGCGACGGG...TAG')ID: lcl|NC_039048.1_cds_YP_009508800.1_4
+Name: lcl|NC_039048.1_cds_YP_009508800.1_4
+Description: lcl|NC_039048.1_cds_YP_009508800.1_4 [gene=VP1] [locus_tag=D1U47_gp4] [db_xref=GeneID:37620302] [protein=VP1] [protein_id=YP_009508800.1] [location=2699..4747] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGCGCCAATTAGACGCCCGGGTGGCTGGGTAGTGCCGGGATACAAGTACCTG...TGA')ID: lcl|NC_039048.1_cds_YP_009508801.1_5
+Name: lcl|NC_039048.1_cds_YP_009508801.1_5
+Description: lcl|NC_039048.1_cds_YP_009508801.1_5 [gene=VP2] [locus_tag=D1U47_gp5] [db_xref=GeneID:37620303] [protein=VP2] [protein_id=YP_009508801.1] [location=3074..4747] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGCCGACACGGCCAATAACCAAGAAAATCCTGAAGGAGGCGAAGCGGCGCCT...TGA')ID: lcl|NC_001662.1_cds_NP_042872.1_1
+Name: lcl|NC_001662.1_cds_NP_042872.1_1
+Description: lcl|NC_001662.1_cds_NP_042872.1_1 [locus_tag=AMDVgp1] [db_xref=GeneID:1494586] [protein=hypothetical protein] [protein_id=NP_042872.1] [location=206..1978] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGCTCAGGCTCAAATTGATGAGCAGAGGAGACTGCAGGACCTGTATGTGCAG...TAA')ID: lcl|NC_001662.1_cds_NP_042873.1_2
+Name: lcl|NC_001662.1_cds_NP_042873.1_2
+Description: lcl|NC_001662.1_cds_NP_042873.1_2 [locus_tag=AMDVgp2] [db_xref=GeneID:1494589] [protein=hypothetical protein] [partial=5'] [protein_id=NP_042873.1] [location=<1983..2207] [gbkey=CDS]
+Number of features: 0
+Seq('CACATTTTAAATGCCAACTTTAAACCAACATCAATTTATGAGGTTACTTTACTT...TGA')ID: lcl|NC_001662.1_cds_NP_042874.1_3
+Name: lcl|NC_001662.1_cds_NP_042874.1_3
+Description: lcl|NC_001662.1_cds_NP_042874.1_3 [locus_tag=AMDVgp3] [db_xref=GeneID:1494588] [protein=hypothetical protein] [protein_id=NP_042874.1] [location=1993..2211] [gbkey=CDS]
+Number of features: 0
+Seq('ATGCCAACTTTAAACCAACATCAATTTATGAGGTTACTTTACTTTACAGAGACT...TAA')ID: lcl|NC_001662.1_cds_NP_042875.1_4
+Name: lcl|NC_001662.1_cds_NP_042875.1_4
+Description: lcl|NC_001662.1_cds_NP_042875.1_4 [locus_tag=AMDVgp4] [db_xref=GeneID:1494587] [protein=hypothetical protein] [protein_id=NP_042875.1] [location=2406..4349] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGATTCTACTGAAGCTGAACAAATGGACACTGAGCAAGCAACTAACCAAACT...TAA')ID: lcl|NC_038537.1_cds_YP_009507358.1_1
+Name: lcl|NC_038537.1_cds_YP_009507358.1_1
+Description: lcl|NC_038537.1_cds_YP_009507358.1_1 [gene=NS1] [locus_tag=D1R55_gp1] [db_xref=GeneID:37618333] [protein=NS1] [protein_id=YP_009507358.1] [location=110..2020] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGCTCTACTTCACTTCAAGAATGCCTTTGAAAGCTTTACGGGTGTTGCCTAT...TAA')ID: lcl|NC_038537.1_cds_YP_009507359.1_2
+Name: lcl|NC_038537.1_cds_YP_009507359.1_2
+Description: lcl|NC_038537.1_cds_YP_009507359.1_2 [gene=NP1] [locus_tag=D1R55_gp2] [db_xref=GeneID:37618330] [protein=NP1] [protein_id=YP_009507359.1] [location=2206..2862] [gbkey=CDS]
+Number of features: 0
+Seq('ATGAGTGGGCATCACAGCCACAGGATGAATCAGAGATCGAGCTATACAACCGAA...TAA')ID: lcl|NC_038537.1_cds_YP_009507360.1_3
+Name: lcl|NC_038537.1_cds_YP_009507360.1_3
+Description: lcl|NC_038537.1_cds_YP_009507360.1_3 [gene=VP1] [locus_tag=D1R55_gp3] [db_xref=GeneID:37618331] [protein=VP1] [protein_id=YP_009507360.1] [location=2915..4786] [gbkey=CDS]
+Number of features: 0
+Seq('ATGAATCAATTGTTTCCTGTGGTACGCTCCAAAAAAAACGACGGCAAAAGAGGA...TAA')ID: lcl|NC_038537.1_cds_YP_009507361.1_4
+Name: lcl|NC_038537.1_cds_YP_009507361.1_4
+Description: lcl|NC_038537.1_cds_YP_009507361.1_4 [gene=VP2] [locus_tag=D1R55_gp4] [db_xref=GeneID:37618332] [protein=VP2] [protein_id=YP_009507361.1] [location=3122..4786] [gbkey=CDS]
+Number of features: 0
+Seq('ATGTCCGCACAGGGGGGCGAGAACATTGAAGAGGTTGAAGTGGATACAGGTGCG...TAA')ID: lcl|NC_001829.1_cds_NP_044926.1_1
+Name: lcl|NC_001829.1_cds_NP_044926.1_1
+Description: lcl|NC_001829.1_cds_NP_044926.1_1 [locus_tag=AAV4gp1] [db_xref=GeneID:1446390] [protein=rep] [protein_id=NP_044926.1] [location=372..2243] [gbkey=CDS]
+Number of features: 0
+Seq('ATGCCGGGGTTCTACGAGATCGTGCTGAAGGTGCCCAGCGACCTGGACGAGCAC...TAA')ID: lcl|NC_001829.1_cds_NP_044927.1_2
+Name: lcl|NC_001829.1_cds_NP_044927.1_2
+Description: lcl|NC_001829.1_cds_NP_044927.1_2 [locus_tag=AAV4gp2] [db_xref=GeneID:1446389] [protein=capsid] [protein_id=NP_044927.1] [location=2260..4464] [gbkey=CDS]
+Number of features: 0
+Seq('ATGACTGACGGTTACCTTCCAGATTGGCTAGAGGACAACCTCTCTGAAGGCGTT...TAA')ID: lcl|NC_029797.1_cds_YP_009241376.1_1
+Name: lcl|NC_029797.1_cds_YP_009241376.1_1
+Description: lcl|NC_029797.1_cds_YP_009241376.1_1 [gene=NS1] [locus_tag=A4H04_gp1] [db_xref=GeneID:27209638] [protein=nonstructural protein 1] [protein_id=YP_009241376.1] [location=16..1944] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGCTCAAGCAAGTGTCTCAGACAAGACTGATCAAGGACTATCATGGCTTAAA...TAG')ID: lcl|NC_029797.1_cds_YP_009241377.1_2
+Name: lcl|NC_029797.1_cds_YP_009241377.1_2
+Description: lcl|NC_029797.1_cds_YP_009241377.1_2 [gene=VP1] [locus_tag=A4H04_gp2] [db_xref=GeneID:27209639] [protein=capsid protein VP1] [protein_id=YP_009241377.1] [location=join(1928..1955,2386..4517)] [gbkey=CDS]
+Number of features: 0
+Seq('ATGCCAGTGATTGGTAGAGAAAGAAGAGTCTCACTGTTAACAGGTTGGGTACCT...TGA')ID: lcl|NC_029797.1_cds_YP_009241378.1_3
+Name: lcl|NC_029797.1_cds_YP_009241378.1_3
+Description: lcl|NC_029797.1_cds_YP_009241378.1_3 [gene=VP2] [locus_tag=A4H04_gp3] [db_xref=GeneID:27209637] [protein=capsid protein VP2] [protein_id=YP_009241378.1] [location=2781..4517] [gbkey=CDS]
+Number of features: 0
+Seq('ATGAGTGACAATGGCACAGATGAACCAGACCAACCTGCTGCAACTGAAACAGCA...TGA')ID: lcl|NC_024888.1_cds_YP_009058894.1_1
+Name: lcl|NC_024888.1_cds_YP_009058894.1_1
+Description: lcl|NC_024888.1_cds_YP_009058894.1_1 [locus_tag=LL81_gp1] [db_xref=GeneID:20357429] [protein=NS1] [protein_id=YP_009058894.1] [location=1..2022] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGCTCTCAGCAAAGATGTCATGGATGGCATAGACTGGATTAAAAAGAAAAGA...TAG')ID: lcl|NC_024888.1_cds_YP_009058895.1_2
+Name: lcl|NC_024888.1_cds_YP_009058895.1_2
+Description: lcl|NC_024888.1_cds_YP_009058895.1_2 [locus_tag=LL81_gp2] [db_xref=GeneID:20357426] [protein=putative VP1] [protein_id=YP_009058895.1] [location=join(2009..2033,2402..4509)] [gbkey=CDS]
+Number of features: 0
+Seq('ATGCCAGCAATTAGAAAAGCTAGAGGCTGGGTTCCGCCTGGATACAACTACCTG...TAA')ID: lcl|NC_024888.1_cds_YP_009058896.1_3
+Name: lcl|NC_024888.1_cds_YP_009058896.1_3
+Description: lcl|NC_024888.1_cds_YP_009058896.1_3 [locus_tag=LL81_gp3] [db_xref=GeneID:20357427] [protein=hypothetical protein] [protein_id=YP_009058896.1] [location=2009..2401] [gbkey=CDS]
+Number of features: 0
+Seq('ATGCCAGCAATTAGAAAAGCTAGAGGTAAGTTTCACTTTCTCATTATAACACTA...TAG')ID: lcl|NC_024888.1_cds_YP_009058897.1_4
+Name: lcl|NC_024888.1_cds_YP_009058897.1_4
+Description: lcl|NC_024888.1_cds_YP_009058897.1_4 [locus_tag=LL81_gp4] [db_xref=GeneID:20357428] [protein=VP2] [protein_id=YP_009058897.1] [location=2791..4509] [gbkey=CDS]
+Number of features: 0
+Seq('ATGTCCGAAAGCAATGAAATTGACGAGCAACCAGCTGAACAACAGCCACTGGCA...TAA')ID: lcl|NC_001729.1_cds_NP_043940.1_1
+Name: lcl|NC_001729.1_cds_NP_043940.1_1
+Description: lcl|NC_001729.1_cds_NP_043940.1_1 [locus_tag=AAV3gp1] [db_xref=GeneID:1403996] [protein=nonstructural protein] [protein_id=NP_043940.1] [location=318..2192] [gbkey=CDS]
+Number of features: 0
+Seq('ATGCCGGGGTTCTACGAGATTGTCCTGAAGGTCCCGAGTGACCTGGACGAGCGC...TAA')ID: lcl|NC_001729.1_cds_NP_043941.1_2
+Name: lcl|NC_001729.1_cds_NP_043941.1_2
+Description: lcl|NC_001729.1_cds_NP_043941.1_2 [locus_tag=AAV3gp2] [db_xref=GeneID:1403995] [protein=capsid protein] [protein_id=NP_043941.1] [location=2209..4419] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGCTGCTGACGGTTATCTTCCAGATTGGCTCGAGGACAACCTTTCTGAAGGC...TGA')ID: lcl|NC_006260.1_cds_YP_077177.1_1
+Name: lcl|NC_006260.1_cds_YP_077177.1_1
+Description: lcl|NC_006260.1_cds_YP_077177.1_1 [locus_tag=AAV7_gp1] [db_xref=GeneID:5075988] [protein=nonstructural protein] [protein_id=YP_077177.1] [location=334..2205] [gbkey=CDS]
+Number of features: 0
+Seq('ATGCCGGGTTTCTACGAGATCGTGATCAAGGTGCCGAGCGACCTGGACGAGCAC...TAA')ID: lcl|NC_006260.1_cds_YP_077178.1_2
+Name: lcl|NC_006260.1_cds_YP_077178.1_2
+Description: lcl|NC_006260.1_cds_YP_077178.1_2 [locus_tag=AAV7_gp2] [db_xref=GeneID:5075989] [protein=capsid protein] [protein_id=YP_077178.1] [location=2222..4435] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGCTGCCGATGGTTATCTTCCAGATTGGCTCGAGGACAACCTCTCTGAGGGC...TAA')ID: lcl|NC_002077.1_cds_NP_049541.1_1
+Name: lcl|NC_002077.1_cds_NP_049541.1_1
+Description: lcl|NC_002077.1_cds_NP_049541.1_1 [locus_tag=AAV1gp1] [db_xref=GeneID:1450375] [protein=nonstructural protein] [protein_id=NP_049541.1] [location=335..2206] [gbkey=CDS]
+Number of features: 0
+Seq('ATGCCGGGCTTCTACGAGATCGTGATCAAGGTGCCGAGCGACCTGGACGAGCAC...TAA')ID: lcl|NC_002077.1_cds_NP_049542.1_2
+Name: lcl|NC_002077.1_cds_NP_049542.1_2
+Description: lcl|NC_002077.1_cds_NP_049542.1_2 [locus_tag=AAV1gp2] [db_xref=GeneID:1450374] [protein=capsid protein] [protein_id=NP_049542.1] [location=2223..4433] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGCTGCCGATGGTTATCTTCCAGATTGGCTCGAGGACAACCTCTCTGAGGGC...TAA')ID: lcl|NC_004828.1_cds_NP_852780.1_1
+Name: lcl|NC_004828.1_cds_NP_852780.1_1
+Description: lcl|NC_004828.1_cds_NP_852780.1_1 [gene=Rep] [locus_tag=AavAV865gp1] [db_xref=GeneID:1482924] [protein=rep protein] [protein_id=NP_852780.1] [location=244..2232] [gbkey=CDS]
+Number of features: 0
+Seq('ATGAGGTCGTACTACGAGGTCATCGTTCAGCTGCCCAACGACGTCGAGAGTCAG...TAA')ID: lcl|NC_004828.1_cds_NP_852781.1_2
+Name: lcl|NC_004828.1_cds_NP_852781.1_2
+Description: lcl|NC_004828.1_cds_NP_852781.1_2 [gene=Cap] [locus_tag=AavAV865gp2] [db_xref=GeneID:1482925] [protein=capsid protein] [protein_id=NP_852781.1] [location=2250..4481] [gbkey=CDS]
+Number of features: 0
+Seq('ATGTCTCTCATTTCTGATGCGATTCCAGATTGGTTGGAGCGGTTGGTCAAAAAG...TAA')ID: lcl|NC_005889.1_cds_YP_024970.1_1
+Name: lcl|NC_005889.1_cds_YP_024970.1_1
+Description: lcl|NC_005889.1_cds_YP_024970.1_1 [gene=rep] [locus_tag=BAAV_gp1] [db_xref=GeneID:2845924] [protein=Rep] [protein_id=YP_024970.1] [location=368..2200] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGCTACCTTCTATGAAGTCATTGTTCGCGTTCCATTTGATGTGGAAGAGCAC...TAA')ID: lcl|NC_005889.1_cds_YP_024971.1_2
+Name: lcl|NC_005889.1_cds_YP_024971.1_2
+Description: lcl|NC_005889.1_cds_YP_024971.1_2 [gene=cap] [locus_tag=BAAV_gp2] [db_xref=GeneID:2845923] [protein=Cap] [protein_id=YP_024971.1] [location=2216..4426] [gbkey=CDS]
+Number of features: 0
+Seq('ATGTCTTTTGTTGACCACCCTCCAGATTGGTTGGAATCGATCGGCGACGGCTTT...TAG')ID: lcl|NC_006263.1_cds_YP_077182.1_1
+Name: lcl|NC_006263.1_cds_YP_077182.1_1
+Description: lcl|NC_006263.1_cds_YP_077182.1_1 [locus_tag=AAVSD1_gp1] [db_xref=GeneID:5076425] [protein=rep protein] [protein_id=YP_077182.1] [location=244..2235] [gbkey=CDS]
+Number of features: 0
+Seq('ATGAGGTCGTACTACGAGGTCATCGTTCAACTGCCGAACGACGTCGAGAGTCAG...TAA')ID: lcl|NC_006263.1_cds_YP_077183.1_2
+Name: lcl|NC_006263.1_cds_YP_077183.1_2
+Description: lcl|NC_006263.1_cds_YP_077183.1_2 [locus_tag=AAVSD1_gp2] [db_xref=GeneID:5076424] [protein=capsid protein] [protein_id=YP_077183.1] [location=2253..4469] [gbkey=CDS]
+Number of features: 0
+Seq('ATGTCTCTCATTTCTGATGCGATTCCAGATTGGTTGGAGCGGTTGGTCAAAAAG...TAA')ID: lcl|NC_001401.2_cds_YP_680422.1_1
+Name: lcl|NC_001401.2_cds_YP_680422.1_1
+Description: lcl|NC_001401.2_cds_YP_680422.1_1 [locus_tag=AAV2gp01] [db_xref=GeneID:4192013] [protein=Rep 68 protein] [protein_id=YP_680422.1] [location=join(321..1906,2228..2252)] [gbkey=CDS]
+Number of features: 0
+Seq('ATGCCGGGGTTTTACGAGATTGTGATTAAGGTCCCCAGCGACCTTGACGAGCAT...TGA')ID: lcl|NC_001401.2_cds_YP_680423.1_2
+Name: lcl|NC_001401.2_cds_YP_680423.1_2
+Description: lcl|NC_001401.2_cds_YP_680423.1_2 [locus_tag=AAV2gp02] [db_xref=GeneID:1489608] [protein=Rep 78 protein] [protein_id=YP_680423.1] [location=321..2186] [gbkey=CDS]
+Number of features: 0
+Seq('ATGCCGGGGTTTTACGAGATTGTGATTAAGGTCCCCAGCGACCTTGACGAGCAT...TAA')ID: lcl|NC_001401.2_cds_YP_680424.1_3
+Name: lcl|NC_001401.2_cds_YP_680424.1_3
+Description: lcl|NC_001401.2_cds_YP_680424.1_3 [locus_tag=AAV2gp03] [db_xref=GeneID:4192014] [protein=Rep 40 protein] [protein_id=YP_680424.1] [location=join(993..1906,2228..2252)] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGAGCTGGTCGGGTGGCTCGTGGACAAGGGGATTACCTCGGAGAAGCAGTGG...TGA')ID: lcl|NC_001401.2_cds_YP_680425.1_4
+Name: lcl|NC_001401.2_cds_YP_680425.1_4
+Description: lcl|NC_001401.2_cds_YP_680425.1_4 [locus_tag=AAV2gp04] [db_xref=GeneID:1489607] [protein=Rep 52 protein] [protein_id=YP_680425.1] [location=993..2186] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGAGCTGGTCGGGTGGCTCGTGGACAAGGGGATTACCTCGGAGAAGCAGTGG...TAA')ID: lcl|NC_001401.2_cds_YP_680426.1_5
+Name: lcl|NC_001401.2_cds_YP_680426.1_5
+Description: lcl|NC_001401.2_cds_YP_680426.1_5 [locus_tag=AAV2gp05] [db_xref=GeneID:4192017] [protein=major coat protein VP1] [protein_id=YP_680426.1] [location=2203..4410] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGCTGCCGATGGTTATCTTCCAGATTGGCTCGAGGACACTCTCTCTGAAGGA...TAA')ID: lcl|NC_001401.2_cds_YP_680427.1_6
+Name: lcl|NC_001401.2_cds_YP_680427.1_6
+Description: lcl|NC_001401.2_cds_YP_680427.1_6 [locus_tag=AAV2gp06] [db_xref=GeneID:4192015] [protein=major coat protein VP2] [transl_except=(pos:1..3,aa:Met)] [protein_id=YP_680427.1] [location=2614..4410] [gbkey=CDS]
+Number of features: 0
+Seq('ACGGCTCCGGGAAAAAAGAGGCCGGTAGAGCACTCTCCTGTGGAGCCAGACTCC...TAA')ID: lcl|NC_001401.2_cds_YP_004030758.1_7
+Name: lcl|NC_001401.2_cds_YP_004030758.1_7
+Description: lcl|NC_001401.2_cds_YP_004030758.1_7 [locus_tag=AAV2gp06] [db_xref=GeneID:4192015] [protein=assembly activating protein AAP] [protein_id=YP_004030758.1] [location=2729..3343] [gbkey=CDS]
+Number of features: 0
+Seq('CTGGAGACGCAGACTCAGTACCTGACCCCCAGCCTCTCGGACAGCCACCAGCAG...TGA')ID: lcl|NC_001401.2_cds_YP_680428.1_8
+Name: lcl|NC_001401.2_cds_YP_680428.1_8
+Description: lcl|NC_001401.2_cds_YP_680428.1_8 [locus_tag=AAV2gp07] [db_xref=GeneID:4192016] [protein=major coat protein VP3] [protein_id=YP_680428.1] [location=2809..4410] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGCTACAGGCAGTGGCGCACCAATGGCAGACAATAACGAGGGCGCCGACGGA...TAA')ID: lcl|NC_001401.2_cds_YP_009110690.1_9
+Name: lcl|NC_001401.2_cds_YP_009110690.1_9
+Description: lcl|NC_001401.2_cds_YP_009110690.1_9 [gene=X gene] [locus_tag=AAV2gp08] [db_xref=GeneID:22318903] [protein=X protein] [protein_id=YP_009110690.1] [location=3929..4396] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGTTCTGTATCTACCAACCTCCAGAGAGGCAACAGACAAGCAGCTACCGCAG...TGA')ID: lcl|NC_031751.1_cds_YP_009315908.1_1
+Name: lcl|NC_031751.1_cds_YP_009315908.1_1
+Description: lcl|NC_031751.1_cds_YP_009315908.1_1 [locus_tag=BMR81_gp1] [db_xref=GeneID:30090176] [protein=NS1] [protein_id=YP_009315908.1] [location=107..1894] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGCTCAAGCTCAGGTTACTGAACAGAGAAAACTCCGGGAGCTATACGAGAGA...TAA')ID: lcl|NC_031751.1_cds_YP_009315909.1_2
+Name: lcl|NC_031751.1_cds_YP_009315909.1_2
+Description: lcl|NC_031751.1_cds_YP_009315909.1_2 [locus_tag=BMR81_gp2] [db_xref=GeneID:30090175] [protein=VP1] [protein_id=YP_009315909.1] [location=2309..4252] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGATTCTACGGAACCTGAACAGATGGACACTGAGCAAGCAACTAACCAAACT...TAA')ID: lcl|NC_006152.1_cds_YP_068408.1_1
+Name: lcl|NC_006152.1_cds_YP_068408.1_1
+Description: lcl|NC_006152.1_cds_YP_068408.1_1 [gene=Rep22] [locus_tag=AV5_gp1] [db_xref=GeneID:2957135] [protein=DNA binding trs helicase] [protein_id=YP_068408.1] [location=359..2191] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGCTACCTTCTATGAAGTCATTGTTCGCGTCCCATTTGACGTGGAGGAACAT...TAA')ID: lcl|NC_006152.1_cds_YP_068409.1_2
+Name: lcl|NC_006152.1_cds_YP_068409.1_2
+Description: lcl|NC_006152.1_cds_YP_068409.1_2 [gene=VP1] [locus_tag=AV5_gp2] [db_xref=GeneID:2957136] [protein=capsid protein] [protein_id=YP_068409.1] [location=2207..4381] [gbkey=CDS]
+Number of features: 0
+Seq('ATGTCTTTTGTTGATCACCCTCCAGATTGGTTGGAAGAAGTTGGTGAAGGTCTT...TAA')ID: lcl|NC_024454.1_cds_YP_009046826.1_1
+Name: lcl|NC_024454.1_cds_YP_009046826.1_1
+Description: lcl|NC_024454.1_cds_YP_009046826.1_1 [gene=NP] [locus_tag=HR26_gp2] [db_xref=GeneID:19738580] [protein=NP] [protein_id=YP_009046826.1] [location=2134..2343] [gbkey=CDS]
+Number of features: 0
+Seq('ATGTACTCCCTACCCTTACTGAGCTATTTTGCGATGAAGTGTTGGAAGAATCCC...TAG')ID: lcl|NC_024454.1_cds_YP_009046827.1_2
+Name: lcl|NC_024454.1_cds_YP_009046827.1_2
+Description: lcl|NC_024454.1_cds_YP_009046827.1_2 [gene=NP1] [locus_tag=HR26_gp3] [db_xref=GeneID:19738581] [protein=NP1] [protein_id=YP_009046827.1] [location=2301..2609] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGCTTGGTACGACAATAATATTGATGCGATTGAAACAGTAGAAAGAGATCCA...TAA')ID: lcl|NC_024454.1_cds_YP_009046828.1_3
+Name: lcl|NC_024454.1_cds_YP_009046828.1_3
+Description: lcl|NC_024454.1_cds_YP_009046828.1_3 [gene=VP1] [locus_tag=HR26_gp4] [db_xref=GeneID:19738582] [protein=VP1] [protein_id=YP_009046828.1] [location=2609..4642] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGTGAAGTACAAGCCACCACCAGGATATGTTCCATCACTTCCAACCACAGAT...TAA')ID: lcl|NC_024454.1_cds_YP_009046829.1_4
+Name: lcl|NC_024454.1_cds_YP_009046829.1_4
+Description: lcl|NC_024454.1_cds_YP_009046829.1_4 [gene=VP2] [locus_tag=HR26_gp5] [db_xref=GeneID:19738583] [protein=VP2] [protein_id=YP_009046829.1] [location=3035..4642] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGCAGATGAAAATGAACCAGATCAGTCAGGAATCCCAATGGAATTGTCAGAT...TAA')ID: lcl|NC_030837.1_cds_YP_009272690.1_1
+Name: lcl|NC_030837.1_cds_YP_009272690.1_1
+Description: lcl|NC_030837.1_cds_YP_009272690.1_1 [gene=NS1] [locus_tag=BGM10_gp1] [db_xref=GeneID:28619791] [protein=NS1] [protein_id=YP_009272690.1] [location=121..2097] [gbkey=CDS]
+Number of features: 0
+Seq('ATGAACTTCTCAGAGAAAGAAGAAACTGCCATCACCTGGCTAAAAAACAATGCT...TAA')ID: lcl|NC_030837.1_cds_YP_009272691.1_2
+Name: lcl|NC_030837.1_cds_YP_009272691.1_2
+Description: lcl|NC_030837.1_cds_YP_009272691.1_2 [gene=VP1] [locus_tag=BGM10_gp2] [db_xref=GeneID:28619789] [protein=VP1] [protein_id=YP_009272691.1] [location=join(2084..2111,2506..4628)] [gbkey=CDS]
+Number of features: 0
+Seq('ATGCCAGTGCTTAACCGCGAAAGAAACGGTTGGACTCTACCTGGATACAACTAT...TAA')ID: lcl|NC_030837.1_cds_YP_009272692.1_3
+Name: lcl|NC_030837.1_cds_YP_009272692.1_3
+Description: lcl|NC_030837.1_cds_YP_009272692.1_3 [gene=VP2] [locus_tag=BGM10_gp3] [db_xref=GeneID:28619790] [protein=VP2] [protein_id=YP_009272692.1] [location=2907..4628] [gbkey=CDS]
+Number of features: 0
+Seq('ATGACTGACCAAAATGCCAGTGATCAACCAAACGAGCCTGCCACTGCAGCAGCT...TAA')ID: lcl|NC_028650.1_cds_YP_009186840.1_1
+Name: lcl|NC_028650.1_cds_YP_009186840.1_1
+Description: lcl|NC_028650.1_cds_YP_009186840.1_1 [locus_tag=AUP39_gp1] [db_xref=GeneID:26426300] [protein=NS1] [protein_id=YP_009186840.1] [location=171..2105] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGCGCTACCGGAGAAAGTCAGAAACGCTACTGCTTGGTTAGAACAACAAAAA...TAA')ID: lcl|NC_028650.1_cds_YP_009186841.1_2
+Name: lcl|NC_028650.1_cds_YP_009186841.1_2
+Description: lcl|NC_028650.1_cds_YP_009186841.1_2 [locus_tag=AUP39_gp2] [db_xref=GeneID:26426298] [protein=VP1] [protein_id=YP_009186841.1] [location=join(2083..2110,2368..4520)] [gbkey=CDS]
+Number of features: 0
+Seq('ATGCCTACACTCAAAGACTTTAAAAACGGCTTAACCCTACCAGGGTATAACTAC...TAA')ID: lcl|NC_028650.1_cds_YP_009186842.1_3
+Name: lcl|NC_028650.1_cds_YP_009186842.1_3
+Description: lcl|NC_028650.1_cds_YP_009186842.1_3 [locus_tag=AUP39_gp3] [db_xref=GeneID:26426299] [protein=VP2] [protein_id=YP_009186842.1] [location=2763..4520] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGACGGAGGTACCAGCAACGACATCCAAGATGAATCAAACCAACCAAATGCA...TAA')ID: lcl|NC_038534.1_cds_YP_009507346.1_1
+Name: lcl|NC_038534.1_cds_YP_009507346.1_1
+Description: lcl|NC_038534.1_cds_YP_009507346.1_1 [gene=NS1] [locus_tag=D1R52_gp1] [db_xref=GeneID:37618318] [protein=NS1] [protein_id=YP_009507346.1] [location=1..2085] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGCATTCCCAACACGCGGTGGGTTTTCCGCTATTCTAAATCTTCCCAGCGAT...TAG')ID: lcl|NC_038534.1_cds_YP_009507347.1_2
+Name: lcl|NC_038534.1_cds_YP_009507347.1_2
+Description: lcl|NC_038534.1_cds_YP_009507347.1_2 [gene=NP1] [locus_tag=D1R52_gp2] [db_xref=GeneID:37618315] [protein=NP1] [protein_id=YP_009507347.1] [location=2286..2591] [gbkey=CDS]
+Number of features: 0
+Seq('ATGTGTTGGTATAACAATAATATTGCACAAATTGAAACGGTAGAAGGTGATCCA...TGA')ID: lcl|NC_038534.1_cds_YP_009507348.1_3
+Name: lcl|NC_038534.1_cds_YP_009507348.1_3
+Description: lcl|NC_038534.1_cds_YP_009507348.1_3 [gene=VP1] [locus_tag=D1R52_gp3] [db_xref=GeneID:37618316] [protein=VP1] [protein_id=YP_009507348.1] [location=2588..4615] [gbkey=CDS]
+Number of features: 0
+Seq('ATGAAATACAAAGCTCCGAAAGGCTACGTCCCTTCACTACCCACTACTGACGAA...TAA')ID: lcl|NC_038534.1_cds_YP_009507349.1_4
+Name: lcl|NC_038534.1_cds_YP_009507349.1_4
+Description: lcl|NC_038534.1_cds_YP_009507349.1_4 [gene=VP2] [locus_tag=D1R52_gp4] [db_xref=GeneID:37618317] [protein=VP2] [protein_id=YP_009507349.1] [location=3005..4615] [gbkey=CDS]
+Number of features: 0
+Seq('ATGATGGCCGATGAGAATGAACCTGATCAATCTGGGATCCCTATGGAATTGAGC...TAA')ID: lcl|NC_026815.1_cds_YP_009130650.1_1
+Name: lcl|NC_026815.1_cds_YP_009130650.1_1
+Description: lcl|NC_026815.1_cds_YP_009130650.1_1 [gene=NS1] [locus_tag=XM13_gp1] [db_xref=GeneID:24092875] [protein=nonstructural protein] [protein_id=YP_009130650.1] [location=63..1982] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGCGCTCGCTGAGAACATACGCACTGCAATAAAATGGCTAGAAGAACAAAAA...TAA')ID: lcl|NC_026815.1_cds_YP_009130651.1_2
+Name: lcl|NC_026815.1_cds_YP_009130651.1_2
+Description: lcl|NC_026815.1_cds_YP_009130651.1_2 [gene=VP1] [locus_tag=XM13_gp2] [db_xref=GeneID:24092874] [protein=capsid protein VP1] [protein_id=YP_009130651.1] [location=join(1969..1996,2247..4405)] [gbkey=CDS]
+Number of features: 0
+Seq('ATGCCTCTACTTAAAGGTTTTAAAGACGGACTAACCTTACCAGGATATAACTAC...TAA')ID: lcl|NC_026815.1_cds_YP_009130652.1_3
+Name: lcl|NC_026815.1_cds_YP_009130652.1_3
+Description: lcl|NC_026815.1_cds_YP_009130652.1_3 [gene=VP2] [locus_tag=XM13_gp3] [db_xref=GeneID:24092873] [protein=capsid protein VP2] [protein_id=YP_009130652.1] [location=2642..4405] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGACGGAGGCACATCAACTGACACACAAGATGAACCAAACGATGCAGCCGCA...TAA')ID: lcl|NC_016752.1_cds_YP_005097851.1_1
+Name: lcl|NC_016752.1_cds_YP_005097851.1_1
+Description: lcl|NC_016752.1_cds_YP_005097851.1_1 [locus_tag=Aj-BtPV-1_gpp1] [db_xref=GeneID:11605583] [protein=putative non structural protein NS1] [protein_id=YP_005097851.1] [location=84..1961] [gbkey=CDS]
+Number of features: 0
+Seq('ATGTCTCAGGAGATTGGAATTAGCTTTGTTTTTCGCTTTTTAAGCGAGGATACG...TGA')ID: lcl|NC_016752.1_cds_YP_005097852.1_2
+Name: lcl|NC_016752.1_cds_YP_005097852.1_2
+Description: lcl|NC_016752.1_cds_YP_005097852.1_2 [locus_tag=Aj-BtPV-1_gpp2] [db_xref=GeneID:11605582] [protein=putative capsid protein VP1] [protein_id=YP_005097852.1] [location=1965..4595] [gbkey=CDS]
+Number of features: 0
+Seq('ATGACGATCAAAAAGACTAAGGGACAGGTCCCAGACGAGACAACATGGGTAGAC...TAA')ID: lcl|NC_027429.1_cds_YP_009154712.1_1
+Name: lcl|NC_027429.1_cds_YP_009154712.1_1
+Description: lcl|NC_027429.1_cds_YP_009154712.1_1 [locus_tag=ACV37_gp1] [db_xref=GeneID:24923362] [protein=nonstructural protein] [protein_id=YP_009154712.1] [location=386..2083] [gbkey=CDS]
+Number of features: 0
+Seq('ATGCCGTACGAGATGATCTTCCGCGTTCCCAAAGAAGATGAAGATGCGTGGTGT...TAA')ID: lcl|NC_027429.1_cds_YP_009154713.1_2
+Name: lcl|NC_027429.1_cds_YP_009154713.1_2
+Description: lcl|NC_027429.1_cds_YP_009154713.1_2 [locus_tag=ACV37_gp2] [db_xref=GeneID:24923360] [protein=capsid protein] [protein_id=YP_009154713.1] [location=2101..4278] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGATTTTCTCGATTTCTTGTTAGGTGAAAAATACGAGGAGACTGCTAAAGAG...TAA')ID: lcl|NC_027429.1_cds_YP_009154714.1_3
+Name: lcl|NC_027429.1_cds_YP_009154714.1_3
+Description: lcl|NC_027429.1_cds_YP_009154714.1_3 [locus_tag=ACV37_gp3] [db_xref=GeneID:24923361] [protein=assembly activating protein] [protein_id=YP_009154714.1] [location=2594..3127] [gbkey=CDS]
+Number of features: 0
+Seq('CTGGATCAGATTCTCCTTCCACCTCAGGATCCGGCGGTACTGCAGGCTCCAGTT...TAG')ID: lcl|NC_039050.1_cds_YP_009508804.1_1
+Name: lcl|NC_039050.1_cds_YP_009508804.1_1
+Description: lcl|NC_039050.1_cds_YP_009508804.1_1 [locus_tag=D1U49_gp1] [db_xref=GeneID:37620313] [protein=NS1] [protein_id=YP_009508804.1] [location=1..1980] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGCTCTCAGCAAAGAGATGACAGATGGCATAGACTGGATTAAACAAAAAAGA...TAG')ID: lcl|NC_039050.1_cds_YP_009508805.1_2
+Name: lcl|NC_039050.1_cds_YP_009508805.1_2
+Description: lcl|NC_039050.1_cds_YP_009508805.1_2 [locus_tag=D1U49_gp2] [db_xref=GeneID:37620309] [protein=putative VP1] [protein_id=YP_009508805.1] [location=join(1967..1991,2358..4456)] [gbkey=CDS]
+Number of features: 0
+Seq('ATGCCAGCTATTAGAAAAGCCAGAGGTTGGGTACCACCTGGATACAACTTCCTA...TAA')ID: lcl|NC_039050.1_cds_YP_009508806.1_3
+Name: lcl|NC_039050.1_cds_YP_009508806.1_3
+Description: lcl|NC_039050.1_cds_YP_009508806.1_3 [locus_tag=D1U49_gp3] [db_xref=GeneID:37620310] [protein=hypothetical protein] [protein_id=YP_009508806.1] [location=2022..2357] [gbkey=CDS]
+Number of features: 0
+Seq('ATGCAAACTACAGAAAATCTTCTAAAAGCTCTACCTTGCTTACTTGGATTTATA...TAG')ID: lcl|NC_039050.1_cds_YP_009508807.1_4
+Name: lcl|NC_039050.1_cds_YP_009508807.1_4
+Description: lcl|NC_039050.1_cds_YP_009508807.1_4 [locus_tag=D1U49_gp4] [db_xref=GeneID:37620311] [protein=VP2] [protein_id=YP_009508807.1] [location=2747..4456] [gbkey=CDS]
+Number of features: 0
+Seq('ATGTCAGAACCAGCTAATGATACAAATGAACAACCAGACAACTCCCCTGTTGAA...TAA')ID: lcl|NC_039050.1_cds_YP_009508808.1_5
+Name: lcl|NC_039050.1_cds_YP_009508808.1_5
+Description: lcl|NC_039050.1_cds_YP_009508808.1_5 [locus_tag=D1U49_gp5] [db_xref=GeneID:37620312] [protein=hypothetical protein] [protein_id=YP_009508808.1] [location=2763..3041] [gbkey=CDS]
+Number of features: 0
+Seq('ATGATACAAATGAACAACCAGACAACTCCCCTGTTGAACAGGGTGCTGGTCAAA...TAA')ID: lcl|NC_038533.1_cds_YP_009507341.1_1
+Name: lcl|NC_038533.1_cds_YP_009507341.1_1
+Description: lcl|NC_038533.1_cds_YP_009507341.1_1 [locus_tag=D1R51_gp1] [db_xref=GeneID:37618313] [protein=NS1] [protein_id=YP_009507341.1] [location=join(110..1844,1983..2155)] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGCTCAGGCTCAGATCGCTGAACAGAAAATTCTGCAGGCACTGTTTGAACAA...TAA')ID: lcl|NC_038533.1_cds_YP_009507342.1_2
+Name: lcl|NC_038533.1_cds_YP_009507342.1_2
+Description: lcl|NC_038533.1_cds_YP_009507342.1_2 [locus_tag=D1R51_gp2] [db_xref=GeneID:37618309] [protein=NS2] [protein_id=YP_009507342.1] [location=join(110..288,1983..2151)] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGCTCAGGCTCAGATCGCTGAACAGAAAATTCTGCAGGCACTGTTTGAACAA...TGA')ID: lcl|NC_038533.1_cds_YP_009507343.1_3
+Name: lcl|NC_038533.1_cds_YP_009507343.1_3
+Description: lcl|NC_038533.1_cds_YP_009507343.1_3 [locus_tag=D1R51_gp3] [db_xref=GeneID:37618310] [protein=NS3] [protein_id=YP_009507343.1] [location=join(110..288,1677..1740)] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGCTCAGGCTCAGATCGCTGAACAGAAAATTCTGCAGGCACTGTTTGAACAA...TAA')ID: lcl|NC_038533.1_cds_YP_009507344.1_4
+Name: lcl|NC_038533.1_cds_YP_009507344.1_4
+Description: lcl|NC_038533.1_cds_YP_009507344.1_4 [locus_tag=D1R51_gp4] [db_xref=GeneID:37618311] [protein=VP1] [protein_id=YP_009507344.1] [location=join(2148..2157,2236..4250)] [gbkey=CDS]
+Number of features: 0
+Seq('ATGAGTAAAATTCCTCAGCACTATCCTGGGAAAAAGAGAAGTGCTCCACGACAC...TAA')ID: lcl|NC_038533.1_cds_YP_009507345.1_5
+Name: lcl|NC_038533.1_cds_YP_009507345.1_5
+Description: lcl|NC_038533.1_cds_YP_009507345.1_5 [locus_tag=D1R51_gp5] [db_xref=GeneID:37618312] [protein=VP2] [protein_id=YP_009507345.1] [location=2358..4250] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGACTCAAACGAAACTGAACAAATGGACATTTCAGAGCAACAACAGGTTGCT...TAA')ID: lcl|NC_006148.1_cds_YP_068093.1_1
+Name: lcl|NC_006148.1_cds_YP_068093.1_1
+Description: lcl|NC_006148.1_cds_YP_068093.1_1 [gene=NS1] [locus_tag=SPV1gp1] [db_xref=GeneID:2949819] [protein=non-structural protein 1] [protein_id=YP_068093.1] [location=324..2012] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGCGTTTTACGAGGTTGTGTTTCGTTTGCCAAGAGACAATAACAACTTGTTG...TAA')ID: lcl|NC_006148.1_cds_YP_068094.1_2
+Name: lcl|NC_006148.1_cds_YP_068094.1_2
+Description: lcl|NC_006148.1_cds_YP_068094.1_2 [gene=VP1] [locus_tag=SPV1gp2] [db_xref=GeneID:2949818] [protein=capsid protein] [protein_id=YP_068094.1] [location=2030..4210] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGATTTTCTCGATGATTTCTTTGCAGATAAATATAAAGAGACTGTTAACGAA...TAA')ID: lcl|NC_038539.1_cds_YP_009507366.1_1
+Name: lcl|NC_038539.1_cds_YP_009507366.1_1
+Description: lcl|NC_038539.1_cds_YP_009507366.1_1 [locus_tag=D1R57_gp1] [db_xref=GeneID:37618341] [protein=Rep78] [protein_id=YP_009507366.1] [location=291..2093] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGCTTCCTTCTACGAGGTGGTGGCCAAGATCCCCAGCGACCTGGAGGAGCAC...TAA')ID: lcl|NC_038539.1_cds_YP_009507367.1_2
+Name: lcl|NC_038539.1_cds_YP_009507367.1_2
+Description: lcl|NC_038539.1_cds_YP_009507367.1_2 [locus_tag=D1R57_gp2] [db_xref=GeneID:37618340] [protein=VP1] [protein_id=YP_009507367.1] [location=2124..4280] [gbkey=CDS]
+Number of features: 0
+Seq('ATGTCTTCTTTGTTTAAAGAGTACCTGCAGAGTACCGGACTGGTGGGTATCCAG...TAA')ID: lcl|NC_006261.1_cds_YP_077179.1_1
+Name: lcl|NC_006261.1_cds_YP_077179.1_1
+Description: lcl|NC_006261.1_cds_YP_077179.1_1 [locus_tag=AAV8_gp1] [db_xref=GeneID:5075991] [protein=nonstructural protein] [protein_id=YP_077179.1] [location=227..2104] [gbkey=CDS]
+Number of features: 0
+Seq('ATGCCGGGCTTCTACGAGATCGTGATCAAGGTGCCGAGCGACCTGGACGAGCAC...TAA')ID: lcl|NC_006261.1_cds_YP_077180.1_2
+Name: lcl|NC_006261.1_cds_YP_077180.1_2
+Description: lcl|NC_006261.1_cds_YP_077180.1_2 [locus_tag=AAV8_gp2] [db_xref=GeneID:5075992] [protein=capsid protein] [protein_id=YP_077180.1] [location=2121..4337] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGCTGCCGATGGTTATCTTCCAGATTGGCTCGAGGACAACCTCTCTGAGGGC...TAA')ID: lcl|NC_014468.1_cds_YP_003858571.1_1
+Name: lcl|NC_014468.1_cds_YP_003858571.1_1
+Description: lcl|NC_014468.1_cds_YP_003858571.1_1 [gene=Rep] [locus_tag=BtAAVgp1] [db_xref=GeneID:9714218] [protein=rep protein] [protein_id=YP_003858571.1] [location=200..2041] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGAGTTCTACAGCATCGTTCTCCGCCTGCCCGGCGACTTTGACTCGGAGGTG...TAA')ID: lcl|NC_014468.1_cds_YP_003858572.1_2
+Name: lcl|NC_014468.1_cds_YP_003858572.1_2
+Description: lcl|NC_014468.1_cds_YP_003858572.1_2 [gene=Cap] [locus_tag=BtAAVgp2] [db_xref=GeneID:9714217] [protein=cap protein] [protein_id=YP_003858572.1] [location=2059..4233] [gbkey=CDS]
+Number of features: 0
+Seq('ATGTCGTTTGTCGATCACCCCCCAGACTGGCTCGAGGAGATCGGAGAGGGGCTC...TAA')ID: lcl|NC_032097.1_cds_YP_009328889.1_1
+Name: lcl|NC_032097.1_cds_YP_009328889.1_1
+Description: lcl|NC_032097.1_cds_YP_009328889.1_1 [locus_tag=BTE49_gp1] [db_xref=GeneID:30524046] [protein=nonstructural protein 1] [protein_id=YP_009328889.1] [location=652..2658] [gbkey=CDS]
+Number of features: 0
+Seq('ATGCAAGCGCAAGTGGAACGTCCCCGAGCAAGTCTCTCTGAGCTCCGAAGATAC...TGA')ID: lcl|NC_032097.1_cds_YP_009328890.1_2
+Name: lcl|NC_032097.1_cds_YP_009328890.1_2
+Description: lcl|NC_032097.1_cds_YP_009328890.1_2 [locus_tag=BTE49_gp2] [db_xref=GeneID:30524045] [protein=capsid protein 1] [protein_id=YP_009328890.1] [location=2651..4105] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGCTGAAGATGTCAGCTACACTAACACCTACATGGCATATTGGAAAAATGGA...TAA')ID: lcl|NC_034445.1_cds_YP_009361877.1_1
+Name: lcl|NC_034445.1_cds_YP_009361877.1_1
+Description: lcl|NC_034445.1_cds_YP_009361877.1_1 [gene=NS1] [locus_tag=CAU74_gp1] [db_xref=GeneID:37628207] [protein=putative non-structural protein 1] [protein_id=YP_009361877.1] [location=join(69..1824,1907..2076)] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGCTCAGGCTCAGCTTACTGAACACAAGAGAATACAACAACTGTTTGAGCAG...TAA')ID: lcl|NC_034445.1_cds_YP_009361878.1_2
+Name: lcl|NC_034445.1_cds_YP_009361878.1_2
+Description: lcl|NC_034445.1_cds_YP_009361878.1_2 [gene=NS2] [locus_tag=CAU74_gp2] [db_xref=GeneID:37628210] [protein=putative non-structural protein 2] [protein_id=YP_009361878.1] [location=join(69..247,1907..2072)] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGCTCAGGCTCAGCTTACTGAACACAAGAGAATACAACAACTGTTTGAGCAG...TGA')ID: lcl|NC_034445.1_cds_YP_009361879.1_3
+Name: lcl|NC_034445.1_cds_YP_009361879.1_3
+Description: lcl|NC_034445.1_cds_YP_009361879.1_3 [gene=NS3] [locus_tag=CAU74_gp3] [db_xref=GeneID:37628209] [protein=putative non-structural protein 3] [protein_id=YP_009361879.1] [location=join(69..247,1600..1636)] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGCTCAGGCTCAGCTTACTGAACACAAGAGAATACAACAACTGTTTGAGCAG...TAG')ID: lcl|NC_034445.1_cds_YP_009361880.1_4
+Name: lcl|NC_034445.1_cds_YP_009361880.1_4
+Description: lcl|NC_034445.1_cds_YP_009361880.1_4 [gene=VP1] [locus_tag=CAU74_gp4] [db_xref=GeneID:37628208] [protein=putative capsid protein 1] [protein_id=YP_009361880.1] [location=join(2069..2078,2152..4175)] [gbkey=CDS]
+Number of features: 0
+Seq('ATGAGTAAAATTCCTCAGCACTATCCTGGGAAAAAGAGAAGTGCTCCAAGACAC...TAA')ID: lcl|NC_034445.1_cds_YP_009361881.1_5
+Name: lcl|NC_034445.1_cds_YP_009361881.1_5
+Description: lcl|NC_034445.1_cds_YP_009361881.1_5 [gene=VP2] [locus_tag=CAU74_gp5] [db_xref=GeneID:37628206] [protein=putative capsid protein 2] [protein_id=YP_009361881.1] [location=2271..4175] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGATCCTGCTGAACCTGAACAGATGGACACTGAGCAAGCAACTAACCAAACT...TAA')ID: lcl|NC_004285.1_cds_NP_694827.1_1
+Name: lcl|NC_004285.1_cds_NP_694827.1_1
+Description: lcl|NC_004285.1_cds_NP_694827.1_1 [gene=NS1] [locus_tag=AlDNVgp1] [db_xref=GOA:Q90185,InterPro:IPR001257,InterPro:IPR014015,InterPro:IPR027417,UniProtKB/Swiss-Prot:Q90185] [protein=hypothetical protein] [partial=5'] [protein_id=NP_694827.1] [location=<290..2707] [gbkey=CDS]
+Number of features: 0
+Seq('TCCACAGAGTATATAAGAGGTATAAATGAAGGGAGAGTCAGTAGTATGGAATCA...TAA')ID: lcl|NC_004285.1_cds_NP_694828.1_2
+Name: lcl|NC_004285.1_cds_NP_694828.1_2
+Description: lcl|NC_004285.1_cds_NP_694828.1_2 [gene=NS2] [locus_tag=AlDNVgp2] [db_xref=UniProtKB/Swiss-Prot:Q90186] [protein=hypothetical protein] [partial=5'] [protein_id=NP_694828.1] [location=<384..1502] [gbkey=CDS]
+Number of features: 0
+Seq('AGTGTGAGTGCATTTTTTGTTGGGAGCATGACGCACAGTGTAAATCCAGGAGGA...TAA')ID: lcl|NC_004285.1_cds_NP_694829.3_3
+Name: lcl|NC_004285.1_cds_NP_694829.3_3
+Description: lcl|NC_004285.1_cds_NP_694829.3_3 [gene=VP] [locus_tag=AlDNVgp3] [db_xref=GOA:Q90187,UniProtKB/Swiss-Prot:Q90187] [protein=hypothetical protein] [partial=5'] [protein_id=NP_694829.3] [location=<2575..3666] [gbkey=CDS]
+Number of features: 0
+Seq('GGAAGCAAAACAAGAAGCAGAGGAATGGCAGACAGCACTACAATGGAACACGAT...TAA')ID: lcl|NC_011317.1_cds_YP_002265406.1_1
+Name: lcl|NC_011317.1_cds_YP_002265406.1_1
+Description: lcl|NC_011317.1_cds_YP_002265406.1_1 [locus_tag=AgDNV_gp1] [db_xref=GeneID:6964647] [protein=non-structural protein 1] [protein_id=YP_002265406.1] [location=384..2759] [gbkey=CDS]
+Number of features: 0
+Seq('ATGAATTCAGTCTGCGATGAACATTCGCCGTGTGAACACGGAAACTTATATTGT...TAA')ID: lcl|NC_011317.1_cds_YP_002265407.1_2
+Name: lcl|NC_011317.1_cds_YP_002265407.1_2
+Description: lcl|NC_011317.1_cds_YP_002265407.1_2 [locus_tag=AgDNV_gp2] [db_xref=GeneID:6964645] [protein=non-structural protein 2] [protein_id=YP_002265407.1] [location=400..1551] [gbkey=CDS]
+Number of features: 0
+Seq('ATGAACATTCGCCGTGTGAACACGGAAACTTATATTGTGAGTGCATATACTGTT...TAA')ID: lcl|NC_011317.1_cds_YP_002265408.1_3
+Name: lcl|NC_011317.1_cds_YP_002265408.1_3
+Description: lcl|NC_011317.1_cds_YP_002265408.1_3 [locus_tag=AgDNV_gp3] [db_xref=GeneID:6964646] [protein=viral capsid protein] [protein_id=YP_002265408.1] [location=2648..3718] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGCAGACAGCACTTCAATGGACCATGATGGAGAACAACGAGGAACAAAACGA...TAA')ID: lcl|NC_002190.2_cds_YP_003572960.1_1
+Name: lcl|NC_002190.2_cds_YP_003572960.1_1
+Description: lcl|NC_002190.2_cds_YP_003572960.1_1 [locus_tag=Ihahnvgp1] [db_xref=GeneID:1457863] [protein=hypothetical protein] [protein_id=YP_003572960.1] [location=594..1685] [gbkey=CDS]
+Number of features: 0
+Seq('ATGTCAACGGACAGTGTCAACACTGTCATCCCGACGACGAAGAATGGACAGAAA...TAG')ID: lcl|NC_002190.2_cds_YP_003572961.1_2
+Name: lcl|NC_002190.2_cds_YP_003572961.1_2
+Description: lcl|NC_002190.2_cds_YP_003572961.1_2 [locus_tag=Ihahnvgp2] [db_xref=GeneID:1457862] [protein=non-structural protein] [protein_id=YP_003572961.1] [location=650..2650] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGCCAAGGACATACTGCATACACGTCAGGGCGAACCAGAATCACTTAGTGAA...TAA')ID: lcl|NC_002190.2_cds_YP_003572962.1_3
+Name: lcl|NC_002190.2_cds_YP_003572962.1_3
+Description: lcl|NC_002190.2_cds_YP_003572962.1_3 [locus_tag=Ihahnvgp3] [db_xref=GeneID:1457864] [protein=37 kDa coat protein] [protein_id=YP_003572962.1] [location=2592..3581] [gbkey=CDS]
+Number of features: 0
+Seq('ATGTGCGCCGATTCAACAAGAGCAAGCCCAAGGAAAAGATCCAGGAGGGATGCA...TAA')ID: lcl|NC_015115.1_cds_YP_004222723.1_1
+Name: lcl|NC_015115.1_cds_YP_004222723.1_1
+Description: lcl|NC_015115.1_cds_YP_004222723.1_1 [locus_tag=MdBr7_gp1] [db_xref=GeneID:10206579] [protein=non-structural protein 1] [protein_id=YP_004222723.1] [location=138..2687] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGAATATGGACTTATATCAAAGTTCTATATGGATCACTGGAGGTGGAAAATA...TAA')ID: lcl|NC_015115.1_cds_YP_004222724.1_2
+Name: lcl|NC_015115.1_cds_YP_004222724.1_2
+Description: lcl|NC_015115.1_cds_YP_004222724.1_2 [locus_tag=MdBr7_gp2] [db_xref=GeneID:10206578] [protein=non-structural protein 2] [protein_id=YP_004222724.1] [location=385..1473] [gbkey=CDS]
+Number of features: 0
+Seq('ATGACGGACAGTGCAGGGGGAGAAAATTGGATTTGGGAGCATCAACTGGAATCG...TAA')ID: lcl|NC_015115.1_cds_YP_004222725.1_3
+Name: lcl|NC_015115.1_cds_YP_004222725.1_3
+Description: lcl|NC_015115.1_cds_YP_004222725.1_3 [locus_tag=MdBr7_gp3] [db_xref=GeneID:10206577] [protein=capsid protein] [protein_id=YP_004222725.1] [location=2570..3646] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGCAGACAGCACTACAATGGACCATGACGGAGAACAACGAGGAACAAAACGA...TAA')ID: lcl|NC_039043.1_cds_YP_009508778.1_1
+Name: lcl|NC_039043.1_cds_YP_009508778.1_1
+Description: lcl|NC_039043.1_cds_YP_009508778.1_1 [locus_tag=D1U42_gp1] [db_xref=GeneID:37620278] [protein=non-structural protein 1] [protein_id=YP_009508778.1] [location=join(158..287,423..2599)] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGAAGATACGAACAACCACCCATGGCAATCAATACCTAGTCCGTCATTATTT...TAA')ID: lcl|NC_039043.1_cds_YP_009508779.1_2
+Name: lcl|NC_039043.1_cds_YP_009508779.1_2
+Description: lcl|NC_039043.1_cds_YP_009508779.1_2 [locus_tag=D1U42_gp2] [db_xref=GeneID:37620276] [protein=non-structural protein 2] [protein_id=YP_009508779.1] [location=543..1634] [gbkey=CDS]
+Number of features: 0
+Seq('ATGTCAACGGACAGTGTCAACACTGTCATCCCGACGACGAAGAATGGACAGAAA...TAG')ID: lcl|NC_039043.1_cds_YP_009508780.1_3
+Name: lcl|NC_039043.1_cds_YP_009508780.1_3
+Description: lcl|NC_039043.1_cds_YP_009508780.1_3 [locus_tag=D1U42_gp3] [db_xref=GeneID:37620277] [protein=capsid protein] [protein_id=YP_009508780.1] [location=2541..3530] [gbkey=CDS]
+Number of features: 0
+Seq('ATGTGCGCCGATTCAACAAGAACAAGCCCAAGGAAAAGATCCAGGAGGGATGCA...TAA')ID: lcl|NC_022089.1_cds_YP_008431132.1_1
+Name: lcl|NC_022089.1_cds_YP_008431132.1_1
+Description: lcl|NC_022089.1_cds_YP_008431132.1_1 [locus_tag=N914_gp1] [db_xref=GeneID:16574596] [protein=putative 15-kDa protein] [protein_id=YP_008431132.1] [location=complement(175..546)] [gbkey=CDS]
+Number of features: 0
+Seq('ATGAACCACGTTTACGATGCACTACTCGACCCCATGATGGACTTCTACAGAGAG...TAA')ID: lcl|NC_022089.1_cds_YP_008431133.1_2
+Name: lcl|NC_022089.1_cds_YP_008431133.1_2
+Description: lcl|NC_022089.1_cds_YP_008431133.1_2 [gene=rep] [locus_tag=N914_gp2] [db_xref=GeneID:16574595] [protein=putative replication associated protein] [protein_id=YP_008431133.1] [location=758..1936] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGCGACCTCCGGCACATTCGTTCCTTTCCACCACGTCGACCGCGAGTGGGAT...TAG')ID: lcl|NC_022089.1_cds_YP_008431134.1_3
+Name: lcl|NC_022089.1_cds_YP_008431134.1_3
+Description: lcl|NC_022089.1_cds_YP_008431134.1_3 [gene=cap] [locus_tag=N914_gp3] [db_xref=GeneID:16574594] [protein=putative capsid protein] [protein_id=YP_008431134.1] [location=1948..3423] [gbkey=CDS]
+Number of features: 0
+Seq('ATGCCGAGGTTGCGATCAGGAGGTTACAAGAAGAGGGAGGAATACGTCGTACGT...TAG')ID: lcl|NC_012636.1_cds_YP_002854229.1_1
+Name: lcl|NC_012636.1_cds_YP_002854229.1_1
+Description: lcl|NC_012636.1_cds_YP_002854229.1_1 [gene=NS1] [locus_tag=AaDNV_gp1] [db_xref=GeneID:7803645] [protein=nonstructural protein 1] [protein_id=YP_002854229.1] [location=129..2678] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGATTATGGACTTATATCAAATTCCTATATGGATCACTGGAGGTGGAAAATA...TAA')ID: lcl|NC_012636.1_cds_YP_002854230.1_2
+Name: lcl|NC_012636.1_cds_YP_002854230.1_2
+Description: lcl|NC_012636.1_cds_YP_002854230.1_2 [gene=NS2] [locus_tag=AaDNV_gp2] [db_xref=GeneID:7803643] [protein=nonstructural protein 2] [protein_id=YP_002854230.1] [location=376..1464] [gbkey=CDS]
+Number of features: 0
+Seq('ATGACAGCCAGTGCAGGGGGAAAAAACTGGATTTGGGAGAATCAACTGGAATCG...TAA')ID: lcl|NC_012636.1_cds_YP_002854231.1_3
+Name: lcl|NC_012636.1_cds_YP_002854231.1_3
+Description: lcl|NC_012636.1_cds_YP_002854231.1_3 [gene=VP] [locus_tag=AaDNV_gp3] [db_xref=GeneID:7803644] [protein=capsid protein] [protein_id=YP_002854231.1] [location=2561..3637] [gbkey=CDS]
+Number of features: 0
+Seq('ATGGCAGACAGCACTTCAATGGACCATGATGGAGAACAACGAGGAACAAAACGA...TAA')
