@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="App">
+        <div class="column">
+            <image 
+            class="logo"
+            src="https://neudisrupt.com/wp-content/uploads/2019/02/Full_Logo_RBG_Final.png"
+            alt="disrupt-logo"></image>
+            <h1 class="title center">
+                Yahoo Finance API Workshop
+            </h1>
+            <input class="ticker-input" placeholder="Enter Ticker"></input>
+            <button class="chart-button">Get Chart</button>
+        </div>
+        <div class="column" id="ticker-components-col">
+            <!-- This is where tickers will go -->
+
+        </div>
+    </div>
+    
+    <template class="info-template">
+        <div class="ticker-info">
+            <h2 class="Symbol">
+                Symbol
+            </h2>
+            <h3 class="currency">
+                Currency
+            </h3>
+            <p class="chartPreviousClose">
+                chartPreviousClose
+            </p>
+        </div>
+    </template>
+
+    <script src="script.js"></script>
+</body>
+</html>

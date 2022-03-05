@@ -1,0 +1,21 @@
+Resources: 
+-Github Link: https://github.com/Jason0429/yahoo-finance-api-workshop/tree/main/vanilla-version
+-Yahoo Finance API (https://www.yahoofinanceapi.com)
+
+Environment Preparation:
+We will be setting up our environment to build a simple finance application using Javascript and HTML.
+
+Download VSCode: We recommend that you use VSCode so that you can follow along. 
+VSCode is the IDE (integrated development environment) where we can write code.
+
+1. After you open VScode, go to the left and click on extensions
+2. Search for an download ‘Live Server’
+3. Search for and download ‘HTML CSS support’
+
+Set up Yahoo Finance API: The Yahoo Finance API is how we will be retrieving stock data into our program and manipulating it
+
+1. Go to the Yahoo Finance API website and click on Sign in. Then proceed to create an account
+2. Create a folder somewhere on your computer where you would like to create this project
+3. Go to VScode, click file, open folder, then open your project
+
+You’re now ready!
