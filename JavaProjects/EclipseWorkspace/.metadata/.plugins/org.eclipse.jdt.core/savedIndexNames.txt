@@ -1,5 +1,4 @@
 INDEX VERSION 1.131+\\cifsbos03\a623868\Data\GitHub\Misc\JavaProjects\EclipseWorkspace\.metadata\.plugins\org.eclipse.jdt.core
-132620216.index
 1865797976.index
 90452834.index
 2768476762.index
