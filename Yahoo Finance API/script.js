@@ -1,4 +1,4 @@
-const API_KEY = "1RU4kn1qA983FwcKCE7s02VaKRsaKb5A5izJpZIB";
+const API_KEY = "PRIVATE";
 
 // target HTML elements
 // . is for class
