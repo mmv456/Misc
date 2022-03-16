@@ -52,11 +52,11 @@ class Castle implements Housing {
 }
 
 interface Transportation {
+	String from;
+	String to;
 }
 
 class Horse implements Transportation {
-	String from;
-	String to;
 	String name;
 	String color;
 	
