@@ -258,7 +258,7 @@ class ExamplesIAT {
     
     boolean testFemaleAndOver40(Tester t) {
         return
-            t.checkExpect(this.andrew.femaleAndOver40(), 8) &&
+            t.checkExpect(this.andrew.femaleAndOver40(), 7) &&
             t.checkExpect(this.bree.femaleAndOver40(), 3) &&
             t.checkExpect(this.darcy.femaleAndOver40(), 1) &&
             t.checkExpect(this.enid.femaleAndOver40(), 0) &&
