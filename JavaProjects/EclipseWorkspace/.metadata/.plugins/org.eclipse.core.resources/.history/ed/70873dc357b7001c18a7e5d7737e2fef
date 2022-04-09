@@ -140,7 +140,7 @@ class ExamplesList {
 	// test the method satisfiesAboveThree
 	boolean testSatisfiesAboveThree(Tester t) {
 		return t.checkExpect(mt.satisfiesAboveThree(), false) &&
-			   t.checkExpect(single_one.satisfiesAboveThree(), false) &&
+			   t.checkExpect(single_one, false) &&
 			   t.checkExpect(double_one.satisfiesAboveThree(), false) &&
 			   t.checkExpect(double_five.satisfiesAboveThree(), true) &&
 			   t.checkExpect(triple_two.satisfiesAboveThree(), false) &&
