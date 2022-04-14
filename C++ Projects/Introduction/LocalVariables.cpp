@@ -1,7 +1,7 @@
 #include <iostream>
 using std::cout;
 
-int main() {
+int main2() {
 	cout << 34 << "\n";
 	cout << "Hello" << "\n";
 
@@ -10,4 +10,5 @@ int main() {
 	cout << i << "\n";
 	i = i * 3;
 	cout << i << "\n";
+	return 0;
 }
