@@ -139,7 +139,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Calculator.cpp" />
     <ClCompile Include="FlowOfControl.cpp" />
+    <ClCompile Include="Functions.cpp" />
     <ClCompile Include="LocalVariables.cpp" />
     <ClCompile Include="Source.cpp" />
   </ItemGroup>
