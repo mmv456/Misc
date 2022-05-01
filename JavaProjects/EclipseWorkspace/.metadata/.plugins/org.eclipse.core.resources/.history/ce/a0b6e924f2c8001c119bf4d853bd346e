@@ -1,5 +1,3 @@
-import tester.*;
-
 //------------------- Ancestor Trees -------------------- //
 interface IAT {
 	// To compute the number of known ancestors of this ancestor tree
