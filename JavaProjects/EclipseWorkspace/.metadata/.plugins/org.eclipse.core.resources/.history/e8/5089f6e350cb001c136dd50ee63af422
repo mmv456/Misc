@@ -32,9 +32,6 @@ interface IAT2 {
 	// To compute the youngest parent of this ancestry tree
 	IAT2 youngestParent();
 	
-	// To compute the youngest ancestor in the given generation of this ancestry tree
-	IAT2 youngestAncInGen(int gen);
-	
 	// To compute this ancestor tree's youngest grandparent
 	IAT2 youngestGrandparent();
 	
@@ -91,16 +88,6 @@ class Unknown2 implements IAT2 {
 	// To compute the youngest parent of this Unknown
 	public IAT2 youngestParent() {
 		return new Unknown2();
-	}
-	
-	// To compute the youngest ancestor in the given generation of this Unknown
-	public IAT2 youngestAncInGen(int gen) {
-		if (gen == 0) {
-			return this;
-		}
-		else {
-			return new Unknown2();
-		}
 	}
 	
 	// To compute this Unknown's youngest grandparent
@@ -182,19 +169,9 @@ class Person2 implements IAT2 {
 		return this.mom.youngerIAT(this.dad);
 	}
 	
-	// To compute the youngest ancestor in the given generation of this Unknown
-	public IAT2 youngestAncInGen(int gen) {
-		if (gen == 0) {
-			return this;
-		}
-		else {
-			return this.mom.youngestAncInGen(gen - 1).youngerIAT(this.dad.youngestAncInGen(gen - 1));
-		}
-	}
-	
 	// To compute this Unknown's youngest grandparent
 	public IAT2 youngestGrandparent() {
-		return this.youngestAncInGen(2);
+		return this.mom.youngestParent().youngerIAT(this.dad.youngestParent());
 	}
 }
 
