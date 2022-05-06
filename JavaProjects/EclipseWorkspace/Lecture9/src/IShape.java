@@ -1,11 +1,11 @@
 import tester.*;
 
-// to represent a geometric shape
+//to represent a geometric shape
 interface IShape {
 	// to compute the area of this shape
 	public double area();
 
-	// to compute the distance from this shape to the origin
+	// to compute the distance form this shape to the origin
 	public double distTo0();
 
 	// to increase the size of this shape by the given increment
@@ -22,33 +22,33 @@ interface IShape {
 abstract class AShape implements IShape {
 	CartPt loc;
 	String color;
-	
+
 	AShape(CartPt loc, String color) {
 		this.loc = loc;
 		this.color = color;
 	}
-	
-	 // to compute the area of this shape
-	  public abstract double area();
-	 
-	  // to compute the distance form this shape to the origin
-	  public double distTo0() {
-	    return this.loc.distTo0();
-	  }
-	 
-	  // to increase the size of this shape by the given increment
-	  public abstract IShape grow(int inc);
-	 
-	  // is the area of this shape is bigger than the area of the given shape?
-	  public boolean biggerThan(IShape that) {
-	    return this.area() >= that.area();
-	  }
-	 
-	  // does this shape (including the boundary) contain the given point?
-	  public abstract boolean contains(CartPt pt);
+
+	// to compute the area of this shape
+	public abstract double area();
+
+	// to compute the distance form this shape to the origin
+	public double distTo0() {
+		return this.loc.distTo0();
+	}
+
+	// to increase the size of this shape by the given increment
+	public abstract IShape grow(int inc);
+
+	// is the area of this shape is bigger than the area of the given shape?
+	public boolean biggerThan(IShape that) {
+		return this.area() >= that.area();
+	}
+
+	// does this shape (including the boundary) contain the given point?
+	public abstract boolean contains(CartPt pt);
 }
 
-// to represent a circle
+//to represent a circle
 class Circle extends AShape {
 	int radius;
 
@@ -57,13 +57,13 @@ class Circle extends AShape {
 		this.radius = radius;
 	}
 
-	// to compute the area of this circle
-	public double area() {
-		return Math.PI * radius * radius;
+	// to compute the area of this shape
+	public double area(){
+		return Math.PI * this.radius * this.radius;
 	}
 
 	// to compute the distance form this shape to the origin
-	public double distTo0(){
+	public double distTo0() {
 		return this.loc.distTo0() - this.radius;
 	}
 
@@ -76,9 +76,10 @@ class Circle extends AShape {
 	public boolean contains(CartPt pt){
 		return this.loc.distTo(pt) <= this.radius;
 	}
+
 }
 
-// to represent a square
+//to represent a square
 class Square extends Rect {
 
 	Square(CartPt nw, int size, String color) {
@@ -103,46 +104,45 @@ class Rect extends AShape {
 	}
 
 	// to compute the area of this shape
-	public double area() {
+	public double area(){
 		return this.width * this.height;
 	}
 
 	// to increase the size of this shape by the given increment
-	public IShape grow(int inc) {
-		return new Rect(this.loc, this.width + inc, this.height + inc,
-				this.color);
+	public IShape grow(int inc){
+		return new Rect(this.loc, this.width + inc, this.height + inc, this.color);
 	}
 
 	// does this shape (including the boundary) contain the given point?
-	public boolean contains(CartPt pt) {
+	public boolean contains(CartPt pt){
 		return (this.loc.x <= pt.x) && (pt.x <= this.loc.x + this.width) &&
-				(this.loc.y <= pt.y) && (pt.y <= this.loc.y + this.height);
+				(this.loc.y <= pt.y) && (pt.y <= this.loc.y + this.height);            
 	}
 }
 
 //to represent a shape that combines two existing shapes
 class Combo implements IShape {
 	IShape top;
-	IShape bottom;
-	
-	Combo(IShape top, IShape bottom) {
+	IShape bot;
+
+	Combo(IShape top, IShape bot) {
 		this.top = top;
-		this.bottom = bottom;
-	}
-	
-	// to compute the area of this shape
-	public double area() {
-		return this.top.area() + this.bottom.area();
+		this.bot = bot;
 	}
 
-	// to compute the distance from this shape to the origin
+	// to compute the area of this shape
+	public double area() {
+		return this.top.area() + this.bot.area();
+	}
+
+	// to compute the distance form this shape to the origin
 	public double distTo0() {
-		return Math.min(this.top.distTo0(), this.bottom.distTo0());
+		return Math.min(this.top.distTo0(), this.bot.distTo0());
 	}
 
 	// to increase the size of this shape by the given increment
 	public IShape grow(int inc) {
-		return new Combo(this.top.grow(inc), this.bottom.grow(inc));
+		return new Combo(this.top.grow(inc), this.bot.grow(inc));
 	}
 
 	// is the area of this shape is bigger than the area of the given shape?
@@ -152,7 +152,7 @@ class Combo implements IShape {
 
 	// does this shape (including the boundary) contain the given point?
 	public boolean contains(CartPt pt) {
-		return this.top.contains(pt) || this.bottom.contains(pt);
+		return this.top.contains(pt) || this.bot.contains(pt);
 	}
 }
 
@@ -166,7 +166,7 @@ class CartPt {
 		this.y = y;
 	}
 
-	// to compute the distance form this point to the origin
+	// to compute the distance from this point to the origin
 	public double distTo0(){
 		return Math.sqrt(this.x * this.x + this.y * this.y);
 	}
@@ -196,11 +196,10 @@ class ExamplesShapes {
 	IShape r1 = new Rect(new CartPt(50, 50), 30, 20, "red");
 	IShape r2 = new Rect(new CartPt(50, 50), 50, 40, "red");
 	IShape r3 = new Rect(new CartPt(20, 40), 10, 20, "green");
-	
+
 	IShape cb1 = new Combo(this.r1, this.c1);
 	IShape cb2 = new Combo(this.r2, this.r3);
 	IShape cb3 = new Combo(this.cb1, this.cb2);
-
 
 	// test the method distTo0 in the class CartPt
 	boolean testDistTo0(Tester t) { 
@@ -229,12 +228,10 @@ class ExamplesShapes {
 	}
 
 	// test the method area in the class Rect
-
 	boolean testRectArea(Tester t) { 
-		return 
-				t.checkInexact(this.r1.area(), 600.0,0.01); 
+		return
+				t.checkInexact(this.r1.area(), 600.0, 0.01);
 	}
-
 
 	// test the method distTo0 in the class Circle
 	boolean testCircleDistTo0(Tester t) { 
@@ -251,13 +248,11 @@ class ExamplesShapes {
 	}  
 
 	// test the method distTo0 in the class Rect
-
 	boolean testRectDistTo0(Tester t) { 
-		return 
-				t.checkInexact(this.r1.distTo0(), 70.71, 0.01) && 
-				t.checkInexact(this.r3.distTo0(), 44.72, 0.01); 
+		return
+				t.checkInexact(this.r1.distTo0(), 70.71, 0.01) &&
+				t.checkInexact(this.r3.distTo0(), 44.72, 0.01);
 	}
-
 
 	// test the method grow in the class Circle
 	boolean testCircleGrow(Tester t) { 
@@ -272,12 +267,10 @@ class ExamplesShapes {
 	}
 
 	// test the method grow in the class Rect
-
 	boolean testRectGrow(Tester t) { 
-		return 
-				t.checkExpect(this.r1.grow(20), this.r2); 
+		return
+				t.checkExpect(this.r1.grow(20), this.r2);
 	}
-
 
 	// test the method biggerThan in the class Circle
 	boolean testCircleBiggerThan(Tester t) { 
@@ -298,15 +291,13 @@ class ExamplesShapes {
 	}
 
 	// test the method biggerThan in the class Rect
-
 	boolean testRectBiggerThan(Tester t) { 
 		return
-				t.checkExpect(this.r1.biggerThan(this.r2), false) &&
-				t.checkExpect(this.r2.biggerThan(this.r1), true) &&
-				t.checkExpect(this.r1.biggerThan(this.c1), true) &&
-				t.checkExpect(this.r3.biggerThan(this.s1), false); 
+				t.checkExpect(this.r1.biggerThan(this.r2), false) && 
+				t.checkExpect(this.r2.biggerThan(this.r1), true) && 
+				t.checkExpect(this.r1.biggerThan(this.c1), true) && 
+				t.checkExpect(this.r3.biggerThan(this.s1), false);
 	}
-
 
 	// test the method contains in the class Circle
 	boolean testCircleContains(Tester t) { 
@@ -323,11 +314,10 @@ class ExamplesShapes {
 	}
 
 	// test the method contains in the class Rect
-
 	boolean testRectContains(Tester t) { 
 		return
-				t.checkExpect(this.r1.contains(new CartPt(100, 100)), false) &&
-				t.checkExpect(this.r2.contains(new CartPt(55, 60)), true); 
+				t.checkExpect(this.r1.contains(new CartPt(100, 100)), false) && 
+				t.checkExpect(this.r2.contains(new CartPt(55, 60)), true);
 	}
 	
 	// test the method area in the shape classes
@@ -376,5 +366,4 @@ class ExamplesShapes {
 	    t.checkExpect(this.cb1.contains(new CartPt(100, 100)), false) &&
 	    t.checkExpect(this.cb2.contains(new CartPt(55, 60)), true);
 	}
-
 }
