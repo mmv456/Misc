@@ -79,15 +79,28 @@ class Circle extends AShape {
 }
 
 // to represent a square
-class Square extends Rect {
+class Square extends AShape {
+	int size;
 
 	Square(CartPt nw, int size, String color) {
-		super(nw, size, size, color);
+		super(nw, color);
+		this.size = size;
+	}
+
+	// to compute the area of this square
+	public double area() {
+		return size * size;
 	}
 
 	// to increase the size of this shape by the given increment
 	public IShape grow(int inc){
-		return new Square(this.loc, this.width + inc, this.color);
+		return new Square(this.loc, this.size + inc, this.color);
+	}
+
+	// does this shape (including the boundary) contain the given point?
+	public boolean contains(CartPt pt){
+		return (this.loc.x <= pt.x) && (pt.x <= this.loc.x + this.size) &&
+				(this.loc.y <= pt.y) && (pt.y <= this.loc.y + this.size);            
 	}
 }
 
@@ -117,42 +130,6 @@ class Rect extends AShape {
 	public boolean contains(CartPt pt) {
 		return (this.loc.x <= pt.x) && (pt.x <= this.loc.x + this.width) &&
 				(this.loc.y <= pt.y) && (pt.y <= this.loc.y + this.height);
-	}
-}
-
-//to represent a shape that combines two existing shapes
-class Combo implements IShape {
-	IShape top;
-	IShape bottom;
-	
-	Combo(IShape top, IShape bottom) {
-		this.top = top;
-		this.bottom = bottom;
-	}
-	
-	// to compute the area of this shape
-	public double area() {
-		return this.top.area() + this.bottom.area();
-	}
-
-	// to compute the distance from this shape to the origin
-	public double distTo0() {
-		return Math.min(this.top.distTo0(), this.bottom.distTo0());
-	}
-
-	// to increase the size of this shape by the given increment
-	public IShape grow(int inc) {
-		return new Combo(this.top.grow(inc), this.bottom.grow(inc));
-	}
-
-	// is the area of this shape is bigger than the area of the given shape?
-	public boolean biggerThan(IShape that) {
-		return this.area() >= that.area();
-	}
-
-	// does this shape (including the boundary) contain the given point?
-	public boolean contains(CartPt pt) {
-		return this.top.contains(pt) || this.bottom.contains(pt);
 	}
 }
 
@@ -196,11 +173,6 @@ class ExamplesShapes {
 	IShape r1 = new Rect(new CartPt(50, 50), 30, 20, "red");
 	IShape r2 = new Rect(new CartPt(50, 50), 50, 40, "red");
 	IShape r3 = new Rect(new CartPt(20, 40), 10, 20, "green");
-	
-	IShape cb1 = new Combo(this.r1, this.c1);
-	IShape cb2 = new Combo(this.r2, this.r3);
-	IShape cb3 = new Combo(this.cb1, this.cb2);
-
 
 	// test the method distTo0 in the class CartPt
 	boolean testDistTo0(Tester t) { 
@@ -328,53 +300,6 @@ class ExamplesShapes {
 		return
 				t.checkExpect(this.r1.contains(new CartPt(100, 100)), false) &&
 				t.checkExpect(this.r2.contains(new CartPt(55, 60)), true); 
-	}
-	
-	// test the method area in the shape classes
-	boolean testShapeArea(Tester t) {
-	    return
-	    t.checkInexact(this.cb1.area(), 914.15926, 0.01) &&
-	    t.checkInexact(this.cb2.area(), 2200.0, 0.01) &&
-	    t.checkInexact(this.cb3.area(), 3114.15926, 0.01);
-	}
-	 
-	// test the method distTo0 in the shape classes
-	boolean testShapeDistTo0(Tester t) {
-	    return
-	    t.checkInexact(this.cb1.distTo0(), 60.71, 0.01) &&
-	    t.checkInexact(this.cb2.distTo0(), 44.72, 0.01) &&
-	    t.checkInexact(this.cb3.distTo0(), 44.72, 0.01);
-	}
-	 
-	// test the method grow in the shape classes
-	boolean testShapeGrow(Tester t) {
-	    return
-	    t.checkExpect(this.cb1.grow(20), new Combo(this.r2, this.c2));
-	}
-	 
-	// test the method biggerThan in the shape classes
-	boolean testShapeBiggerThan(Tester t) {
-	    return
-	    t.checkExpect(this.c1.biggerThan(this.cb1), false) &&
-	    t.checkExpect(this.s2.biggerThan(this.cb1), true) &&
-	    t.checkExpect(this.r2.biggerThan(this.cb1), true) &&
-	    t.checkExpect(this.r3.biggerThan(this.cb1), false) &&
-	 
-	    t.checkExpect(this.cb2.biggerThan(this.r1), true) &&
-	    t.checkExpect(this.cb1.biggerThan(this.r2), false) &&
-	    t.checkExpect(this.cb1.biggerThan(this.c1), true) &&
-	    t.checkExpect(this.cb1.biggerThan(this.c3), false) &&
-	    t.checkExpect(this.cb1.biggerThan(this.s2), false) &&
-	    t.checkExpect(this.cb2.biggerThan(this.s1), true) &&
-	    t.checkExpect(this.cb1.biggerThan(this.cb3), false) &&
-	    t.checkExpect(this.cb2.biggerThan(this.cb1), true);
-	}
-	 
-	// test the method contains in the shape classes
-	boolean testShapeContains(Tester t) {
-	    return
-	    t.checkExpect(this.cb1.contains(new CartPt(100, 100)), false) &&
-	    t.checkExpect(this.cb2.contains(new CartPt(55, 60)), true);
 	}
 
 }
