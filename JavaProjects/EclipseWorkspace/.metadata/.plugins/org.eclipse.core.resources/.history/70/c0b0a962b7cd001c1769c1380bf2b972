@@ -1,0 +1,123 @@
+import tester.*;
+
+// to represent a list of Strings
+interface ILoString {
+	// combine all Strings in this list into one
+	String combine();
+	// sort the list alphabetically
+	ILoString sort();
+	// inserts the String in the list of Strings based on alphabetical order
+	ILoString insert(String s);
+	// is this List sorted alphabetically?
+	boolean isSorted();
+}
+
+// to represent an empty list of Strings
+class MtLoString implements ILoString {
+	MtLoString(){}
+
+	// combine all Strings in this list into one
+	public String combine() {
+		return "";
+	}  
+
+	// sort the list alphabetically
+	public ILoString sort() {
+		return new MtLoString();
+	}
+
+	// inserts the String in the list of Strings based on alphabetical order
+	public ILoString insert(String s) {
+		return new ConsLoString(s, new MtLoString());
+	}
+
+	// is this List sorted alphabetically?
+	public boolean isSorted() {
+		return true;
+	}
+}
+
+// to represent a nonempty list of Strings
+class ConsLoString implements ILoString {
+	String first;
+	ILoString rest;
+
+	ConsLoString(String first, ILoString rest){
+		this.first = first;
+		this.rest = rest;  
+	}
+
+	// combine all Strings in this list into one
+	public String combine(){
+		return this.first.concat(this.rest.combine());
+	}  
+
+	// sort the list alphabetically
+	public ILoString sort() {
+		return this.rest.insert(this.first);
+	}
+
+	// inserts the String in the list of Strings based on alphabetical order
+	public ILoString insert(String s) {
+		if(s.compareTo(this.first) < 0) {
+			return new ConsLoString(s, this);
+		}
+		else {
+			return new ConsLoString(this.first, this.rest.insert(s));
+		}
+	}
+
+	// is this List sorted alphabetically?
+	public boolean isSorted() {
+		return this.equals(this.sort());
+	}
+}
+
+public static void main(String[] args)
+{
+
+	ILoString cab = new ConsLoString("c",
+			new ConsLoString("a",
+					new ConsLoString("b", new MtLoString())));
+	ILoString abc = new ConsLoString("a",
+			new ConsLoString("b",
+					new ConsLoString("c", new MtLoString())));
+	System.out.println(abc);
+	System.out.println(abc.sort());
+}
+
+// to represent examples for lists of strings
+class ExamplesStrings{
+
+	ILoString mary = new ConsLoString("Mary ",
+			new ConsLoString("had ",
+					new ConsLoString("a ",
+							new ConsLoString("little ",
+									new ConsLoString("lamb.", new MtLoString())))));
+
+	ILoString cab = new ConsLoString("c",
+			new ConsLoString("a",
+					new ConsLoString("b", new MtLoString())));
+	ILoString abc = new ConsLoString("a",
+			new ConsLoString("b",
+					new ConsLoString("c", new MtLoString())));
+
+	// test the method combine for the lists of Strings
+	boolean testCombine(Tester t){
+		return 
+				t.checkExpect(this.mary.combine(), "Mary had a little lamb.");
+	}
+
+	// test the method sort for the lists of String
+	boolean testSort(Tester t) {
+		return
+				t.checkExpect(this.cab.sort(), this.abc);
+	}
+	// test the method isSorted for the lists of String
+	boolean testIsSorted(Tester t) {
+		return
+				t.checkExpect(this.cab.isSorted(), false) &&
+				t.checkExpect(this.abc.isSorted(), true);
+	}
+
+}

@@ -1,0 +1,173 @@
+import tester.*;
+
+interface IShape {
+	// is this IShape the same as that IShape?
+	boolean sameShape(IShape that);
+	// is this Circle the same as that one?
+	boolean sameCircle(Circle that);
+	// is this Rect the same as that one?
+	boolean sameRect(Rect that);
+	// is this Square the same as that one?
+	boolean sameSquare(Square that);
+	// is this Combo the same as that one?
+	boolean sameCombo(Combo that);
+}
+
+abstract class AShape implements IShape {
+	// is this Circle the same as that one?
+	public boolean sameCircle(Circle that) {
+		return false;
+	}
+	// is this Square the same as that one?
+	public boolean sameRect(Rect that) {
+		return false;
+	}
+	// is this Circle the same as that IShape?
+	public boolean sameSquare(Square that) {
+		return false;
+	}
+	// is this Combo the same as that one?
+	public boolean sameCombo(Combo that) {
+		return false;
+	}
+}
+
+class Circle extends AShape {
+	int x, y;
+	int radius;
+	Circle(int x, int y, int radius) {
+		this.x = x;
+		this.y = y;
+		this.radius = radius;
+	}
+
+	// is this Circle same as that one?
+	public boolean sameCircle(Circle that) {
+		return this.x == that.x && this.y == that.y && this.radius == that.radius;
+	}
+
+	// is this Circle the same as that IShape?
+	public boolean sameShape(IShape that) {
+		return that.sameCircle(this);
+	}
+
+}
+class Rect extends AShape {
+	int x, y;
+	int w, h;
+	Rect(int x, int y, int w, int h) {
+		this.x = x;
+		this.y = y;
+		this.w = w;
+		this.h = h;
+	}
+
+	// is this Rect same as that one?
+	public boolean sameRect(Rect that) {
+		return this.x == that.x && this.y == that.y && this.w == that.w && this.h == that.h;
+	}
+
+	// is this Rect the same as that IShape?
+	public boolean sameShape(IShape that) {
+		return that.sameRect(this);
+	}
+}
+
+class Square extends Rect {
+	Square(int x, int y, int w) {
+		super(x, y, w, w);
+	}
+
+	// is this Square same as that one?
+	public boolean sameSquare(Square that) {
+		return this.x == that.x && this.y == that.y && this.w == that.w;
+	}
+	@Override
+	// is this Rect same as that one?
+	public boolean sameRect(Rect that) {
+		return false;
+	}
+
+	// is this Square the same as that IShape?
+	public boolean sameShape(IShape that) {
+		return that.sameSquare(this);
+	}
+}
+
+//to represent a shape that combines two existing shapes
+class Combo extends AShape {
+	IShape top;
+	IShape bot;
+
+	Combo(IShape top, IShape bot) {
+		this.top = top;
+		this.bot = bot;
+	}
+	
+	// is this Combo the same as that one?
+	public boolean sameCombo(Combo that) {
+		return this.top.sameShape(that.top) && this.bot.sameShape(that.bot);
+	}
+	
+	// is this Combo the same as that IShape?
+	public boolean sameShape(IShape that) {
+		return that.sameCombo(this);
+	}
+}
+
+
+class ExamplesSameness {
+	ExamplesSameness() {}
+
+	Circle c1 = new Circle(3, 4, 5);
+	Circle c2 = new Circle(4, 5, 6);
+	Circle c3 = new Circle(3, 4, 5);
+	Rect r1 = new Rect(3, 4, 5, 5);
+	Rect r2 = new Rect(4, 5, 6, 7);
+	Rect r3 = new Rect(3, 4, 5, 5);
+	Square s1 = new Square(3, 4, 5);
+	Square s2 = new Square(4, 5, 6);
+	Square s3 = new Square(3, 4, 5);
+	Combo cb1 = new Combo(this.c1, this.s1);
+	Combo cb2 = new Combo(this.c1, this.s1);
+	Combo cb3 = new Combo(this.c1, this.r1);
+
+	void testShapes(Tester t) {
+		t.checkExpect(c1.sameCircle(c2), false);
+		t.checkExpect(c2.sameCircle(c1), false);
+		t.checkExpect(c1.sameCircle(c3), true);
+		t.checkExpect(c3.sameCircle(c1), true);
+
+		t.checkExpect(r1.sameRect(r2), false);
+		t.checkExpect(r2.sameRect(r1), false);
+		t.checkExpect(r1.sameRect(r3), true);
+		t.checkExpect(r3.sameRect(r1), true);
+
+		t.checkExpect(c1.sameShape(c3), true);
+		t.checkExpect(c1.sameShape(c2), false);
+		t.checkExpect(r1.sameShape(r3), true);
+		t.checkExpect(r1.sameShape(r2), false);
+
+		t.checkExpect(c1.sameShape(r1), false);
+
+		// basic checks comparing two Squares should work
+		t.checkExpect(s1.sameShape(s2), false);
+		t.checkExpect(s2.sameShape(s1), false);
+		t.checkExpect(s1.sameShape(s3), true);
+		t.checkExpect(s3.sameShape(s1), true);
+
+		// Comparing a Square with a Rect of a different size
+		t.checkExpect(s1.sameShape(r2), false);
+		t.checkExpect(r2.sameShape(s1), false);
+		// Comparing a Square with a Rect of the same size
+		t.checkExpect(s1.sameShape(r1), false);
+		t.checkExpect(r1.sameShape(s1), false);
+		
+		// Comparing Combo Shapes
+		t.checkExpect(cb1.sameShape(cb2), true);
+		t.checkExpect(cb3.sameShape(cb1), false);
+		t.checkExpect(cb2.sameShape(cb3), false);
+	}
+
+
+}
